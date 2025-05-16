@@ -6,6 +6,7 @@
     <model>PTU303</model>
     <serial>P4040186</serial>
     <description>A barometer for measuring pressure, humidity and temperature</description>
+    <specifications></specifications>
     <location>Hilger Lab</location>
     <status>Active</status>
     <loggable>true</loggable>
@@ -13,18 +14,16 @@
     <calibrations>
       <measurand quantity="Humidity" calibrationInterval="5">
         <component name="Hygrometer">
-          <report>
-            <reportNumber>18-12-39</reportNumber>
+          <report id="18-12-39">
             <reportIssueDate>2018-12-12</reportIssueDate>
             <measurementStartDate>2018-10-08</measurementStartDate>
             <measurementStopDate>2018-10-08</measurementStopDate>
             <issuingLaboratory>Vaisala Finland</issuingLaboratory>
             <technicalProcedure>Not Stated</technicalProcedure>
-            <criteria>
-              <HumidityRange>20 to 60 %rh</HumidityRange>
-            </criteria>
+            <conditions></conditions>
+            <acceptanceCriteria></acceptanceCriteria>
             <equation>
-              <value variables="H">H -0.2</value>
+              <value variables="H">H + 0.2</value>
               <uncertainty variables="">1.0</uncertainty>
               <unit>%rh</unit>
               <ranges>
@@ -40,31 +39,30 @@
         </measurand>
         <measurand quantity="Pressure" calibrationInterval="3">
         <component name="Barometer">
-          <report>
-            <reportNumber>Pressure/2020/616</reportNumber>
+          <report id="Pressure/2020/616">
             <reportIssueDate>2024-08-14</reportIssueDate>
             <measurementStartDate>2024-08-13</measurementStartDate>
             <measurementStopDate>2024-08-13</measurementStopDate>
             <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
             <technicalProcedure>MSLT.P.001</technicalProcedure>
-            <criteria>
-              <pressureRange>950 to 1050 Hpa</pressureRange>
-            </criteria>
+            <conditions></conditions>
+            <acceptanceCriteria></acceptanceCriteria>
             <table>
               <type>  int             , double            , double          , double             , int</type>
               <unit>  hPa             , hPa               , hPa             , hPa                , no unit</unit>
               <header>Nominal Pressure, Rising Pressure   , Falling Pressure, Std. Uncertainty   , dof</header>
-              <data>  950             ,  -0.145            , -0.145           , 0.0105             , 50
-                      960             ,  -0.145            , -0.145           , 0.0105             , 50
-                      970             ,  -0.149            , -0.149           , 0.0105             , 50
-                      980             ,  -0.151            , -0.151           , 0.0105             , 50
-                      990             ,  -0.141            , -0.146           , 0.0105             , 50
-                      1000            ,  -0.143            , -0.143           , 0.0105             , 50
-                      1010            ,  -0.143            , -0.143           , 0.0105             , 50
-                      1020            ,  -0.147            , -0.142           , 0.0105             , 50
-                      1030            ,  -0.141            , -0.141           , 0.0105             , 50
-                      1040            ,  -0.141            , -0.141           , 0.0105             , 50
-                      1050            ,  -0.144            , -0.141           , 0.0105             , 50
+              <data>
+                950             ,  -0.145            , -0.145           , 0.0105             , 50
+                960             ,  -0.145            , -0.145           , 0.0105             , 50
+                970             ,  -0.149            , -0.149           , 0.0105             , 50
+                980             ,  -0.151            , -0.151           , 0.0105             , 50
+                990             ,  -0.141            , -0.146           , 0.0105             , 50
+                1000            ,  -0.143            , -0.143           , 0.0105             , 50
+                1010            ,  -0.143            , -0.143           , 0.0105             , 50
+                1020            ,  -0.147            , -0.142           , 0.0105             , 50
+                1030            ,  -0.141            , -0.141           , 0.0105             , 50
+                1040            ,  -0.141            , -0.141           , 0.0105             , 50
+                1050            ,  -0.144            , -0.141           , 0.0105             , 50
               </data>
             </table>
           </report>
@@ -72,19 +70,21 @@
         </measurand>
         <measurand quantity="Temperature" calibrationInterval="3">
         <component name="Thermometer">
-          <report>
-            <reportNumber>18-12-39</reportNumber>
+          <report id="18-12-39">
             <reportIssueDate>2018-12-12</reportIssueDate>
             <measurementStartDate>2018-10-08</measurementStartDate>
             <measurementStopDate>2018-10-08</measurementStopDate>
             <issuingLaboratory>Vaisala Finland</issuingLaboratory>
             <technicalProcedure>Not Stated</technicalProcedure>
-            <criteria>
-              <temperatureRange>19 °C to 21 °C</temperatureRange>
-            </criteria>
+            <conditions>
+              <measurementConditions>
+                19 °C to 21 °C
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="T">T + (0.0)</value>
-              <uncertainty variables="">0.05</uncertainty>
+              <uncertainty variables="">0.1/2</uncertainty>
               <unit>°C</unit>
               <ranges>
                 <range variable="T">
@@ -98,24 +98,29 @@
           </component>
         </measurand>
     </calibrations>
-    <maintenance dueDate="2023-01-01" serviceAgent="Vaisala"></maintenance>
+    <maintenance></maintenance>
+    <alterations></alterations>
     <firmware>
       <version date="2018-10-01">Factory</version>
     </firmware>
-    <acceptanceCriteria>
-    </acceptanceCriteria>
-    <financial>
-      <yearPurchased>2018</yearPurchased>
-      <warrantyExpirationDate>2021-10-01</warrantyExpirationDate>
-      <assetNumber>100011347</assetNumber>
-    </financial>
-    <documentation>
-      <technicalProcedures>MSLT.L.005 MSLT.L.002 MSLT.L.023  MSLT.L.025</technicalProcedures>
-      <referenceMaterials></referenceMaterials>
-      <personnelRestrictions>Length Team Members</personnelRestrictions>
-      <manual>http://uri1</manual>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
       <accessories></accessories>
-    </documentation>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2018</yearPurchased>
+        <warrantyExpirationDate>2021-10-01</warrantyExpirationDate>
+        <assetNumber>100011347</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.005</id>
+        <id>MSLT.L.002</id>
+        <id>MSLT.L.023</id>
+        <id>MSLT.L.025</id>
+      </technicalProcedures>
+    </qualityManual>
   </equipment>
   <equipment keywords="ResistanceBridge">
     <id>MSLE.L.105</id>
@@ -123,6 +128,7 @@
     <model>MicroK500</model>
     <serial>381223/1</serial>
     <description>A Thermometry Resistance Bridge</description>
+    <specifications></specifications>
     <location>Hilger Lab</location>
     <status>Active</status>
     <loggable>true</loggable>
@@ -130,13 +136,23 @@
     <calibrations>
       <measurand quantity="Resistance" calibrationInterval="5">
         <component name="Bridge">
-          <report>
-            <reportNumber>Temperature/2024/317</reportNumber>
+          <report id="Temperature/2024/317">
             <reportIssueDate>2024-05-03</reportIssueDate>
             <measurementStartDate>2024-05-08</measurementStartDate>
             <measurementStopDate>2024-05-08</measurementStopDate>
             <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
             <technicalProcedure>MSLT.T.033.005</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Sensing Current: 1 mA; 
+                Measurement Channel: 1; 
+                Reference Channel: Internal 100 ohm; 
+                Thermometer: Default PRT; 
+                Range: 125 ohms; 
+                The ambient temperature was 20 °C ± 2 °C
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="R">R + 2.2089E-5 -2.1410E-6*R + 1.6033e-8*pow(R,2)</value>
               <uncertainty variables="">0.0000205</uncertainty>
@@ -153,23 +169,2734 @@
           </component>
         </measurand>
     </calibrations>
-    <maintenance dueDate="2050-01-01" serviceAgent="Isothermal Technologies Limited"></maintenance>
+    <maintenance></maintenance>
+    <alterations></alterations>
     <firmware>
       <version date="2018-01-01">V 3.22 (Factory)</version>
     </firmware>
-    <acceptanceCriteria>
-    </acceptanceCriteria>
-    <financial>
-      <yearPurchased>2018</yearPurchased>
-      <warrantyExpirationDate>2021-01-01</warrantyExpirationDate>
-      <assetNumber>100011367</assetNumber>
-    </financial>
-    <documentation>
-      <technicalProcedures>MSLT.L.005 MSLT.L.002 MSLT.L.023  MSLT.L.025</technicalProcedures>
-      <referenceMaterials></referenceMaterials>
-      <personnelRestrictions>Length Team Members</personnelRestrictions>
-      <manual>http://uri1</manual>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
       <accessories></accessories>
-    </documentation>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2018</yearPurchased>
+        <warrantyExpirationDate>2021-01-01</warrantyExpirationDate>
+        <assetNumber>100011367</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.003</id>
+        <id>MSLT.L.005</id>
+        <id>MSLT.L.012</id>
+        <id>MSLT.L.039</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="GaugeBlock">
+    <id>MSLE.L.083</id>
+    <manufacturer>Opus Metrology UK</manufacturer>
+    <model>Zirconia</model>
+    <serial>21078P</serial>
+    <description>A Set of 122 Ceramic Gauge Blocks</description>
+    <specifications>
+      <grade>K</grade>
+      <material>ceramic</material>
+      <youngsmodulus>200</youngsmodulus>
+      <poissonsratio>0.23</poissonsratio>
+      <expansioncoefficient>9.5</expansioncoefficient>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Length" calibrationInterval="5">
+        <component name="Gauge Block Set">
+          <report id="Length/2024/1302">
+            <reportIssueDate>2025-01-09</reportIssueDate>
+            <measurementStartDate>2024-03-20</measurementStartDate>
+            <measurementStopDate>2024-07-01</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.L.005.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Measurements were made with the interferometer platen in the temperature range 19.91 °C to 20.10 °C.
+                The air inside the interferometer chamber was in the temperature range 19.81 °C to 20.13 °C. The
+                atmospheric pressure (at the height of the interferometer) was in the range 995.6 hPa to 1028.1 hPa.
+                The relative humidity in the interferometer chamber was in the range 36 %rh to 60 %rh.
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <table>
+              <type>  double        , string          , double          , double             , int</type>
+              <unit>  mm            , no unit         , um              , um                 , no unit</unit>
+              <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
+              <data>
+                0.5                 ,02078P           ,0.002            ,0.011               ,50
+                1                   ,04858S           ,0.010            ,0.011               ,50
+                1.0005              ,01205S           ,0.070            ,0.011               ,50
+                1.001               ,16124R           ,0.014            ,0.011               ,50
+                1.002               ,06271S           ,0.144            ,0.011               ,50
+                1.003               ,02230P           ,0.052            ,0.011               ,50
+                1.004               ,16514L           ,0.024            ,0.011               ,50
+                1.005               ,02335R           ,0.032            ,0.011               ,50
+                1.006               ,18656M           ,0.074            ,0.011               ,50
+                1.007               ,12636N           ,0.136            ,0.011               ,50
+                1.008               ,12664N           ,0.097            ,0.011               ,50
+                1.009               ,14675G           ,0.162            ,0.011               ,50
+                1.01                ,03341S           ,0.016            ,0.011               ,50
+                1.02                ,03282S           ,0.016            ,0.011               ,50
+                1.03                ,13868R           ,0.003            ,0.011               ,50
+                1.04                ,13487R           ,-0.044           ,0.011               ,50
+                1.05                ,03631S           ,0.097            ,0.011               ,50
+                1.06                ,16099R           ,0.087            ,0.011               ,50
+                1.07                ,16155R           ,0.046            ,0.011               ,50
+                1.08                ,02659S           ,0.013            ,0.011               ,50
+                1.09                ,06680S           ,0.000            ,0.011               ,50
+                1.1                 ,02751S           ,0.031            ,0.011               ,50
+                1.11                ,07648N           ,0.040            ,0.011               ,50
+                1.12                ,06621N           ,-0.002           ,0.011               ,50
+                1.13                ,02047P           ,0.131            ,0.011               ,50
+                1.14                ,00766P           ,-0.086           ,0.011               ,50
+                1.15                ,02316P           ,0.043            ,0.011               ,50
+                1.16                ,29044M           ,-0.018           ,0.011               ,50
+                1.17                ,00121P           ,-0.119           ,0.011               ,50
+                1.18                ,10455N           ,0.089            ,0.011               ,50
+                1.19                ,02290P           ,0.036            ,0.011               ,50
+                1.2                 ,01301S           ,0.015            ,0.011               ,50
+                1.21                ,01105P           ,-0.033           ,0.011               ,50
+                1.22                ,00755P           ,0.003            ,0.011               ,50
+                1.23                ,07608M           ,0.021            ,0.011               ,50
+                1.24                ,01306S           ,-0.033           ,0.011               ,50
+                1.25                ,06400N           ,0.147            ,0.011               ,50
+                1.26                ,00092P           ,0.080            ,0.011               ,50
+                1.27                ,00167M           ,0.043            ,0.011               ,50
+                1.28                ,00729P           ,-0.036           ,0.011               ,50
+                1.29                ,07482N           ,0.064            ,0.011               ,50
+                1.3                 ,13887R           ,0.094            ,0.011               ,50
+                1.31                ,00026P           ,-0.098           ,0.011               ,50
+                1.32                ,07941P           ,0.172            ,0.011               ,50
+                1.33                ,26958M           ,-0.067           ,0.011               ,50
+                1.34                ,11853N           ,0.044            ,0.011               ,50
+                1.35                ,11034N           ,0.051            ,0.011               ,50
+                1.36                ,00782P           ,0.024            ,0.011               ,50
+                1.37                ,02200P           ,0.019            ,0.011               ,50
+                1.38                ,04366P           ,0.160            ,0.011               ,50
+                1.39                ,02031P           ,0.094            ,0.011               ,50
+                1.4                 ,14231R           ,0.016            ,0.011               ,50
+                1.41                ,04333P           ,0.087            ,0.011               ,50
+                1.42                ,02651P           ,0.121            ,0.011               ,50
+                1.43                ,05631N           ,-0.014           ,0.011               ,50
+                1.44                ,17968M           ,0.084            ,0.011               ,50
+                1.45                ,00647P           ,0.014            ,0.011               ,50
+                1.46                ,22814M           ,0.102            ,0.011               ,50
+                1.47                ,13150N           ,0.158            ,0.011               ,50
+                1.48                ,00386S           ,0.137            ,0.011               ,50
+                1.49                ,06308S           ,0.035            ,0.011               ,50
+                1.5                 ,02777S           ,-0.098           ,0.011               ,50
+                1.6                 ,16442R           ,0.010            ,0.011               ,50
+                1.7                 ,03148S           ,0.022            ,0.011               ,50
+                1.8                 ,02727S           ,0.047            ,0.011               ,50
+                1.9                 ,00380P           ,-0.007           ,0.011               ,50
+                2                   ,00927S           ,0.076            ,0.011               ,50
+                2.5                 ,09214P           ,-0.028           ,0.011               ,50
+                3                   ,10368P           ,0.015            ,0.011               ,50
+                3.5                 ,22650L           ,0.076            ,0.011               ,50
+                4                   ,00941S           ,0.080            ,0.011               ,50
+                4.5                 ,00226P           ,0.050            ,0.011               ,50
+                5                   ,01370P           ,0.002            ,0.011               ,50
+                5.5                 ,00414P           ,-0.053           ,0.011               ,50
+                6                   ,05414S           ,0.111            ,0.011               ,50
+                6.5                 ,09382N           ,0.063            ,0.011               ,50
+                7                   ,16007R           ,-0.033           ,0.011               ,50
+                7.5                 ,16395R           ,0.081            ,0.011               ,50
+                8                   ,05346S           ,-0.050           ,0.011               ,50
+                8.5                 ,03020P           ,0.062            ,0.011               ,50
+                9                   ,06271R           ,0.027            ,0.011               ,50
+                9.5                 ,03496N           ,0.007            ,0.011               ,50
+                10                  ,10573P           ,-0.044           ,0.011               ,50
+                10.5                ,16033L           ,0.089            ,0.011               ,50
+                11                  ,06873S           ,0.053            ,0.011               ,50
+                11.5                ,03730S           ,0.015            ,0.011               ,50
+                12                  ,08655P           ,0.017            ,0.011               ,50
+                12.5                ,00957R           ,0.053            ,0.011               ,50
+                13                  ,11320P           ,0.095            ,0.011               ,50
+                13.5                ,11810M           ,-0.002           ,0.011               ,50
+                14                  ,03712S           ,0.023            ,0.011               ,50
+                14.5                ,13110N           ,0.062            ,0.011               ,50
+                15                  ,16224R           ,0.078            ,0.011               ,50
+                15.5                ,27441L           ,0.026            ,0.011               ,50
+                16                  ,03897P           ,0.022            ,0.011               ,50
+                16.5                ,16322R           ,0.118            ,0.011               ,50
+                17                  ,02688R           ,-0.008           ,0.011               ,50
+                17.5                ,11257N           ,0.027            ,0.011               ,50
+                18                  ,00317P           ,-0.037           ,0.011               ,50
+                18.5                ,11361N           ,-0.045           ,0.011               ,50
+                19                  ,18960L           ,0.166            ,0.011               ,50
+                19.5                ,11195M           ,0.053            ,0.011               ,50
+                20                  ,02560R           ,0.041            ,0.011               ,50
+                20.5                ,02452P           ,0.012            ,0.011               ,50
+                21                  ,16308R           ,0.140            ,0.011               ,50
+                21.5                ,16290R           ,0.115            ,0.011               ,50
+                22                  ,03918P           ,0.166            ,0.011               ,50
+                22.5                ,09143D           ,0.090            ,0.011               ,50
+                23                  ,11349N           ,-0.097           ,0.011               ,50
+                23.5                ,16062L           ,-0.063           ,0.011               ,50
+                24                  ,10800N           ,-0.059           ,0.011               ,50
+                24.5                ,00219P           ,0.111            ,0.011               ,50
+                25                  ,02639S           ,0.114            ,0.011               ,50
+                30                  ,16471R           ,0.221            ,0.011               ,50
+                40                  ,00481S           ,-0.020           ,0.011               ,50
+                50                  ,03606S           ,-0.012           ,0.0115              ,50
+                60                  ,00024S           ,0.239            ,0.0115              ,50
+                70                  ,05225S           ,0.046            ,0.0115              ,50
+                75                  ,07562P           ,0.082            ,0.012               ,50
+                80                  ,13656P           ,0.193            ,0.012               ,50
+                90                  ,15452R           ,-0.107           ,0.012               ,50
+                100                 ,07805R           ,-0.162           ,0.0125              ,50
+              </data>
+            </table>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2013</yearPurchased>
+        <warrantyExpirationDate>2018-01-01</warrantyExpirationDate>
+        <assetNumber>100025050</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.003</id>
+        <id>MSLT.L.007</id>
+        <id>MSLT.L.012</id>
+        <id>MSLT.L.039</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="GaugeBlock">
+    <id>MSLE.L.082</id>
+    <manufacturer>Opus Metrology UK</manufacturer>
+    <model>Zirconia</model>
+    <serial>21080P</serial>
+    <description>A Set of 92 Ceramic Gauge Blocks</description>
+    <specifications>
+      <grade>K</grade>
+      <material>ceramic</material>
+      <youngsmodulus>200</youngsmodulus>
+      <poissonsratio>0.23</poissonsratio>
+      <expansioncoefficient>9.5</expansioncoefficient>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Length" calibrationInterval="5">
+        <component name="Set21080P">
+          <report id="Length/2024/1309">
+            <reportIssueDate>2025-01-09</reportIssueDate>
+            <measurementStartDate>2024-10-14</measurementStartDate>
+            <measurementStopDate>2024-11-18</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.L.005.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Measurements were made with the interferometer platen in the temperature range 19.93 °C to 20.05 °C.
+                The air inside the interferometer chamber was in the temperature range 19.93 °C to 20.08 °C. The
+                atmospheric pressure (at the height of the interferometer) was in the range 999.5 hPa to 1028.5 hPa.
+                The relative humidity in the interferometer chamber was in the range 33 %rh to 57 %rh.
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <table>
+              <type>  double        , string          , double          , double             , int</type>
+              <unit>  inch          , no unit         , uinch           , uinch              , no unit</unit>
+              <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
+              <data>
+                0.05								,30515E						,3.9							,1.0								  ,50
+                0.1									,38912E						,0.7							,1.0								  ,50
+                0.1001							,04010N						,3.0							,1.0									,50
+                0.1002							,09857D						,-0.1							,1.0								  ,50
+                0.1003							,09810D						,-1.0							,1.0									,50
+                0.1004							,30629E						,3.6							,1.0									,50
+                0.1005							,05425N						,5.4							,1.0									,50
+                0.1006							,04065N						,3.3							,1.0									,50
+                0.1007							,04033N						,3.7							,1.0									,50
+                0.1008							,06588D						,-1.1							,1.0									,50
+                0.1009						  ,06565D						,1.0							,1.0									,50
+                0.101								,13716D						,1.7							,1.0									,50
+                0.102								,10418P						,-1.9							,1.0									,50
+                0.103								,06336S					  ,2.3							,1.0									,50
+                0.104								,07259D						,0.8							,1.0									,50
+                0.105								,10072M					  ,4.5							,1.0									,50
+                0.106								,07298D						,-0.4							,1.0									,50
+                0.107								,17698L						,2.9							,1.0									,50
+                0.108								,06529D						,3.2							,1.0									,50
+                0.109								,06417D						,-1.6							,1.0									,50
+                0.11								,17465L						,0.0							,1.0									,50
+                0.111								,30500E						,5.9							,1.0									,50
+                0.112								,06405S						,-0.3							,1.0									,50
+                0.113								,06566S						,-0.7							,1.0									,50
+                0.114								,06588S					  ,2.5							,1.0									,50
+                0.115								,12831D						,1.3							,1.0									,50
+                0.116								,30562E						,2.8							,1.0									,50
+                0.117								,25130E						,4.9							,1.0									,50
+                0.118								,13496F				    ,6.0							,1.0									,50
+                0.119								,06621S						,-0.3							,1.0									,50
+                0.12								,10100M						,1.6							,1.0									,50
+                0.121								,09951D						,2.4							,1.0									,50
+                0.122								,14560D						,-0.7							,1.0									,50
+                0.123								,13726D						,-0.4							,1.0									,50
+                0.124								,13742D						,1.0							,1.0									,50
+                0.125								,13516F						,-0.6							,1.0									,50
+                0.126								,13549F						,1.2							,1.0									,50
+                0.127							  ,10246D						,2.2							,1.0									,50
+                0.128								,06639S						,3.6							,1.0									,50
+                0.129								,10116M						,3.5							,1.0									,50
+                0.13								,30619E					  ,1.5							,1.0									,50
+                0.131								,10335D						,2.2							,1.0									,50
+                0.132								,04045N					  ,6.2							,1.0									,50
+                0.133							  ,29896E						,3.1							,1.0									,50
+                0.134								,29904E						,4.3							,1.0									,50
+                0.135								,14454D						,0.6							,1.0									,50
+                0.136								,29940E						,8.6							,1.0									,50
+                0.137								,04962D						,-0.7							,1.0									,50
+                0.138								,07129D						,4.6							,1.0									,50
+                0.139								,06412S						,3.4							,1.0									,50
+                0.14								,06453S						,4.6							,1.0									,50
+                0.141								,07201D						,2.6							,1.0									,50
+                0.142								,06670S						,3.8							,1.0									,50
+                0.143								,07329D						,3.2							,1.0									,50
+                0.144								,06549S						,-0.6							,1.0									,50
+                0.145								,07374D						,-2.2							,1.0									,50
+                0.146								,07387D						,5.9							,1.0									,50
+                0.147								,28021D						,6.1							,1.0									,50
+                0.148								,06357S						,4.3							,1.0									,50
+                0.149								,06389S						,-0.7							,1.0									,50
+                0.15								,06598S						,-1.3							,1.0									,50
+                0.16								,21060F						,3.2							,1.0									,50
+                0.17								,11527R						,5.3							,1.0									,50
+                0.18							  ,21031F						,4.8							,1.0									,50
+                0.19								,21014F						,4.0							,1.0									,50
+                0.2									,27007M						,3.7							,1.0									,50
+                0.21								,24121E						,3.0							,1.0									,50
+                0.25							  ,31041E						,-2.0							,1.0									,50
+                0.3									,28192F						,-0.5							,1.0									,50
+                0.315								,06976H						,5.5							,1.0									,50
+                0.35							  ,27332F						,3.0							,1.0									,50
+                0.4									,11556R						,-2.3							,1.0									,50
+                0.42								,07068K						,7.3							,1.0									,50
+                0.45								,04382N						,-1.5							,1.0									,50
+                0.5								  ,27706C						,0.4							,1.0									,50
+                0.55								,16949G						,-1.9							,1.0									,50
+                0.6									,11570R					  ,-5.9							,1.0									,50
+                0.605								,23937E						,1.7							,1.0									,50
+                0.65								,30719E						,6.2							,1.0									,50
+                0.7									,21523H					  ,0.3							,1.0									,50
+                0.71								,23650E						,6.3							,1.0									,50
+                0.75								,30755E						,1.7						  ,1.0									,50
+                0.8									,02555R						,0.2							,1.0									,50
+                0.815								,06939K						,6.0							,1.0									,50
+                0.85								,12445G						,0.9						  ,1.0									,50
+                0.9									,12476G						,1.7							,1.0									,50
+                0.92								,16885M						,2.5							,1.0									,50
+                0.95							  ,26986E						,3.0							,1.0									,50
+                1										,11172P						,2.1							,1.0									,50
+                2									  ,26964E						,6.0							,1.0									,50
+                3										,11052P						,-1.4							,1.1									,50
+                4										,11179R						,9.4							,1.1								  ,50
+
+              </data>
+            </table>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2013</yearPurchased>
+        <warrantyExpirationDate>2018-01-01</warrantyExpirationDate>
+        <assetNumber>100025051</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.003</id>
+        <id>MSLT.L.007</id>
+        <id>MSLT.L.012</id>
+        <id>MSLT.L.039</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="GaugeBlock">
+    <id>MSLE.L.009</id>
+    <manufacturer>Select Gauges Pty UK</manufacturer>
+    <model>TungstenCarbide</model>
+    <serial>4105</serial>
+    <description>A Set of 88 Tungsten Carbide Gauge Blocks</description>
+    <specifications>
+      <grade>00</grade>
+      <material>tungsten carbide</material>
+      <youngsmodulus>599.84</youngsmodulus>
+      <poissonsratio>0.200</poissonsratio>
+      <expansioncoefficient>4.23</expansioncoefficient>
+      <expansioncoefficient_uncertainty>0.10</expansioncoefficient_uncertainty>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Length" calibrationInterval="5">
+        <component name="Set4105">
+          <report id="Length/2024/1310">
+            <reportIssueDate>2025-01-09</reportIssueDate>
+            <measurementStartDate>2024-07-04</measurementStartDate>
+            <measurementStopDate>2024-10-10</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.L.005.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Measurements were made with the interferometer platen in the temperature range 19.91 °C to 20.12 °C. 
+                The air inside the interferometer chamber was in the temperature range 19.94 °C to 20.14 °C. 
+                The atmospheric pressure (at the height of the interferometer) was in the range 991.5 hPa to 1037.8 hPa. 
+                The relative humidity in the interferometer chamber was in the range 33 %rh to 56 %rh.
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <table>
+              <type>  double        , string          , double          , double             , int</type>
+              <unit>  mm            , no unit         , um              , um                 , no unit</unit>
+              <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
+              <data>
+                0.5, na,-0.036,29/2,50
+                1,na,0.015,29/2,50
+                1.0005,na,-0.028,29/2,50
+                1.5,na,0.006,29/2,50
+                2,na,-0.050,29/2,50
+                2.001,na,0.012,29/2,50
+                2.002,na,0.003,29/2,50
+                2.003,na,0.026,29/2,50
+                2.004,na,-0.052,29/2,50
+                2.005,na,-0.059,29/2,50
+                2.006,na,0.011,29/2,50
+                2.007,na,0.051,29/2,50
+                2.008,na,0.030,29/2,50
+                2.009,na,0.016,29/2,50
+                2.01,na,0.042,29/2,50
+                2.02,na,-0.012,29/2,50
+                2.03,na,0.032,29/2,50
+                2.04,na,-0.006,29/2,50
+                2.05,na,0.046,29/2,50
+                2.06,na,0.026,29/2,50
+                2.07,na,0.004,29/2,50
+                2.08,na,0.096,29/2,50
+                2.09,na,0.098,29/2,50
+                2.1,na,-0.032,29/2,50
+                2.11,na,-0.007,29/2,50
+                2.12,na,0.055,29/2,50
+                2.13,na,-0.014,29/2,50
+                2.14,na,0.065,29/2,50
+                2.15,na,0.016,29/2,50
+                2.16,na,0.040,29/2,50
+                2.17,na,-0.053,29/2,50
+                2.18,na,0.013,29/2,50
+                2.19,na,0.036,29/2,50
+                2.2,na,-0.008,29/2,50
+                2.21,na,0.017,29/2,50
+                2.22,na,-0.016,29/2,50
+                2.23,na,0.034,29/2,50
+                2.24,na,0.058,29/2,50
+                2.25,na,-0.003,29/2,50
+                2.26,na,0.037,29/2,50
+                2.27,na,0.025,29/2,50
+                2.28,na,0.051,29/2,50
+                2.29,na,0.017,29/2,50
+                2.3,na,0.022,29/2,50
+                2.31,na,0.013,29/2,50
+                2.32,na,0.051,29/2,50
+                2.33,na,-0.016,29/2,50
+                2.34,na,0.003,29/2,50
+                2.35,na,0.029,29/2,50
+                2.36,na,0.035,29/2,50
+                2.37,na,-0.004,29/2,50
+                2.38,na,0.056,29/2,50
+                2.39,na,0.046,29/2,50
+                2.4,na,0.006,29/2,50
+                2.41,na,0.065,29/2,50
+                2.42,na,0.077,29/2,50
+                2.43,na,0.039,29/2,50
+                2.44,na,0.025,29/2,50
+                2.45,na,0.043,29/2,50
+                2.46,na,0.008,29/2,50
+                2.47,na,0.025,29/2,50
+                2.48,na,-0.028,29/2,50
+                2.49,na,0.030,29/2,50
+                2.5,na,-0.037,29/2,50
+                3,na,-0.052,29/2,50
+                3.5,na,0.007,29/2,50
+                4,na,-0.018,29/2,50
+                4.5,na,0.008,29/2,50
+                5,na,-0.113,29/2,50
+                5.5,na,-0.028,29/2,50
+                6,na,-0.064,29/2,50
+                6.5,na,-0.083,29/2,50
+                7,na,-0.113,29/2,50
+                7.5,na,-0.073,29/2,50
+                8,na,-0.104,29/2,50
+                8.5,na,-0.008,29/2,50
+                9,na,-0.017,29/2,50
+                9.5,na,-0.004,29/2,50
+                10,na,-0.028,29/2,50
+                20,na,-0.033,29/2,50
+                30,na,0.010,29/2,50
+                40,na,0.002,29/2,50
+                50,na,-0.099,29/2,50
+                60,na,-0.107,29/2,50
+                70,na,0.117,30/2,50
+                80,na,-0.150,30/2,50
+                90,na,-0.001,30/2,50
+                100,na,-0.169,31/2,50
+              </data>
+            </table>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>1980</yearPurchased>
+        <warrantyExpirationDate>1985-04-21</warrantyExpirationDate>
+        <assetNumber>100003333</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.003</id>
+        <id>MSLT.L.007</id>
+        <id>MSLT.L.012</id>
+        <id>MSLT.L.039</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="PRT">
+    <id>MSLE.L.PRT001</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS001</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/089">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0220*(1+3.91771E-3*t - 6.541E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0037/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="PRT">
+    <id>MSLE.L.PRT002</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS002</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/090">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0209*(1+3.917981E-3*t - 6.589E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0039/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT003</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS003</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/091">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0231*(1+3.91879E-3*t - 6.663E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0037/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT004</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS004</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/092">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0282*(1+3.91730E-3*t - 6.591E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT005</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS005</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT006</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS006</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/094">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0146*(1+3.917213E-3*t - 6.619E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0039/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT007</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS007</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/095">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0261*(1+3.91856E-3*t - 6.770E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT008</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS008</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/096">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0293*(1+3.91841E-3*t - 6.649E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT009</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS009</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT010</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS010</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT011</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS011</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT012</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS012</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT013</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS013</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT014</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS014</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT015</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS015</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT016</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS016</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT017</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS017</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT018</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS018</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT019</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS019</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT020</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS020</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT021</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS021</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT022</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS022</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT023</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS023</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT024</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS024</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT025</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS025</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT026</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS026</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT027</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS027</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT028</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS028</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT029</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS029</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT030</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>LS030</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2022/093">
+            <reportIssueDate>2022-05-30</reportIssueDate>
+            <measurementStartDate>2022-05-27</measurementStartDate>
+            <measurementStopDate>2022-05-28</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 300 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>15</minimum>
+                  <maximum>25</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT039</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>PRT1000</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2023/248">
+            <reportIssueDate>2023-09-15</reportIssueDate>
+            <measurementStartDate>2023-09-13</measurementStartDate>
+            <measurementStopDate>2023-09-14</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 230 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">99.9794*(1+3.91474E-3*t - 6.165E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0035/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.005</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT040</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>PRT1100</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2023/249">
+            <reportIssueDate>2023-09-15</reportIssueDate>
+            <measurementStartDate>2023-09-13</measurementStartDate>
+            <measurementStopDate>2023-09-14</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 230 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0349*(1+3.91467E-3*t - 5.991E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0041/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.005</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT041</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>PRT1200</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+          <report id="Temperature/2023/250">
+            <reportIssueDate>2023-09-15</reportIssueDate>
+            <measurementStartDate>2023-09-13</measurementStartDate>
+            <measurementStopDate>2023-09-14</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 230 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0332*(1+3.91536E-3*t - 6.100E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0038/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.005</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+<equipment keywords="PRT">
+    <id>MSLE.L.PRT042</id>
+    <manufacturer>ServoTech Limited</manufacturer>
+    <model>PT100</model>
+    <serial>PRT1300</serial>
+    <description>A Platinum Resistance Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance" calibrationInterval="5">
+        <component name="prt">
+         <report id="Temperature/2023/251">
+            <reportIssueDate>2023-09-15</reportIssueDate>
+            <measurementStartDate>2023-09-13</measurementStartDate>
+            <measurementStopDate>2023-09-14</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.T.016.013</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Immersion: 230 mm;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="t">100.0308*(1+3.91409E-3*t - 6.036E-7*pow(t,2))</value>
+              <uncertainty variables="">0.0041/2</uncertainty>
+              <unit>ohms</unit>
+              <ranges>
+                <range variable="t">
+                  <minimum>0</minimum>
+                  <maximum>40</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.015</id>
+      </technicalProcedures>
+    </qualityManual>
   </equipment>
 </register>
