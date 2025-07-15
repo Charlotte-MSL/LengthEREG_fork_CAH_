@@ -12,7 +12,7 @@
     <loggable>true</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Humidity" calibrationInterval="5">
+      <measurand quantity="Humidity" calibrationInterval="2">
         <component name="Hygrometer">
           <report id="18-12-39">
             <reportIssueDate>2018-12-12</reportIssueDate>
@@ -713,7 +713,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/089">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -778,7 +778,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/090">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -843,7 +843,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/091">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -908,7 +908,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/092">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -973,7 +973,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/093">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1038,7 +1038,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/094">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1103,7 +1103,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/095">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1168,7 +1168,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/096">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1233,7 +1233,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/097">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1298,7 +1298,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/098">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1363,7 +1363,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/099">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1428,7 +1428,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/100">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1493,7 +1493,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/101">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1558,7 +1558,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/102">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1623,7 +1623,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/103">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1688,7 +1688,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/104">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1753,7 +1753,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/105">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1818,7 +1818,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/106">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1883,7 +1883,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/107">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1948,7 +1948,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/108">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2013,7 +2013,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/109">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2078,7 +2078,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/110">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2143,7 +2143,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/111">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2208,7 +2208,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/112">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2273,7 +2273,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/113">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2338,7 +2338,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/114">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2403,7 +2403,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/115">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2468,7 +2468,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/116">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2533,7 +2533,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/117">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2598,7 +2598,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/118">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2663,7 +2663,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/248">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2725,7 +2725,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/249">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2787,7 +2787,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/250">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2849,7 +2849,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
          <report id="Temperature/2023/251">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2911,7 +2911,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/261">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -2973,7 +2973,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/262">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3035,7 +3035,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/257">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3097,7 +3097,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/258">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3159,7 +3159,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/259">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3221,7 +3221,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/263">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3283,7 +3283,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/264">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3345,7 +3345,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/251">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3386,7 +3386,7 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3407,7 +3407,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/252">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3447,8 +3447,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2021-11-01</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3469,7 +3469,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/253">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3509,8 +3509,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3531,7 +3531,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/235">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3571,8 +3571,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3593,7 +3593,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/236">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3633,8 +3633,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3655,7 +3655,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/254">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3695,8 +3695,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3717,7 +3717,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/237">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3757,8 +3757,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3779,7 +3779,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/255">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3819,8 +3819,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3841,7 +3841,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/256">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3881,8 +3881,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3903,7 +3903,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/238">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3943,8 +3943,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3965,7 +3965,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/239">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4005,8 +4005,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -4027,7 +4027,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/240">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4067,8 +4067,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -4089,7 +4089,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/241">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4129,8 +4129,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -4151,7 +4151,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/242">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4191,8 +4191,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -4213,7 +4213,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/243">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4253,8 +4253,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -4275,7 +4275,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/244">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4315,8 +4315,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
+        <yearPurchased>2021</yearPurchased>
+        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
         <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -4337,7 +4337,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/361">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4399,7 +4399,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/362">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4461,7 +4461,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/363">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4523,7 +4523,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/364">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4585,7 +4585,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/365">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4647,7 +4647,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/366">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4709,7 +4709,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/367">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4771,7 +4771,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/368">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4833,7 +4833,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/369">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4895,7 +4895,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/370">
             <reportIssueDate>2025-01-29</reportIssueDate>
