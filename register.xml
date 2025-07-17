@@ -134,7 +134,7 @@
     <loggable>true</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="5">
+      <measurand quantity="Resistance DC" calibrationInterval="5">
         <component name="Bridge">
           <report id="Temperature/2024/317">
             <reportIssueDate>2024-05-03</reportIssueDate>
@@ -713,7 +713,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/089">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -754,8 +754,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -778,7 +776,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/090">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -819,8 +817,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -831,7 +827,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT003</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -843,7 +839,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/091">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -884,8 +880,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -896,7 +890,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT004</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -908,7 +902,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/092">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -949,8 +943,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -961,7 +953,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT005</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -973,7 +965,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/093">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1014,8 +1006,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1026,7 +1016,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT006</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1038,7 +1028,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/094">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1079,8 +1069,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1091,7 +1079,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT007</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1103,7 +1091,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/095">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1144,8 +1132,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1156,7 +1142,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT008</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1168,7 +1154,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/096">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1209,8 +1195,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1221,7 +1205,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT009</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1233,7 +1217,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/097">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1274,8 +1258,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1286,7 +1268,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT010</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1298,7 +1280,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/098">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1339,8 +1321,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1351,7 +1331,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT011</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1363,7 +1343,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/099">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1404,8 +1384,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1416,7 +1394,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT012</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1428,7 +1406,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/100">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1469,8 +1447,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1481,7 +1457,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT013</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1493,7 +1469,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/101">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1534,8 +1510,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1546,7 +1520,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT014</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1558,7 +1532,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/102">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1599,8 +1573,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1611,7 +1583,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT015</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1623,7 +1595,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/103">
             <reportIssueDate>2022-05-30</reportIssueDate>
@@ -1664,8 +1636,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1676,7 +1646,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT016</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1688,7 +1658,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/104">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1729,8 +1699,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1741,7 +1709,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT017</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1753,7 +1721,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/105">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1806,7 +1774,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT018</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1818,7 +1786,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/106">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1859,8 +1827,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1871,7 +1837,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT019</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1883,7 +1849,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/107">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1924,8 +1890,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1936,7 +1900,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT020</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -1948,7 +1912,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/108">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -1989,8 +1953,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2001,7 +1963,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT021</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2013,7 +1975,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/109">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2054,8 +2016,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2066,7 +2026,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT022</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2078,7 +2038,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/110">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2119,8 +2079,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2131,7 +2089,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT023</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2143,7 +2101,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/111">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2184,8 +2142,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2196,7 +2152,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT024</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2208,7 +2164,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/112">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2249,8 +2205,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2261,7 +2215,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT025</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2273,7 +2227,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/113">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2314,8 +2268,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2338,7 +2290,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/114">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2379,8 +2331,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2391,7 +2341,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT027</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2403,7 +2353,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/115">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2444,8 +2394,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2456,7 +2404,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT028</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2468,7 +2416,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/116">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2509,8 +2457,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2521,7 +2467,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT029</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2533,7 +2479,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/117">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2574,8 +2520,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2586,7 +2530,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT030</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -2598,7 +2542,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2022/118">
             <reportIssueDate>2022-05-27</reportIssueDate>
@@ -2639,8 +2583,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2651,7 +2593,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT039</id>
     <manufacturer>MSL</manufacturer>
     <model>PT100</model>
@@ -2663,7 +2605,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/248">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2703,9 +2645,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>2012</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2713,7 +2653,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT040</id>
     <manufacturer>MSL</manufacturer>
     <model>PT100</model>
@@ -2725,7 +2665,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/249">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2765,9 +2705,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>2012</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2775,7 +2713,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT041</id>
     <manufacturer>MSL</manufacturer>
     <model>PT100</model>
@@ -2787,7 +2725,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/250">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2827,9 +2765,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>2022</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2837,7 +2773,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT042</id>
     <manufacturer>MSL</manufacturer>
     <model>PT100</model>
@@ -2849,7 +2785,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
          <report id="Temperature/2023/251">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -2889,9 +2825,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>2012</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2911,7 +2845,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/261">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -2951,9 +2885,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>1989</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2973,7 +2905,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/262">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3013,9 +2945,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>1989</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3035,7 +2965,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/257">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3075,9 +3005,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>1999</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3097,7 +3025,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/258">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3137,9 +3065,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>1999</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3159,7 +3085,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/259">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3199,9 +3125,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>1999</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3221,7 +3145,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/263">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3261,9 +3185,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>1997</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3283,7 +3205,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/264">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3323,9 +3245,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>1997</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3345,7 +3265,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/251">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3385,9 +3305,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
+        <yearPurchased>2012</yearPurchased>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3407,7 +3325,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/252">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3448,8 +3366,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2021-11-01</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3469,7 +3385,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/253">
             <reportIssueDate>2023-09-15</reportIssueDate>
@@ -3510,8 +3426,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3531,7 +3445,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/235">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3572,8 +3486,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3593,7 +3505,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/236">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3634,8 +3546,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3655,7 +3565,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/254">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3696,8 +3606,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3717,7 +3625,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/237">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3758,8 +3666,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3779,7 +3685,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/255">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3820,8 +3726,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3841,7 +3745,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/256">
             <reportIssueDate>2023-09-25</reportIssueDate>
@@ -3882,8 +3786,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3903,7 +3805,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/238">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -3944,8 +3846,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3965,7 +3865,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/239">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4006,8 +3906,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4027,7 +3925,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/240">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4068,8 +3966,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4089,7 +3985,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/241">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4130,8 +4026,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4151,7 +4045,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/242">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4192,8 +4086,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4213,7 +4105,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/243">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4254,8 +4146,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4275,7 +4165,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2023/244">
             <reportIssueDate>2023-08-11</reportIssueDate>
@@ -4316,8 +4206,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2021</yearPurchased>
-        <warrantyExpirationDate>2025-01-30</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4337,7 +4225,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/361">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4378,8 +4266,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4399,7 +4285,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/362">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4440,8 +4326,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4461,7 +4345,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/363">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4502,8 +4386,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4523,7 +4405,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/364">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4564,8 +4446,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4585,7 +4465,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/365">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4626,8 +4506,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4647,7 +4525,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/366">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4688,8 +4566,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4709,7 +4585,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/367">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4750,8 +4626,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4771,7 +4645,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/368">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4812,8 +4686,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4833,7 +4705,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/369">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4874,8 +4746,6 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4895,7 +4765,7 @@
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Resistance" calibrationInterval="2">
+      <measurand quantity="Resistance DC" calibrationInterval="2">
         <component name="prt">
           <report id="Temperature/2025/370">
             <reportIssueDate>2025-01-29</reportIssueDate>
@@ -4936,12 +4806,270 @@
       <documentation></documentation>
       <financial>
         <yearPurchased>2025</yearPurchased>
-        <warrantyExpirationDate>2025-01-29</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
         <id>MSLT.L.007</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Hygrometer">
+    <id>MSLE.L.097</id>
+    <manufacturer>Omega, USA</manufacturer>
+    <model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
+    <serial>15440003 (LS1)</serial>
+    <description>A Relative Humidity Hygrometer and Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Humidity" calibrationInterval="3">
+        <component name="hydrometer">
+          <report id="Humidity/2025/651">
+            <reportIssueDate>2025-04-10</reportIssueDate>
+            <measurementStartDate>2025-04-03</measurementStartDate>
+            <measurementStopDate>2025-04-07</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.H.002.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Flow Rate: 20 L/m;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="r">-5.4 + 1.587E-2*r + 1.0757E-3*pow(r,2)</value>
+              <uncertainty variables="">0.86/2</uncertainty>
+              <unit>%rh</unit>
+              <ranges>
+                <range variable="R">
+                  <minimum>31</minimum>
+                  <maximum>84</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2015-03-12">1.02</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Hygrometer">
+    <id>MSLE.L.098</id>
+    <manufacturer>Omega, USA</manufacturer>
+    <model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
+    <serial>15440002 (LS2)</serial>
+    <description>A Relative Humidity Hygrometer and Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Humidity" calibrationInterval="3">
+        <component name="hydrometer">
+          <report id="Humidity/2025/652">
+            <reportIssueDate>2025-04-10</reportIssueDate>
+            <measurementStartDate>2025-04-03</measurementStartDate>
+            <measurementStopDate>2025-04-07</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.H.002.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Flow Rate: 20 L/m;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="r">-4.71 + 2.538E-2*r + 1.009E-3*pow(r,2)</value>
+              <uncertainty variables="">0.86/2</uncertainty>
+              <unit>%rh</unit>
+              <ranges>
+                <range variable="R">
+                  <minimum>31</minimum>
+                  <maximum>84</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2015-03-12">1.02</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Hygrometer">
+    <id>MSLE.L.099</id>
+    <manufacturer>Omega, USA</manufacturer>
+    <model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
+    <serial>16240010 (LS3)</serial>
+    <description>A Relative Humidity Hygrometer and Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Humidity" calibrationInterval="3">
+        <component name="hydrometer">
+          <report id="Humidity/2025/653">
+            <reportIssueDate>2025-04-10</reportIssueDate>
+            <measurementStartDate>2025-04-03</measurementStartDate>
+            <measurementStopDate>2025-04-07</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.H.002.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Flow Rate: 20 L/m;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="r">-5.821 + 7.669E-2*r + 6.403E-3*pow(r,2)</value>
+              <uncertainty variables="">0.83/2</uncertainty>
+              <unit>%rh</unit>
+              <ranges>
+                <range variable="R">
+                  <minimum>31</minimum>
+                  <maximum>84</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2015-03-12">1.02</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Hygrometer">
+    <id>MSLE.L.100</id>
+    <manufacturer>Omega, USA</manufacturer>
+    <model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
+    <serial>16080431 (LS4)</serial>
+    <description>A Relative Humidity Hygrometer and Thermometer</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Humidity" calibrationInterval="3">
+        <component name="hydrometer">
+          <report id="Humidity/2025/654">
+            <reportIssueDate>2025-04-10</reportIssueDate>
+            <measurementStartDate>2025-04-03</measurementStartDate>
+            <measurementStopDate>2025-04-07</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.H.002.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Flow Rate: 20 L/m;
+                Current: 1mA
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="r">-6.873 + 6.796E-2*r + 1.0097E-3*pow(r,2)</value>
+              <uncertainty variables="">0.83/2</uncertainty>
+              <unit>%rh</unit>
+              <ranges>
+                <range variable="R">
+                  <minimum>31</minimum>
+                  <maximum>84</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2015-03-12">1.02</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
       </technicalProcedures>
     </qualityManual>
   </equipment>
