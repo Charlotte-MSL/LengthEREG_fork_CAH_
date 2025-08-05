@@ -12,7 +12,7 @@
     <loggable>true</loggable>
     <traceable>true</traceable>
     <calibrations>
-      <measurand quantity="Humidity" calibrationInterval="2">
+      <measurand quantity="Humidity" calibrationInterval="3">
         <component name="Hygrometer">
           <report id="18-12-39">
             <reportIssueDate>2018-12-12</reportIssueDate>
@@ -122,7 +122,135 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-  <equipment keywords="ResistanceBridge">
+  <equipment keywords="Barometer Hygrometer Thermometer">
+    <id>MSLE.L.128</id>
+    <manufacturer>Vaisala</manufacturer>
+    <model>Indigo500 Series HMP9 Probe</model>
+    <serial>W4050086</serial>
+    <description>A barometer for measuring pressure, humidity and temperature</description>
+    <specifications></specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>true</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Humidity" calibrationInterval="3">
+        <component name="Hygrometer">
+          <report id="HEL244760365">
+            <reportIssueDate>2024-11-23</reportIssueDate>
+            <measurementStartDate>2024-11-23</measurementStartDate>
+            <measurementStopDate>2024-11-23</measurementStopDate>
+            <issuingLaboratory>Vaisala Finland</issuingLaboratory>
+            <technicalProcedure>Not Stated</technicalProcedure>
+            <conditions></conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="H">H + 0.0</value>
+              <uncertainty variables="">0.7/2</uncertainty>
+              <unit>%rh</unit>
+              <ranges>
+                <range variable="H">
+                  <minimum>33</minimum>
+                  <maximum>95</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+      <measurand quantity="Pressure" calibrationInterval="3">
+        <component name="Barometer">
+          <report id="H44-24470039">
+            <reportIssueDate>2024-11-20</reportIssueDate>
+            <measurementStartDate>2024-11-20</measurementStartDate>
+            <measurementStopDate>2024-11-20</measurementStopDate>
+            <issuingLaboratory>Vaisala Finland</issuingLaboratory>
+            <technicalProcedure>Not Stated</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                    Humidity = 36%
+                    Temperature = 23 degrees
+                    Pressure = 978
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <table>
+              <type>  double          , double            , double          , double             , int</type>
+              <unit>  hPa             , hPa               , hPa             , hPa                , no unit</unit>
+              <header>Nominal Pressure, Rising Pressure   , Falling Pressure, Std. Uncertainty   , dof</header>
+              <data>
+                500.02          ,  0.000            , 0.000           , 0.035             , 50
+                550.04          ,  0.000            , 0.000           , 0.035             , 50
+                650.01          ,  0.000            , 0.000           , 0.035             , 50
+                750.01          ,  0.000            , 0.000           , 0.035             , 50
+                849.99          ,  0.000            , 0.000           , 0.035             , 50
+                950.00          ,  0.000            , 0.000           , 0.035             , 50
+                1000.00         ,  0.000            , 0.000           , 0.035             , 50
+                1049.99         ,  0.000            , 0.000           , 0.035             , 50
+                1099.99         ,  0.000            , 0.000           , 0.035             , 50
+              </data>
+            </table>
+          </report>
+        </component>
+      </measurand>
+      <measurand quantity="Temperature" calibrationInterval="3">
+        <component name="Thermometer">
+          <report id="HEL244760365">
+            <reportIssueDate>2024-11-23</reportIssueDate>
+            <measurementStartDate>2024-11-23</measurementStartDate>
+            <measurementStopDate>2024-11-23</measurementStopDate>
+            <issuingLaboratory>Vaisala Finland</issuingLaboratory>
+            <technicalProcedure>Not Stated</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                18 °C to 22 °C
+                23 %rh to 31 %rh
+                973 hPa to 1013 hPa
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <equation>
+              <value variables="T">T + (0.0)</value>
+              <uncertainty variables="">0.1/2</uncertainty>
+              <unit>°C</unit>
+              <ranges>
+                <range variable="T">
+                  <minimum>19</minimum>
+                  <maximum>21</maximum>
+                </range>
+              </ranges>
+              <degreeFreedom>50</degreeFreedom>
+            </equation>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2018-10-01">Factory</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories/>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2018</yearPurchased>
+        <warrantyExpirationDate>2021-10-01</warrantyExpirationDate>
+        <assetNumber>100011347</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.005</id>
+        <id>MSLT.L.002</id>
+        <id>MSLT.L.023</id>
+        <id>MSLT.L.025</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Resistance Bridge">
     <id>MSLE.L.105</id>
     <manufacturer>Isothermal Technologies Limited</manufacturer>
     <model>MicroK500</model>
@@ -193,10 +321,10 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-  <equipment keywords="GaugeBlock">
+  <equipment keywords="Gauge Block Set">
     <id>MSLE.L.083</id>
     <manufacturer>Opus Metrology UK</manufacturer>
-    <model>Zirconia</model>
+    <model>M122</model>
     <serial>21078P</serial>
     <description>A Set of 122 Ceramic Gauge Blocks</description>
     <specifications>
@@ -205,6 +333,7 @@
       <youngsmodulus>200</youngsmodulus>
       <poissonsratio>0.23</poissonsratio>
       <expansioncoefficient>9.5</expansioncoefficient>
+      <expansioncoefficient_uncertainty>0.58</expansioncoefficient_uncertainty>
     </specifications>
     <location>Hilger Lab</location>
     <status>Active</status>
@@ -383,10 +512,10 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-  <equipment keywords="GaugeBlock">
+  <equipment keywords="Gauge Block Set">
     <id>MSLE.L.082</id>
     <manufacturer>Opus Metrology UK</manufacturer>
-    <model>Zirconia</model>
+    <model>E92</model>
     <serial>21080P</serial>
     <description>A Set of 92 Ceramic Gauge Blocks</description>
     <specifications>
@@ -395,6 +524,7 @@
       <youngsmodulus>200</youngsmodulus>
       <poissonsratio>0.23</poissonsratio>
       <expansioncoefficient>9.5</expansioncoefficient>
+      <expansioncoefficient_uncertainty>0.58</expansioncoefficient_uncertainty>
     </specifications>
     <location>Hilger Lab</location>
     <status>Active</status>
@@ -544,12 +674,12 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-  <equipment keywords="GaugeBlock">
+  <equipment keywords="Gauge Block Set">
     <id>MSLE.L.009</id>
     <manufacturer>Select Gauges Pty UK</manufacturer>
-    <model>TungstenCarbide</model>
+    <model>M88</model>
     <serial>4105</serial>
-    <description>A Set of 88 Tungsten Carbide Gauge Blocks</description>
+    <description>A set of 88 tungsten carbide gauge blocks</description>
     <specifications>
       <grade>00</grade>
       <material>tungsten carbide</material>
@@ -698,6 +828,113 @@
         <id>MSLT.L.007</id>
         <id>MSLT.L.012</id>
         <id>MSLT.L.039</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Gauge Block Set">
+    <id>MSLE.L.029</id>
+    <manufacturer>Tesa RSD</manufacturer>
+    <model>M10</model>
+    <serial>00025P</serial>
+    <description>The gauge block set is manufactured by Tesa and contains 10 metric ceramic gauge blocks ranging in nominal size from 2.5 mm to 25 mm.</description>
+    <specifications>
+      <grade>00</grade>
+      <material>ceramic</material>
+      <youngsmodulus>200</youngsmodulus>
+      <poissonsratio>0.23</poissonsratio>
+      <expansioncoefficient>9.5</expansioncoefficient>
+      <expansioncoefficient_uncertainty>0.58</expansioncoefficient_uncertainty>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Length" calibrationInterval="5">
+        <component name="00025P">
+          <report id="Length/2025/1316">
+            <reportIssueDate>2025-05-22</reportIssueDate>
+            <measurementStartDate>2025-05-22</measurementStartDate>
+            <measurementStopDate>2025-05-22</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.L.003.009</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Gauge block measurements were made with the comparator platen in the temperature range of
+                19.97 °C to 20.08 °C.
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <table>
+              <type>  double        , string          , double          , double             , int</type>
+              <unit>  mm            , no unit         , um              , um                 , no unit</unit>
+              <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
+              <data>
+                2.5,00672D,0.093,0.036/2,50
+                5.1,21093C,0.069,0.037/2,50
+                7.7,35085C,0.017,0.038/2,50
+                10.3,38242C,0.001,0.039/2,50
+                12.9,39764C,0.017,0.040/2,50
+                15,33233C,-0.020,0.042/2,50
+                17.6,01852D,0.080,0.044/2,50
+                20.2,01821D,0.034,0.046/2,50
+                22.8,30049C,0.006,0.048/2,50
+                25,33160C,-0.004,0.050/2,50
+              </data>
+            </table>
+          </report>
+          <report id="Length/2025/1318">
+            <reportIssueDate>2025-05-23</reportIssueDate>
+            <measurementStartDate>2025-03-18</measurementStartDate>
+            <measurementStopDate>2025-03-31</measurementStopDate>
+            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+            <technicalProcedure>MSLT.L.005.006</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Measurements were made with the interferometer platen in the temperature range 19.90 °C to 19.98 °C.
+                The air inside the interferometer chamber was in the temperature range 19.93 °C to 20.01 °C. 
+                The atmospheric pressure (at the height of the interferometer) was in the range 1003.9 hPa to 1027.5 hPa.
+                The relative humidity in the interferometer chamber was in the range 54 %rh to 58 %rh.
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <table>
+              <type>  double        , string          , double          , double             , int</type>
+              <unit>  mm            , no unit         , um              , um                 , no unit</unit>
+              <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
+              <data>
+                2.5,00672D,0.115,0.022/2,50
+                5.1,21093C,0.072,0.022/2,50
+                7.7,35085C,0.008,0.022/2,50
+                10.3,38242C,0.015,0.022/2,50
+                12.9,39764C,0.033,0.022/2,50
+                15,33233C,-0.029,0.022/2,50
+                17.6,01852D,0.071,0.022/2,50
+                20.2,01821D,0.036,0.022/2,50
+                22.8,30049C,0.019,0.022/2,50
+                25,33160C,0.004,0.022/2,50
+              </data>
+            </table>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2000</yearPurchased>
+        <warrantyExpirationDate>2001-01-01</warrantyExpirationDate>
+        <assetNumber></assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.003</id>
       </technicalProcedures>
     </qualityManual>
   </equipment>
@@ -2278,7 +2515,7 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
-<equipment keywords="PRT">
+  <equipment keywords="PRT">
     <id>MSLE.L.PRT026</id>
     <manufacturer>ServoTech Limited</manufacturer>
     <model>PT100</model>
@@ -4826,7 +5063,7 @@
     <traceable>true</traceable>
     <calibrations>
       <measurand quantity="Humidity" calibrationInterval="3">
-        <component name="hydrometer">
+        <component name="hygrometer">
           <report id="Humidity/2025/651">
             <reportIssueDate>2025-04-10</reportIssueDate>
             <measurementStartDate>2025-04-03</measurementStartDate>
@@ -4891,7 +5128,7 @@
     <traceable>true</traceable>
     <calibrations>
       <measurand quantity="Humidity" calibrationInterval="3">
-        <component name="hydrometer">
+        <component name="hygrometer">
           <report id="Humidity/2025/652">
             <reportIssueDate>2025-04-10</reportIssueDate>
             <measurementStartDate>2025-04-03</measurementStartDate>
@@ -4956,7 +5193,7 @@
     <traceable>true</traceable>
     <calibrations>
       <measurand quantity="Humidity" calibrationInterval="3">
-        <component name="hydrometer">
+        <component name="hygrometer">
           <report id="Humidity/2025/653">
             <reportIssueDate>2025-04-10</reportIssueDate>
             <measurementStartDate>2025-04-03</measurementStartDate>
@@ -5021,7 +5258,7 @@
     <traceable>true</traceable>
     <calibrations>
       <measurand quantity="Humidity" calibrationInterval="3">
-        <component name="hydrometer">
+        <component name="hygrometer">
           <report id="Humidity/2025/654">
             <reportIssueDate>2025-04-10</reportIssueDate>
             <measurementStartDate>2025-04-03</measurementStartDate>
