@@ -321,6 +321,185 @@
       </technicalProcedures>
     </qualityManual>
   </equipment>
+  <equipment keywords="Resistance Bridge">
+    <id>MSLE.L.121</id>
+    <manufacturer>Isothermal Technologies Limited</manufacturer>
+    <model>MilliK Precision Thermometer Model 923</model>
+    <serial>23-P2893 - 43039-1</serial>
+    <description>A Thermometry Resistance Bridge</description>
+    <specifications></specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>true</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Resistance DC" calibrationInterval="5">
+        <component name="Bridge">
+          <report id="43039">
+            <reportIssueDate>2023-04-26</reportIssueDate>
+            <measurementStartDate>2023-04-26</measurementStartDate>
+            <measurementStopDate>2023-04-26</measurementStopDate>
+            <issuingLaboratory>The Northern Temperature Primary Laboratory, N.T.P.L</issuingLaboratory>
+            <technicalProcedure>not stated</technicalProcedure>
+            <conditions>
+              <measurementConditions>
+                Sensing Current: 1 mA or 1.4 mA;
+              </measurementConditions>
+            </conditions>
+            <acceptanceCriteria></acceptanceCriteria>
+            <table>
+              <type>int, double, double, double, double, double</type>
+              <unit>ohm, milliamperes, ohm, ohm, ohm, ohm</unit>
+              <header>Range, current, Applied, Channel1, Channel2, Standard Uncertainty, DOF</header>
+              <data>
+                115, 1, 100.00079, 100.00080, 100.00083, ,0.00008 , 50
+                115, 1.4, 100.00079, 100.00070, 100.00072, ,0.00008, 50
+                460, 1, 400.00044 400.00036, 100.00036, ,0.00034, 50
+                460, 1.4, 400.00044, 400.00032, 100.00034, ,0.00034, 50
+                500000, , 499986.8, 499986.5, 499987.4, ,1.7, 50
+              </data>
+            </table>
+          </report>
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance> See User Maintenance Manual/Handbook Issue 4.01</maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2023-04-26">WIN CE 6.0 ISOTECH BUILD 5.0 (Factory)</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation>
+        User Maintenance Manual/HandBook Issue 4.01
+        Precision Thermometer milliK Specification Sheet
+      </documentation>
+      <financial>
+        <yearPurchased>2023</yearPurchased>
+        <warrantyExpirationDate>2024-01-01</warrantyExpirationDate>
+        <assetNumber>????</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.014</id>
+        <id>MSLT.L.027</id>
+        <id>MSLT.L.028</id>
+        <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Resistance Bridge">
+    <id>MSLE.L.095</id>
+    <manufacturer>Keysight Technologies Limited</manufacturer>
+    <model>34970A</model>
+    <serial>MY41020042</serial>
+    <description>A Thermometry Resistance Bridge</description>
+    <specifications></specifications>
+    <location>CMM Lab</location>
+    <status>Active</status>
+    <loggable>true</loggable>
+    <traceable>true</traceable>
+    <calibrations></calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2002-12-01">Rev 12-01-02 (factory)</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2009</yearPurchased>
+        <warrantyExpirationDate>2010-01-01</warrantyExpirationDate>
+        <assetNumber>100004927</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.007</id>
+        <id>MSLT.L.032</id>
+        <id>MSLT.L.035</id>
+        <id>MSLT.L.036</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Resistance Bridge">
+    <id>MSLE.L.094</id>
+    <manufacturer>Keysight Technologies Limited</manufacturer>
+    <model>34972A</model>
+    <serial>MY49026529</serial>
+    <description>A Thermometry Resistance Bridge</description>
+    <specifications></specifications>
+    <location>Laser Lab</location>
+    <status>Active</status>
+    <loggable>true</loggable>
+    <traceable>true</traceable>
+    <calibrations></calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2015-01-01">Rev 1.17-1.12-2 (factory)</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-01-01</warrantyExpirationDate>
+        <assetNumber>100023002</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.006</id>
+        <id>MSLT.L.008</id>
+        <id>MSLT.L.011</id>
+        <id>MSLT.L.015</id>
+        <id>MSLT.L.022</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Resistance Bridge">
+    <id>MSLE.L.092</id>
+    <manufacturer>Keysight Technologies Limited</manufacturer>
+    <model>34972A</model>
+    <serial>MY440372237</serial>
+    <description>A Thermometry Resistance Bridge</description>
+    <specifications></specifications>
+    <location>Long Room</location>
+    <status>Active</status>
+    <loggable>true</loggable>
+    <traceable>true</traceable>
+    <calibrations></calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware>
+      <version date="2015-01-01">Rev 13-02-02 (factory)</version>
+    </firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <yearPurchased>2015</yearPurchased>
+        <warrantyExpirationDate>2015-01-01</warrantyExpirationDate>
+        <assetNumber>100011702</assetNumber>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.006</id>
+        <id>MSLT.L.008</id>
+        <id>MSLT.L.011</id>
+        <id>MSLT.L.015</id>
+        <id>MSLT.L.022</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
   <equipment keywords="Gauge Block Set">
     <id>MSLE.L.083</id>
     <manufacturer>Opus Metrology UK</manufacturer>
