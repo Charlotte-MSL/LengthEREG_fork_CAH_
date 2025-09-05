@@ -1,110 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <register team="Length" xmlns="https://measurement.govt.nz/equipment-register">
-  <equipment keywords="" enteredBy="Chris Young">
-    <id>MSLE.L.004</id>
-    <manufacturer>Federal, USA</manufacturer>
-    <model>130B-24</model>
-    <serial>8023</serial>
-    <description>Gauge Block Comparator</description>
-    <specifications>
-      <forceTopAvil>3 Oz</forceTopAvil>
-      <forceTopAvil>1 Oz</forceTopAvil>
-      <probeDiameter>0.25 inch</probeDiameter>
-      <probeYoungsModulus>1160 GPa</probeYoungsModulus>
-      <probePoissonsRatio>0.143</probePoissonsRatio>
-    </specifications>
-    <location>Hilger Lab</location>
-    <status>Active</status>
-    <loggable>false</loggable>
-    <traceable>true</traceable>
-    <calibrations>
-      <measurand quantity="Length" calibrationInterval="1">
-        <component name="Federal Comparator">
-        </component>
-      </measurand>
-    </calibrations>
-    <maintenance>
-      <planned>
-        <task dueDate="2025-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2026-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2027-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2028-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2029-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2030-12-20" performedBy="Chris Young">Scale Check</task>
-      </planned>
-      <completed>
-        <task dueDate="2010-01-15" completedDate="2010-01-15" performedBy="Chris Young" >Scale Check</task>
-        <task dueDate="2014-01-15" completedDate="2014-01-15" performedBy="Chris Young" >Scale Check</task>
-        <task dueDate="2022-05-16" completedDate="2022-05-16" performedBy="Chris Young" >Scale Check</task>
-      </completed>
-    </maintenance>
-    <alterations></alterations>
-    <firmware></firmware>
-    <specifiedRequirements></specifiedRequirements>
-    <referenceMaterials></referenceMaterials>
-    <qualityManual>
-      <accessories></accessories>
-      <documentation></documentation>
-      <financial>
-        <yearPurchased>1975</yearPurchased>
-        <assetNumber>1000003347</assetNumber>
-      </financial>
-      <personnelRestrictions>Length Team Members</personnelRestrictions>
-      <technicalProcedures>
-        <id>MSLT.L.003</id>
-      </technicalProcedures>
-    </qualityManual>
-  </equipment>
-  <equipment keywords="" enteredBy="Chris Young">
-    <id>MSLE.L.055</id>
-    <manufacturer>Federal, USA</manufacturer>
-    <model>136B-3</model>
-    <serial>n/a</serial>
-    <description>Ring and Plug Gauge Comparator</description>
-    <specifications>
-      <probingForce>3 Oz</probingForce>
-    </specifications>
-    <location>Hilger Lab</location>
-    <status>Active</status>
-    <loggable>false</loggable>
-    <traceable>true</traceable>
-    <calibrations>
-      <measurand quantity="Length" calibrationInterval="1">
-        <component name="Federal Comparator">
-        </component>
-      </measurand>
-    </calibrations>
-    <maintenance>
-      <planned>
-        <task dueDate="2025-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2026-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2027-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2028-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2029-12-20" performedBy="Chris Young">Scale Check</task>
-        <task dueDate="2030-12-20" performedBy="Chris Young">Scale Check</task>
-      </planned>
-      <completed>
-        <task dueDate="2003-03-15" completedDate="2003-05-15" performedBy="Allan Ward" >Scale Check</task>
-        <task dueDate="2023-05-22" completedDate="2023-05-22" performedBy="Chris Young" >Scale Check</task>
-      </completed>
-    </maintenance>
-    <alterations></alterations>
-    <firmware></firmware>
-    <specifiedRequirements></specifiedRequirements>
-    <referenceMaterials></referenceMaterials>
-    <qualityManual>
-      <accessories></accessories>
-      <documentation></documentation>
-      <financial>
-        <yearPurchased>1972</yearPurchased>
-        <assetNumber>1000003348</assetNumber>
-      </financial>
-      <personnelRestrictions>Length Team Members</personnelRestrictions>
-      <technicalProcedures>
-        <id>MSLT.L.012</id>
-      </technicalProcedures>
-    </qualityManual>
-  </equipment>
   <equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young">
     <id>MSLE.L.106</id>
     <manufacturer>Vaisala</manufacturer>
@@ -214,9 +109,13 @@
       <accessories/>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2018</yearPurchased>
+        <purchaseYear>2018</purchaseYear>
         <warrantyExpirationDate>2021-10-01</warrantyExpirationDate>
-        <assetNumber>100011347</assetNumber>
+        <capitalExpenditure>
+          <assetNumber>100011347</assetNumber>
+          <depreciationEndYear>2028</depreciationEndYear>
+          <price currency="NZD">5000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -342,9 +241,8 @@
       <accessories/>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2018</yearPurchased>
+        <purchaseYear>2018</purchaseYear>
         <warrantyExpirationDate>2021-10-01</warrantyExpirationDate>
-        <assetNumber>100011347</assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -352,6 +250,218 @@
         <id>MSLT.L.002</id>
         <id>MSLT.L.023</id>
         <id>MSLT.L.025</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Gauge Block Comparator" enteredBy="Chris Young">
+    <id>MSLE.L.004</id>
+    <manufacturer>Federal, USA</manufacturer>
+    <model>130B-24</model>
+    <serial>8023</serial>
+    <description>Gauge Block Comparator</description>
+    <specifications>
+      <forceTopAvil>3 Oz</forceTopAvil>
+      <forceTopAvil>1 Oz</forceTopAvil>
+      <probeDiameter>0.25 inch</probeDiameter>
+      <probeYoungsModulus>1160 GPa</probeYoungsModulus>
+      <probePoissonsRatio>0.143</probePoissonsRatio>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Length" calibrationInterval="1">
+        <component name="Federal Comparator">
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance>
+      <planned>
+        <task dueDate="2025-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2026-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2027-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2028-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2029-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2030-12-20" performedBy="Chris Young">Scale Check</task>
+      </planned>
+      <completed>
+        <task dueDate="2010-01-15" completedDate="2010-01-15" performedBy="Chris Young" >Scale Check</task>
+        <task dueDate="2014-01-15" completedDate="2014-01-15" performedBy="Chris Young" >Scale Check</task>
+        <task dueDate="2022-05-16" completedDate="2022-05-16" performedBy="Chris Young" >Scale Check</task>
+      </completed>
+    </maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>1975</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>1000003347</assetNumber>
+          <depreciationEndYear>1985</depreciationEndYear>
+          <price currency="NZD">30000</price>
+        </capitalExpenditure>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.003</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Gauge Comparator" enteredBy="Chris Young">
+    <id>MSLE.L.055</id>
+    <manufacturer>Federal, USA</manufacturer>
+    <model>136B-3</model>
+    <serial>n/a</serial>
+    <description>Ring and Plug Gauge Comparator</description>
+    <specifications>
+      <maxProbingForce>4 Oz</maxProbingForce>
+      <usualProbingForce>4 Oz</usualProbingForce>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Length" calibrationInterval="1">
+        <component name="Federal Comparator">
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance>
+      <planned>
+        <task dueDate="2025-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2026-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2027-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2028-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2029-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2030-12-20" performedBy="Chris Young">Scale Check</task>
+      </planned>
+      <completed>
+        <task dueDate="2023-08-15" completedDate="2023-08-15" performedBy="Chris Young" >Scale Check</task>
+      </completed>
+    </maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>1972</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>1000003348</assetNumber>
+          <depreciationEndYear>1982</depreciationEndYear>
+          <price currency="NZD">30000</price>
+        </capitalExpenditure>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.012</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Gauge Comparator" enteredBy="Chris Young">
+    <id>MSLE.L.111</id>
+    <manufacturer>Hommel-Movomatic, Switzerland</manufacturer>
+    <model>136977</model>
+    <serial>10802.0755</serial>
+    <description>Plug, Sphere and Serration Gauge Comparator</description>
+    <specifications>
+      <maxProbingForce>240 cN</maxProbingForce>
+      <maxProbingForce>20 cN</maxProbingForce>
+      <usualProbingForce>210 cN</usualProbingForce>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Length" calibrationInterval="1">
+        <component name="Federal Comparator">
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance>
+      <planned>
+        <task dueDate="2025-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2026-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2027-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2028-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2029-12-20" performedBy="Chris Young">Scale Check</task>
+        <task dueDate="2030-12-20" performedBy="Chris Young">Scale Check</task>
+      </planned>
+      <completed>
+        <task dueDate="2023-08-15" completedDate="2023-08-15" performedBy="Chris Young" >Scale Check</task>
+      </completed>
+    </maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>2011</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>1000008366</assetNumber>
+          <depreciationEndYear>2021</depreciationEndYear>
+          <price currency="EUR">26800</price>
+        </capitalExpenditure>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.039</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Gauge Block Interferometer" enteredBy="Chris Young">
+    <id>MSLE.L.014</id>
+    <manufacturer>National Physical Laboratory (NPL), United Kingdom</manufacturer>
+    <model>Type TN 190</model>
+    <serial>TN190.2 249</serial>
+    <description>Fringe Fraction Gauge Block Interferometer</description>
+    <specifications></specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Flatness" calibrationInterval="1">
+        <component name="Reference Flat">
+        </component>
+        <component name="Zirconia Reference Platen">
+        </component>
+        <component name="Fused Silica Reference Platen">
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>1970</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>1000003373</assetNumber>
+          <depreciationEndYear>1980</depreciationEndYear>
+          <price currency="NZD">100000</price>
+        </capitalExpenditure>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.005</id>
+        <id>MSLT.L.003</id>
       </technicalProcedures>
     </qualityManual>
   </equipment>
@@ -533,9 +643,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2013</yearPurchased>
+        <purchaseYear>2013</purchaseYear>
         <warrantyExpirationDate>2018-01-01</warrantyExpirationDate>
-        <assetNumber>100025050</assetNumber>
+        <capitalExpenditure>
+          <assetNumber>100025050</assetNumber>
+          <depreciationEndYear>2023</depreciationEndYear>
+          <price currency="NZD">11347</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -695,9 +809,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2013</yearPurchased>
+        <purchaseYear>2013</purchaseYear>
         <warrantyExpirationDate>2018-01-01</warrantyExpirationDate>
-        <assetNumber>100025051</assetNumber>
+        <capitalExpenditure>
+          <assetNumber>100025051</assetNumber>
+          <depreciationEndYear>2023</depreciationEndYear>
+          <price currency="NZD">9569</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -852,9 +970,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1980</yearPurchased>
+        <purchaseYear>1980</purchaseYear>
         <warrantyExpirationDate>1985-04-21</warrantyExpirationDate>
-        <assetNumber>100003333</assetNumber>
+        <capitalExpenditure>
+          <assetNumber>100003333</assetNumber>
+          <depreciationEndYear>2093</depreciationEndYear>
+          <price currency="NZD">5000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -962,9 +1084,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2000</yearPurchased>
+        <purchaseYear>2000</purchaseYear>
         <warrantyExpirationDate>2001-01-01</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1026,7 +1147,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1091,7 +1212,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1156,7 +1277,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1221,7 +1342,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1300,8 +1421,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2000</yearPurchased>
-        <assetNumber>10000342</assetNumber>
+        <purchaseYear>2000</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>10000342</assetNumber>
+          <depreciationEndYear>2009</depreciationEndYear>
+          <price currency="NZD">10000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1338,8 +1463,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2008</yearPurchased>
-        <assetNumber>100011990</assetNumber>
+        <purchaseYear>2008</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>100011990</assetNumber>
+          <depreciationEndYear>2017</depreciationEndYear>
+          <price currency="NZD">13002</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1359,7 +1488,7 @@
     <manufacturer>Keysight Technologies Limited</manufacturer>
     <model>5519A</model>
     <serial>US45220479</serial>
-    <description>A Zeeman Stabilised Laser Head</description>
+    <description>A Zeeman Stabilised Laser Head (2nd hand)</description>
     <specifications></specifications>
     <location>Laser Lab</location>
     <status>Damaged</status>
@@ -1376,8 +1505,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2014</yearPurchased>
-        <assetNumber>100021938</assetNumber>
+        <purchaseYear>2014</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>100021938</assetNumber>
+          <depreciationEndYear>2024</depreciationEndYear>
+          <price currency="USD">2099</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1439,8 +1572,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2014</yearPurchased>
-        <assetNumber></assetNumber>
+        <purchaseYear>2014</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>100021720</assetNumber>
+          <depreciationEndYear>2024</depreciationEndYear>
+          <price currency="USD">13000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1544,8 +1681,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2014</yearPurchased>
-        <assetNumber>100021938</assetNumber>
+        <purchaseYear>2014</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>100021938</assetNumber>
+          <depreciationEndYear>2024</depreciationEndYear>
+          <price currency="USD">2099</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1565,7 +1706,7 @@
     <manufacturer>Keysight Technologies Limited</manufacturer>
     <model>5519A</model>
     <serial>US40091129</serial>
-    <description>A Zeeman Stabilised Laser Head</description>
+    <description>A Zeeman Stabilised Laser Head (2nd Hand Purchase Sam's Laser)</description>
     <specifications></specifications>
     <location>Long Room</location>
     <status>Active</status>
@@ -1628,8 +1769,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2014</yearPurchased>
-        <assetNumber>100023147</assetNumber>
+        <purchaseYear>2016</purchaseYear>
+         <capitalExpenditure>
+          <assetNumber>100023147</assetNumber>
+          <depreciationEndYear>2026</depreciationEndYear>
+          <price currency="USD">2750</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1691,8 +1836,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2018</yearPurchased>
-        <assetNumber></assetNumber>
+        <purchaseYear>2018</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>Contact Finance to find</assetNumber>
+          <depreciationEndYear>2028</depreciationEndYear>
+          <price currency="USD">29520</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1754,8 +1903,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2023</yearPurchased>
-        <assetNumber></assetNumber>
+        <purchaseYear>2023</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>contact finance to find</assetNumber>
+          <depreciationEndYear>2033</depreciationEndYear>
+          <price currency="NZD">33000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1767,6 +1920,144 @@
         <id>MSLT.L.027</id>
         <id>MSLT.L.028</id>
         <id>MSLT.L.030</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Visible Laser Component" enteredBy="Chris Young">
+    <id>MSLE.L.133</id>
+    <manufacturer>Keysight Technologies Limited</manufacturer>
+    <model>E1735 Axis Module</model>
+    <serial>CN17241414</serial>
+    <description>Axis Module for Laser Measurement System</description>
+    <specifications></specifications>
+    <location>Laser Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>false</traceable>
+    <calibrations></calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>2018</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>100011206</assetNumber>
+          <depreciationEndYear>2026</depreciationEndYear>
+          <price currency="NZD">6600</price>
+        </capitalExpenditure>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.022</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Visible Laser Component" enteredBy="Chris Young">
+    <id>MSLE.L.134</id>
+    <manufacturer>Keysight Technologies Limited</manufacturer>
+    <model>E1735 Axis Module</model>
+    <serial>CN17241415</serial>
+    <description>Axis Module for Laser Measurement System</description>
+    <specifications></specifications>
+    <location>Laser Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>false</traceable>
+    <calibrations></calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>2018</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>100011207</assetNumber>
+          <depreciationEndYear>2026</depreciationEndYear>
+          <price currency="NZD">6526</price>
+        </capitalExpenditure>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.022</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Visible Laser Component" enteredBy="Chris Young">
+    <id>MSLE.L.135</id>
+    <manufacturer>Keysight Technologies Limited</manufacturer>
+    <model>E1735 Axis Module</model>
+    <serial>CN08400253</serial>
+    <description>Axis Module for Laser Measurement System</description>
+    <specifications></specifications>
+    <location>Underground Tape Tunnel</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>false</traceable>
+    <calibrations></calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>2018</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>100023022</assetNumber>
+          <depreciationEndYear>2026</depreciationEndYear>
+          <price currency="NZD">6826</price>
+        </capitalExpenditure>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.027</id>
+      </technicalProcedures>
+    </qualityManual>
+  </equipment>
+  <equipment keywords="Lamp" enteredBy="Chris Young">
+    <id>MSLE.L.056</id>
+    <manufacturer>Department of Scientific and Industrial Research, Physical Engineering Laboratory</manufacturer>
+    <model>NA</model>
+    <serial>NA</serial>
+    <description>Sodium Isotope Lamp</description>
+    <specifications>
+      <nominalWaveLength>589.3 nm</nominalWaveLength>
+    </specifications>
+    <location>Hilger Lab</location>
+    <status>Active</status>
+    <loggable>false</loggable>
+    <traceable>true</traceable>
+    <calibrations>
+      <measurand quantity="Wavelength" calibrationInterval="1">
+        <component name="lamp">
+        </component>
+      </measurand>
+    </calibrations>
+    <maintenance></maintenance>
+    <alterations></alterations>
+    <firmware></firmware>
+    <specifiedRequirements></specifiedRequirements>
+    <referenceMaterials></referenceMaterials>
+    <qualityManual>
+      <accessories></accessories>
+      <documentation></documentation>
+      <financial>
+        <purchaseYear>1985</purchaseYear>
+      </financial>
+      <personnelRestrictions>Length Team Members</personnelRestrictions>
+      <technicalProcedures>
+        <id>MSLT.L.004</id>
       </technicalProcedures>
     </qualityManual>
   </equipment>
@@ -1791,8 +2082,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2010</yearPurchased>
-        <assetNumber>1000008368</assetNumber>
+        <purchaseYear>2010</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>1000008368</assetNumber>
+          <depreciationEndYear>2020</depreciationEndYear>
+          <price currency="NZD">1575</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1822,8 +2117,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2010</yearPurchased>
-        <assetNumber>1000011958</assetNumber>
+        <purchaseYear>2010</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>1000011958</assetNumber>
+          <depreciationEndYear>2020</depreciationEndYear>
+          <price currency="NZD">1575</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1852,8 +2151,12 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2010</yearPurchased>
-        <assetNumber>1000008367</assetNumber>
+        <purchaseYear>2010</purchaseYear>
+        <capitalExpenditure>
+          <assetNumber>1000008367</assetNumber>
+          <depreciationEndYear>2020</depreciationEndYear>
+          <price currency="NZD">1575</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1885,8 +2188,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2018</yearPurchased>
-        <assetNumber></assetNumber>
+        <purchaseYear>2018</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -1949,7 +2251,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2012,7 +2314,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2075,7 +2377,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2138,7 +2440,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2201,7 +2503,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2264,7 +2566,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2327,7 +2629,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2390,7 +2692,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2453,7 +2755,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2516,7 +2818,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2579,7 +2881,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2642,7 +2944,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2705,7 +3007,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2768,7 +3070,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2831,7 +3133,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2894,7 +3196,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -2957,9 +3259,8 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
         <warrantyExpirationDate>2015-08-15</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3022,7 +3323,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3085,7 +3386,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3148,7 +3449,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3211,7 +3512,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3274,7 +3575,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3337,7 +3638,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3400,7 +3701,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3463,7 +3764,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3526,7 +3827,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3589,7 +3890,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3652,7 +3953,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3715,7 +4016,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3778,7 +4079,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3841,7 +4142,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2012</yearPurchased>
+        <purchaseYear>2012</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3901,7 +4202,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2012</yearPurchased>
+        <purchaseYear>2012</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -3961,7 +4262,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2022</yearPurchased>
+        <purchaseYear>2022</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4021,7 +4322,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2012</yearPurchased>
+        <purchaseYear>2012</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4081,7 +4382,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1989</yearPurchased>
+        <purchaseYear>1989</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4141,7 +4442,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1989</yearPurchased>
+        <purchaseYear>1989</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4201,7 +4502,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1999</yearPurchased>
+        <purchaseYear>1999</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4261,7 +4562,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1999</yearPurchased>
+        <purchaseYear>1999</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4321,7 +4622,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1999</yearPurchased>
+        <purchaseYear>1999</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4381,7 +4682,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1997</yearPurchased>
+        <purchaseYear>1997</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4441,7 +4742,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>1997</yearPurchased>
+        <purchaseYear>1997</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4501,7 +4802,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2012</yearPurchased>
+        <purchaseYear>2012</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4561,7 +4862,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4621,7 +4922,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4681,7 +4982,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4741,7 +5042,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4801,7 +5102,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4861,7 +5162,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4921,7 +5222,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -4981,7 +5282,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5041,7 +5342,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5101,7 +5402,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5161,7 +5462,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5221,7 +5522,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5281,7 +5582,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5341,7 +5642,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5401,7 +5702,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2021</yearPurchased>
+        <purchaseYear>2021</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5461,7 +5762,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5521,7 +5822,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5581,7 +5882,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5641,7 +5942,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5701,7 +6002,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5761,7 +6062,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5821,7 +6122,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5881,7 +6182,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -5941,7 +6242,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -6001,7 +6302,7 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2025</yearPurchased>
+        <purchaseYear>2025</purchaseYear>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -6014,7 +6315,7 @@
     <manufacturer>Isothermal Technologies Limited</manufacturer>
     <model>MicroK500</model>
     <serial>381223/1</serial>
-    <description>A Thermometry Resistance Bridge</description>
+    <description>A Thermometry Resistance Bridge and Channel Expander (ISOTECH microK 500 and ISOTECH 913 MicrosKanner)</description>
     <specifications></specifications>
     <location>Hilger Lab</location>
     <status>Active</status>
@@ -6067,9 +6368,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2018</yearPurchased>
+        <purchaseYear>2018</purchaseYear>
         <warrantyExpirationDate>2021-01-01</warrantyExpirationDate>
-        <assetNumber>100011367</assetNumber>
+        <capitalExpenditure>
+          <assetNumber>100011366 and 100011367</assetNumber>
+          <depreciationEndYear>2028</depreciationEndYear>
+          <price currency="NZD">40467</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -6136,9 +6441,13 @@
         Precision Thermometer milliK Specification Sheet
       </documentation>
       <financial>
-        <yearPurchased>2023</yearPurchased>
+        <purchaseYear>2023</purchaseYear>
         <warrantyExpirationDate>2024-01-01</warrantyExpirationDate>
-        <assetNumber>????</assetNumber>
+        <capitalExpenditure>
+          <assetNumber>Contact Finance to Find</assetNumber>
+          <depreciationEndYear>2033</depreciationEndYear>
+          <price currency="NZD">29228</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -6173,9 +6482,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2009</yearPurchased>
+        <purchaseYear>2009</purchaseYear>
         <warrantyExpirationDate>2010-01-01</warrantyExpirationDate>
-        <assetNumber>100004927</assetNumber>
+          <capitalExpenditure>
+            <assetNumber>100004927</assetNumber>
+            <depreciationEndYear>2019</depreciationEndYear>
+            <price currency="NZD">4000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -6209,9 +6522,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2015</purchaseYear>
         <warrantyExpirationDate>2015-01-01</warrantyExpirationDate>
-        <assetNumber>100023002</assetNumber>
+        <capitalExpenditure>
+          <assetNumber>100023002</assetNumber>
+          <depreciationEndYear>2025</depreciationEndYear>
+          <price currency="NZD">5000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -6226,7 +6543,7 @@
   <equipment keywords="Resistance Bridge DAQ" enteredBy ="Chris Young">
     <id>MSLE.L.093</id >
     <manufacturer>Keysight Technologies Limited</manufacturer>
-    <model>34901A</model>
+    <model>34970A</model>
     <serial>MY41006950</serial>
     <description>Data Aquisition/Switch Unit</description>
     <specifications></specifications>
@@ -6246,9 +6563,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2015</yearPurchased>
+        <purchaseYear>2010</purchaseYear>
+          <capitalExpenditure>
+          <assetNumber></assetNumber>
+          <depreciationEndYear>2020</depreciationEndYear>
+          <price currency="NZD">3000</price>
+        </capitalExpenditure>
         <warrantyExpirationDate>2015-01-01</warrantyExpirationDate>
-        <assetNumber></assetNumber>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
@@ -6261,7 +6582,7 @@
   <equipment keywords="Resistance Bridge DAQ" enteredBy ="Chris Young">
     <id>MSLE.L.092</id>
     <manufacturer>Keysight Technologies Limited</manufacturer>
-    <model>34901A</model>
+    <model>34970A</model>
     <serial>MY440372237</serial>
     <description>4 wire resistance measurement unit</description>
     <specifications></specifications>
@@ -6357,9 +6678,13 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <yearPurchased>2011</yearPurchased>
+        <purchaseYear>2011</purchaseYear>
         <warrantyExpirationDate>2011-01-01</warrantyExpirationDate>
-        <assetNumber>1000011702</assetNumber>
+          <capitalExpenditure>
+          <assetNumber>1000011702</assetNumber>
+          <depreciationEndYear>2028</depreciationEndYear>
+          <price currency="NZD">3000</price>
+        </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
