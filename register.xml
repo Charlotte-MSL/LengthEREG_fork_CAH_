@@ -84,7 +84,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="T">T + (0.0)</value>
-              <uncertainty variables="">0.1/2</uncertainty>
+              <uncertainty variables="">0.05</uncertainty>
               <unit>°C</unit>
               <ranges>
                 <range variable="T">
@@ -150,7 +150,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="H">H + 0.0</value>
-              <uncertainty variables="">0.7/2</uncertainty>
+              <uncertainty variables="">0.35</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="H">
@@ -216,7 +216,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="T">T + (0.0)</value>
-              <uncertainty variables="">0.1/2</uncertainty>
+              <uncertainty variables="">0.05</uncertainty>
               <unit>°C</unit>
               <ranges>
                 <range variable="T">
@@ -427,7 +427,10 @@
     <model>Type TN 190</model>
     <serial>TN190.2 249</serial>
     <description>Fringe Fraction Gauge Block Interferometer</description>
-    <specifications></specifications>
+	  <specifications>
+		  <obliquityCorrection>1.00000013</obliquityCorrection>
+		  <referenceFlatFlatness>0</referenceFlatFlatness>
+	  </specifications>
     <location>Hilger Lab</location>
     <status>Active</status>
     <loggable>false</loggable>
@@ -867,94 +870,94 @@
               <unit>  mm            , no unit         , um              , um                 , no unit</unit>
               <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
               <data>
-                0.5, na,-0.036,29/2,50
-                1,na,0.015,29/2,50
-                1.0005,na,-0.028,29/2,50
-                1.5,na,0.006,29/2,50
-                2,na,-0.050,29/2,50
-                2.001,na,0.012,29/2,50
-                2.002,na,0.003,29/2,50
-                2.003,na,0.026,29/2,50
-                2.004,na,-0.052,29/2,50
-                2.005,na,-0.059,29/2,50
-                2.006,na,0.011,29/2,50
-                2.007,na,0.051,29/2,50
-                2.008,na,0.030,29/2,50
-                2.009,na,0.016,29/2,50
-                2.01,na,0.042,29/2,50
-                2.02,na,-0.012,29/2,50
-                2.03,na,0.032,29/2,50
-                2.04,na,-0.006,29/2,50
-                2.05,na,0.046,29/2,50
-                2.06,na,0.026,29/2,50
-                2.07,na,0.004,29/2,50
-                2.08,na,0.096,29/2,50
-                2.09,na,0.098,29/2,50
-                2.1,na,-0.032,29/2,50
-                2.11,na,-0.007,29/2,50
-                2.12,na,0.055,29/2,50
-                2.13,na,-0.014,29/2,50
-                2.14,na,0.065,29/2,50
-                2.15,na,0.016,29/2,50
-                2.16,na,0.040,29/2,50
-                2.17,na,-0.053,29/2,50
-                2.18,na,0.013,29/2,50
-                2.19,na,0.036,29/2,50
-                2.2,na,-0.008,29/2,50
-                2.21,na,0.017,29/2,50
-                2.22,na,-0.016,29/2,50
-                2.23,na,0.034,29/2,50
-                2.24,na,0.058,29/2,50
-                2.25,na,-0.003,29/2,50
-                2.26,na,0.037,29/2,50
-                2.27,na,0.025,29/2,50
-                2.28,na,0.051,29/2,50
-                2.29,na,0.017,29/2,50
-                2.3,na,0.022,29/2,50
-                2.31,na,0.013,29/2,50
-                2.32,na,0.051,29/2,50
-                2.33,na,-0.016,29/2,50
-                2.34,na,0.003,29/2,50
-                2.35,na,0.029,29/2,50
-                2.36,na,0.035,29/2,50
-                2.37,na,-0.004,29/2,50
-                2.38,na,0.056,29/2,50
-                2.39,na,0.046,29/2,50
-                2.4,na,0.006,29/2,50
-                2.41,na,0.065,29/2,50
-                2.42,na,0.077,29/2,50
-                2.43,na,0.039,29/2,50
-                2.44,na,0.025,29/2,50
-                2.45,na,0.043,29/2,50
-                2.46,na,0.008,29/2,50
-                2.47,na,0.025,29/2,50
-                2.48,na,-0.028,29/2,50
-                2.49,na,0.030,29/2,50
-                2.5,na,-0.037,29/2,50
-                3,na,-0.052,29/2,50
-                3.5,na,0.007,29/2,50
-                4,na,-0.018,29/2,50
-                4.5,na,0.008,29/2,50
-                5,na,-0.113,29/2,50
-                5.5,na,-0.028,29/2,50
-                6,na,-0.064,29/2,50
-                6.5,na,-0.083,29/2,50
-                7,na,-0.113,29/2,50
-                7.5,na,-0.073,29/2,50
-                8,na,-0.104,29/2,50
-                8.5,na,-0.008,29/2,50
-                9,na,-0.017,29/2,50
-                9.5,na,-0.004,29/2,50
-                10,na,-0.028,29/2,50
-                20,na,-0.033,29/2,50
-                30,na,0.010,29/2,50
-                40,na,0.002,29/2,50
-                50,na,-0.099,29/2,50
-                60,na,-0.107,29/2,50
-                70,na,0.117,30/2,50
-                80,na,-0.150,30/2,50
-                90,na,-0.001,30/2,50
-                100,na,-0.169,31/2,50
+                0.5, na,-0.036,14.5,50
+                1,na,0.015,14.5,50
+                1.0005,na,-0.028,14.5,50
+                1.5,na,0.006,14.5,50
+                2,na,-0.050,14.5,50
+                2.001,na,0.012,14.5,50
+                2.002,na,0.003,14.5,50
+                2.003,na,0.026,14.5,50
+                2.004,na,-0.052,14.5,50
+                2.005,na,-0.059,14.5,50
+                2.006,na,0.011,14.5,50
+                2.007,na,0.051,14.5,50
+                2.008,na,0.030,14.5,50
+                2.009,na,0.016,14.5,50
+                2.01,na,0.042,14.5,50
+                2.02,na,-0.012,14.5,50
+                2.03,na,0.032,14.5,50
+                2.04,na,-0.006,14.5,50
+                2.05,na,0.046,14.5,50
+                2.06,na,0.026,14.5,50
+                2.07,na,0.004,14.5,50
+                2.08,na,0.096,14.5,50
+                2.09,na,0.098,14.5,50
+                2.1,na,-0.032,14.5,50
+                2.11,na,-0.007,14.5,50
+                2.12,na,0.055,14.5,50
+                2.13,na,-0.014,14.5,50
+                2.14,na,0.065,14.5,50
+                2.15,na,0.016,14.5,50
+                2.16,na,0.040,14.5,50
+                2.17,na,-0.053,14.5,50
+                2.18,na,0.013,14.5,50
+                2.19,na,0.036,14.5,50
+                2.2,na,-0.008,14.5,50
+                2.21,na,0.017,14.5,50
+                2.22,na,-0.016,14.5,50
+                2.23,na,0.034,14.5,50
+                2.24,na,0.058,14.5,50
+                2.25,na,-0.003,14.5,50
+                2.26,na,0.037,14.5,50
+                2.27,na,0.025,14.5,50
+                2.28,na,0.051,14.5,50
+                2.29,na,0.017,14.5,50
+                2.3,na,0.022,14.5,50
+                2.31,na,0.013,14.5,50
+                2.32,na,0.051,14.5,50
+                2.33,na,-0.016,14.5,50
+                2.34,na,0.003,14.5,50
+                2.35,na,0.029,14.5,50
+                2.36,na,0.035,14.5,50
+                2.37,na,-0.004,14.5,50
+                2.38,na,0.056,14.5,50
+                2.39,na,0.046,14.5,50
+                2.4,na,0.006,14.5,50
+                2.41,na,0.065,14.5,50
+                2.42,na,0.077,14.5,50
+                2.43,na,0.039,14.5,50
+                2.44,na,0.025,14.5,50
+                2.45,na,0.043,14.5,50
+                2.46,na,0.008,14.5,50
+                2.47,na,0.025,14.5,50
+                2.48,na,-0.028,14.5,50
+                2.49,na,0.030,14.5,50
+                2.5,na,-0.037,14.5,50
+                3,na,-0.052,14.5,50
+                3.5,na,0.007,14.5,50
+                4,na,-0.018,14.5,50
+                4.5,na,0.008,14.5,50
+                5,na,-0.113,14.5,50
+                5.5,na,-0.028,14.5,50
+                6,na,-0.064,14.5,50
+                6.5,na,-0.083,14.5,50
+                7,na,-0.113,14.5,50
+                7.5,na,-0.073,14.5,50
+                8,na,-0.104,14.5,50
+                8.5,na,-0.008,14.5,50
+                9,na,-0.017,14.5,50
+                9.5,na,-0.004,14.5,50
+                10,na,-0.028,14.5,50
+                20,na,-0.033,14.5,50
+                30,na,0.010,14.5,50
+                40,na,0.002,14.5,50
+                50,na,-0.099,14.5,50
+                60,na,-0.107,14.5,50
+                70,na,0.117,15,50
+                80,na,-0.150,15,50
+                90,na,-0.001,15,50
+                100,na,-0.169,15.5,50
               </data>
             </table>
           </report>
@@ -1026,16 +1029,16 @@
               <unit>  mm            , no unit         , um              , um                 , no unit</unit>
               <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
               <data>
-                2.5,00672D,0.093,0.036/2,50
-                5.1,21093C,0.069,0.037/2,50
-                7.7,35085C,0.017,0.038/2,50
-                10.3,38242C,0.001,0.039/2,50
-                12.9,39764C,0.017,0.040/2,50
-                15,33233C,-0.020,0.042/2,50
-                17.6,01852D,0.080,0.044/2,50
-                20.2,01821D,0.034,0.046/2,50
-                22.8,30049C,0.006,0.048/2,50
-                25,33160C,-0.004,0.050/2,50
+                2.5,00672D,0.093,0.018,50
+                5.1,21093C,0.069,0.0185,50
+                7.7,35085C,0.017,0.019,50
+                10.3,38242C,0.001,0.0195,50
+                12.9,39764C,0.017,0.020,50
+                15,33233C,-0.020,0.021,50
+                17.6,01852D,0.080,0.022,50
+                20.2,01821D,0.034,0.023,50
+                22.8,30049C,0.006,0.024,50
+                25,33160C,-0.004,0.025,50
               </data>
             </table>
           </report>
@@ -1059,16 +1062,16 @@
               <unit>  mm            , no unit         , um              , um                 , no unit</unit>
               <header>Nominal Length, Serial Number   , deviation       , Std. Uncertainty   , dof</header>
               <data>
-                2.5,00672D,0.115,0.022/2,50
-                5.1,21093C,0.072,0.022/2,50
-                7.7,35085C,0.008,0.022/2,50
-                10.3,38242C,0.015,0.022/2,50
-                12.9,39764C,0.033,0.022/2,50
-                15,33233C,-0.029,0.022/2,50
-                17.6,01852D,0.071,0.022/2,50
-                20.2,01821D,0.036,0.022/2,50
-                22.8,30049C,0.019,0.022/2,50
-                25,33160C,0.004,0.022/2,50
+                2.5,00672D,0.115,0.011,50
+                5.1,21093C,0.072,0.011,50
+                7.7,35085C,0.008,0.011,50
+                10.3,38242C,0.015,0.011,50
+                12.9,39764C,0.033,0.011,50
+                15,33233C,-0.029,0.011,50
+                17.6,01852D,0.071,0.011,50
+                20.2,01821D,0.036,0.011,50
+                22.8,30049C,0.019,0.011,50
+                25,33160C,0.004,0.011,50
               </data>
             </table>
           </report>
@@ -1122,7 +1125,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-5.4 + 1.587E-2*r + 1.0757E-3*pow(r,2)</value>
-              <uncertainty variables="">0.86/2</uncertainty>
+              <uncertainty variables="">0.43</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1187,7 +1190,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-4.71 + 2.538E-2*r + 1.009E-3*pow(r,2)</value>
-              <uncertainty variables="">0.86/2</uncertainty>
+              <uncertainty variables="">0.43</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1252,7 +1255,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-5.821 + 7.669E-2*r + 6.403E-3*pow(r,2)</value>
-              <uncertainty variables="">0.83/2</uncertainty>
+              <uncertainty variables="">0.415</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1317,7 +1320,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-6.873 + 6.796E-2*r + 1.0097E-3*pow(r,2)</value>
-              <uncertainty variables="">0.83/2</uncertainty>
+              <uncertainty variables="">0.415</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1354,57 +1357,35 @@
     </qualityManual>
   </equipment>
   <equipment keywords="Visible Laser" enteredBy="Chris Young">
-    <id>MSLE.L.024</id>
-    <manufacturer>Keysight Technologies Limited</manufacturer>
-    <model>5519A</model>
-    <serial>3216A00160</serial>
-    <description>A Zeeman Stabilised Laser Head</description>
+    <id>MSLE.L.017</id>
+    <manufacturer>Winter's Electro-Optics Inc</manufacturer>
+    <model>Model 100</model>
+    <serial>153</serial>
+    <description>Iodine Stabilised HeNe Laser 633 nm</description>
     <specifications></specifications>
-    <location>Long Room</location>
+    <location>Laser Lab</location>
     <status>Active</status>
     <loggable>false</loggable>
     <traceable>true</traceable>
     <calibrations>
       <measurand quantity="Wavelength" calibrationInterval="3">
         <component name="Laser Head">
-          <report id="Length/2018/1115" enteredBy="Chris Young">
-            <reportIssueDate>2018-10-02</reportIssueDate>
-            <measurementStartDate>2018-09-26</measurementStartDate>
-            <measurementStopDate>2018-10-02</measurementStopDate>
-            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-            <technicalProcedure>MSLT.H.015.004</technicalProcedure>
+          <report id="MEP2003" enteredBy="Chris Young">
+            <reportIssueDate>2003-01-01</reportIssueDate>
+            <measurementStartDate>2003-01-01</measurementStartDate>
+            <measurementStopDate>2003-01-01</measurementStopDate>
+            <issuingLaboratory>CIPM</issuingLaboratory>
+			<technicalProcedure>MSLT.L.006.005</technicalProcedure>
             <conditions>
               <i2LaserOutputPower>70 uW</i2LaserOutputPower>
               <i2LaserColdFinger>15 °C</i2LaserColdFinger>
               <i2LaserModulationWidth>6.0 MHz</i2LaserModulationWidth>
-              <dutOutputPower>484 uW</dutOutputPower>
             </conditions>
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
-              <value variables="f">473612234.13</value>
-              <uncertainty variables="">0.33/2</uncertainty>
-              <unit>MHz</unit>
-              <ranges></ranges>
-              <degreeFreedom>50</degreeFreedom>
-            </equation>
-          </report>
-          <report id="Length/2024/1228" enteredBy="Chris Young">
-            <reportIssueDate>2024-07-02</reportIssueDate>
-            <measurementStartDate>2024-05-03</measurementStartDate>
-            <measurementStopDate>2024-05-04</measurementStopDate>
-            <issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-            <technicalProcedure>MSLT.H.015.005</technicalProcedure>
-            <conditions>
-              <i2LaserOutputPower>70 uW</i2LaserOutputPower>
-              <i2LaserColdFinger>15 °C</i2LaserColdFinger>
-              <i2LaserModulationWidth>6.0 MHz</i2LaserModulationWidth>
-              <dutOutputPower>325 uW</dutOutputPower>
-            </conditions>
-            <acceptanceCriteria></acceptanceCriteria>
-            <equation>
-              <value variables="f">473612229.93</value>
-              <uncertainty variables="">0.22/2</uncertainty>
-              <unit>MHz</unit>
+              <value variables="W">632.991212579</value>
+              <uncertainty variables="">0.000000013</uncertainty>
+              <unit>nm</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
             </equation>
@@ -1421,26 +1402,170 @@
       <accessories></accessories>
       <documentation></documentation>
       <financial>
-        <purchaseYear>2000</purchaseYear>
+        <purchaseYear>1997</purchaseYear>
         <capitalExpenditure>
-          <assetNumber>10000342</assetNumber>
-          <depreciationEndYear>2009</depreciationEndYear>
-          <price currency="NZD">10000</price>
+          <assetNumber>10003453</assetNumber>
+          <depreciationEndYear>2007</depreciationEndYear>
+          <price currency="USD">100000</price>
         </capitalExpenditure>
       </financial>
       <personnelRestrictions>Length Team Members</personnelRestrictions>
       <technicalProcedures>
-        <id>MSLT.L.002</id>
-        <id>MSLT.L.014</id>
-        <id>MSLT.L.022</id>
-        <id>MSLT.L.023</id>
-        <id>MSLT.L.025</id>
-        <id>MSLT.L.027</id>
-        <id>MSLT.L.028</id>
-        <id>MSLT.L.030</id>
+        <id>MSLT.L.005</id>
+        <id>MSLT.L.006</id>
+        <id>MSLT.L.015</id>
       </technicalProcedures>
     </qualityManual>
   </equipment>
+  <equipment keywords="Visible Laser" enteredBy="Chris Young">
+		<id>MSLE.L.110</id>
+		<manufacturer>HighFinesse</manufacturer>
+		<model>NdYag</model>
+		<serial>1064-2-195</serial>
+		<description>Iodine Stabilised HeNe Laser 532 nm</description>
+		<specifications></specifications>
+		<location>Laser Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Wavelength" calibrationInterval="3">
+				<component name="Laser Head">
+					<report id="MEP2003" enteredBy="Chris Young">
+						<reportIssueDate>2003-01-01</reportIssueDate>
+						<measurementStartDate>2003-01-01</measurementStartDate>
+						<measurementStopDate>2003-01-01</measurementStopDate>
+						<issuingLaboratory>CIPM</issuingLaboratory>
+						<technicalProcedure>MSLT.L.006.005</technicalProcedure>
+						<conditions>
+							<i2SaturatingBeamIntensity>17 mW/cm2</i2SaturatingBeamIntensity>
+							<i2LaserColdFinger>-15 °C</i2LaserColdFinger>
+							<i2LaserModulationWidth>1.0 MHz</i2LaserModulationWidth>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="W">532.245576449053</value>
+							<uncertainty variables="">0.00000011</uncertainty>
+							<unit>nm</unit>
+							<ranges></ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>2021</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>10028573</assetNumber>
+					<depreciationEndYear>2031</depreciationEndYear>
+					<price currency="EUR">37550</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.005</id>
+				<id>MSLT.L.006</id>
+				<id>MSLT.L.015</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+  <equipment keywords="Visible Laser" enteredBy="Chris Young">
+		<id>MSLE.L.024</id>
+		<manufacturer>Keysight Technologies Limited</manufacturer>
+		<model>5519A</model>
+		<serial>3216A00160</serial>
+		<description>A Zeeman Stabilised Laser Head</description>
+		<specifications></specifications>
+		<location>Long Room</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Wavelength" calibrationInterval="3">
+				<component name="Laser Head">
+					<report id="Length/2018/1115" enteredBy="Chris Young">
+						<reportIssueDate>2018-10-02</reportIssueDate>
+						<measurementStartDate>2018-09-26</measurementStartDate>
+						<measurementStopDate>2018-10-02</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.015.004</technicalProcedure>
+						<conditions>
+							<i2LaserOutputPower>70 uW</i2LaserOutputPower>
+							<i2LaserColdFinger>15 °C</i2LaserColdFinger>
+							<i2LaserModulationWidth>6.0 MHz</i2LaserModulationWidth>
+							<dutOutputPower>484 uW</dutOutputPower>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="f">473612234.13</value>
+							<uncertainty variables="">0.165</uncertainty>
+							<unit>MHz</unit>
+							<ranges></ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Length/2024/1228" enteredBy="Chris Young">
+						<reportIssueDate>2024-07-02</reportIssueDate>
+						<measurementStartDate>2024-05-03</measurementStartDate>
+						<measurementStopDate>2024-05-04</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.015.005</technicalProcedure>
+						<conditions>
+							<i2LaserOutputPower>70 uW</i2LaserOutputPower>
+							<i2LaserColdFinger>15 °C</i2LaserColdFinger>
+							<i2LaserModulationWidth>6.0 MHz</i2LaserModulationWidth>
+							<dutOutputPower>325 uW</dutOutputPower>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="f">473612229.93</value>
+							<uncertainty variables="">0.055</uncertainty>
+							<unit>MHz</unit>
+							<ranges></ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>2000</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>10000342</assetNumber>
+					<depreciationEndYear>2009</depreciationEndYear>
+					<price currency="NZD">10000</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.002</id>
+				<id>MSLT.L.014</id>
+				<id>MSLT.L.022</id>
+				<id>MSLT.L.023</id>
+				<id>MSLT.L.025</id>
+				<id>MSLT.L.027</id>
+				<id>MSLT.L.028</id>
+				<id>MSLT.L.030</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
   <equipment keywords="Visible Laser" enteredBy="Chris Young">
     <id>MSLE.L.077</id>
     <manufacturer>Keysight Technologies Limited</manufacturer>
@@ -1554,7 +1679,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612220.8</value>
-              <uncertainty variables="">0.7/2</uncertainty>
+              <uncertainty variables="">0.35</uncertainty>
               <unit>MHZ</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1621,7 +1746,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612158</value>
-              <uncertainty variables="">0.6/2</uncertainty>
+              <uncertainty variables="">0.3</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1642,7 +1767,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612227.60</value>
-              <uncertainty variables="">0.2/2</uncertainty>
+              <uncertainty variables="">0.1</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1663,7 +1788,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612223.30</value>
-              <uncertainty variables="">0.35/2</uncertainty>
+              <uncertainty variables="">0.175</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1730,7 +1855,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612224.69</value>
-              <uncertainty variables="">0.54/2</uncertainty>
+              <uncertainty variables="">0.27</uncertainty>
               <unit>MHZ</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1751,7 +1876,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612220.15</value>
-              <uncertainty variables="">0.33/2</uncertainty>
+              <uncertainty variables="">0.165</uncertainty>
               <unit>MHZ</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1818,7 +1943,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612232.5</value>
-              <uncertainty variables="">1.2/2</uncertainty>
+              <uncertainty variables="">0.6</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1885,7 +2010,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612239.7</value>
-              <uncertainty variables="">0.7/2</uncertainty>
+              <uncertainty variables="">0.35</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -4539,7 +4664,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="t">100.0034*(1+3.91260E-3*t - 6.069E-7*pow(t,2))</value>
-              <uncertainty variables="">0.0029/2</uncertainty>
+              <uncertainty variables="">0.00145</uncertainty>
               <unit>ohms</unit>
               <ranges>
                 <range variable="t">
@@ -4779,7 +4904,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="t">100.1440*(1+3.91314E-3*t - 6.022E-7*pow(t,2))</value>
-              <uncertainty variables="">0.0029/2</uncertainty>
+              <uncertainty variables="">0.00145</uncertainty>
               <unit>ohms</unit>
               <ranges>
                 <range variable="t">
