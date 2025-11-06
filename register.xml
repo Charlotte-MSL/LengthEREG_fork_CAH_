@@ -24,7 +24,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="H">H + 0.2</value>
-              <uncertainty variables="">1.0</uncertainty>
+              <uncertainty variables="">1.0/2</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="H">
@@ -84,7 +84,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="T">T + (0.0)</value>
-              <uncertainty variables="">0.05</uncertainty>
+              <uncertainty variables="">0.1/2</uncertainty>
               <unit>°C</unit>
               <ranges>
                 <range variable="T">
@@ -150,7 +150,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="H">H + 0.0</value>
-              <uncertainty variables="">0.35</uncertainty>
+              <uncertainty variables="">1.0/2</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="H">
@@ -216,7 +216,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="T">T + (0.0)</value>
-              <uncertainty variables="">0.05</uncertainty>
+              <uncertainty variables="">0.10/2</uncertainty>
               <unit>°C</unit>
               <ranges>
                 <range variable="T">
@@ -429,7 +429,6 @@
     <description>Fringe Fraction Gauge Block Interferometer</description>
 	  <specifications>
 		  <obliquityCorrection>1.00000013</obliquityCorrection>
-		  <referenceFlatFlatness>0</referenceFlatFlatness>
 	  </specifications>
     <location>Hilger Lab</location>
     <status>Active</status>
@@ -1125,7 +1124,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-5.4 + 1.587E-2*r + 1.0757E-3*pow(r,2)</value>
-              <uncertainty variables="">0.43</uncertainty>
+              <uncertainty variables="">0.86/2</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1190,7 +1189,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-4.71 + 2.538E-2*r + 1.009E-3*pow(r,2)</value>
-              <uncertainty variables="">0.43</uncertainty>
+              <uncertainty variables="">0.86/2</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1255,7 +1254,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-5.821 + 7.669E-2*r + 6.403E-3*pow(r,2)</value>
-              <uncertainty variables="">0.415</uncertainty>
+              <uncertainty variables="">0.83/2</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1320,7 +1319,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="r">-6.873 + 6.796E-2*r + 1.0097E-3*pow(r,2)</value>
-              <uncertainty variables="">0.415</uncertainty>
+              <uncertainty variables="">0.83/2</uncertainty>
               <unit>%rh</unit>
               <ranges>
                 <range variable="R">
@@ -1507,7 +1506,7 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="f">473612234.13</value>
-							<uncertainty variables="">0.165</uncertainty>
+							<uncertainty variables="">0.33/2</uncertainty>
 							<unit>MHz</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -1679,7 +1678,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612220.8</value>
-              <uncertainty variables="">0.35</uncertainty>
+              <uncertainty variables="">0.70/2</uncertainty>
               <unit>MHZ</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1746,7 +1745,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612158</value>
-              <uncertainty variables="">0.3</uncertainty>
+              <uncertainty variables="">0.6/2</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1767,7 +1766,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612227.60</value>
-              <uncertainty variables="">0.1</uncertainty>
+              <uncertainty variables="">0.20/2</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1788,7 +1787,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612223.30</value>
-              <uncertainty variables="">0.175</uncertainty>
+              <uncertainty variables="">0.37/2</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1855,7 +1854,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612224.69</value>
-              <uncertainty variables="">0.27</uncertainty>
+              <uncertainty variables="">0.54/2</uncertainty>
               <unit>MHZ</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1876,7 +1875,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612220.15</value>
-              <uncertainty variables="">0.165</uncertainty>
+              <uncertainty variables="">0.33/2</uncertainty>
               <unit>MHZ</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -1943,7 +1942,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612232.5</value>
-              <uncertainty variables="">0.6</uncertainty>
+              <uncertainty variables="">1.2/2</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -2010,7 +2009,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="f">473612239.7</value>
-              <uncertainty variables="">0.35</uncertainty>
+              <uncertainty variables="">0.70/2</uncertainty>
               <unit>MHz</unit>
               <ranges></ranges>
               <degreeFreedom>50</degreeFreedom>
@@ -6468,7 +6467,7 @@
             <acceptanceCriteria></acceptanceCriteria>
             <equation>
               <value variables="R">R + 2.2089E-5 -2.1410E-6*R + 1.6033e-8*pow(R,2)</value>
-              <uncertainty variables="">0.0000205</uncertainty>
+              <uncertainty variables="">0.000041/2</uncertainty>
               <unit>ohms</unit>
               <ranges>
                 <range variable="R">
