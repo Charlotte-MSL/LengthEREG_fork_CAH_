@@ -1,0 +1,24 @@
+name: Validate
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    name: Validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout equipment-register repository
+        uses: actions/checkout@v5
+      - name: Clone schema repository
+        run: git clone --depth 1 https://github.com/MSLNZ/equipment-register-schema.git
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: false
+      - name: Run validator tool
+        run: |
+          uvx --with https://github.com/MSLNZ/msl-equipment.git[validate] \
+            msl-equipment-validate \
+            --skip-checksum \
+            --schema equipment-register-schema/equipment-register.xsd \
+            register.xml
