@@ -1234,7 +1234,7 @@
 		<specifications></specifications>
 		<location>Underground Tape Tunnel</location>
 		<status>Active</status>
-		<loggable>false</loggable>
+		<loggable>true</loggable>
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
@@ -1299,7 +1299,7 @@
 		<specifications></specifications>
 		<location>Underground Tape Tunnel</location>
 		<status>Active</status>
-		<loggable>false</loggable>
+		<loggable>true</loggable>
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
