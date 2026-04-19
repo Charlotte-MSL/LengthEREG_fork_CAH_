@@ -39,7 +39,7 @@
 			</measurand>
 			<measurand quantity="Pressure" calibrationInterval="3">
 				<component name="Barometer">
-					<report id="Pressure/2020/616" enteredBy="Chris Young">
+					<report id="Pressure/2024/690" enteredBy="Chris Young">
 						<reportIssueDate>2024-08-14</reportIssueDate>
 						<measurementStartDate>2024-08-13</measurementStartDate>
 						<measurementStopDate>2024-08-13</measurementStopDate>
