@@ -6724,7 +6724,7 @@
 		<description>Data Aquisition/Switch Unit</description>
 		<specifications>
 			<internalResistor unit ="ohms"></internalResistor>
-		    <addr type = "gpib">4</addr>
+		    <addr type = "gpib">9</addr>
 			<addr type ="ip">10.12.102.15</addr>
 			<sicl>GPIB0::</sicl>
 		</specifications>
