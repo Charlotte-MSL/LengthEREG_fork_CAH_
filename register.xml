@@ -5474,7 +5474,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT062</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5534,7 +5534,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT063</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
