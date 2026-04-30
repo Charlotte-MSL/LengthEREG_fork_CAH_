@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <register team="Length" xmlns="https://measurement.govt.nz/equipment-register">
-	<equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young">
+ <equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young">
 		<id>MSLE.L.106</id>
 		<manufacturer>Vaisala</manufacturer>
 		<model>PTU303</model>
@@ -2407,7 +2407,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-23">
 		<id>MSLE.L.PRT001</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2470,7 +2470,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy="Chris Young">
+	<equipment keywords="PRT" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-23">
 		<id>MSLE.L.PRT002</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2498,8 +2498,8 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0209*(1+3.917981E-3*t - 6.589E-7*pow(t,2))</value>
-							<uncertainty variables="">0.00195</uncertainty>
+							<value variables="t">100.0209*(1+3.91798E-3*t - 6.589E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0039/2</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
@@ -2533,7 +2533,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-23">
 		<id>MSLE.L.PRT003</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2596,7 +2596,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 		<id>MSLE.L.PRT004</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2659,7 +2659,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 		<id>MSLE.L.PRT005</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2722,7 +2722,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 		<id>MSLE.L.PRT006</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2750,8 +2750,8 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0146*(1+3.917213E-3*t - 6.619E-7*pow(t,2))</value>
-							<uncertainty variables="">0.00195</uncertainty>
+							<value variables="t">100.0146*(1+3.91721E-3*t - 6.619E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0039/2</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
@@ -2785,7 +2785,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 		<id>MSLE.L.PRT007</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2848,7 +2848,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 		<id>MSLE.L.PRT008</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -2877,6 +2877,69 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0293*(1+3.91841E-3*t - 6.649E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0046/2</uncertainty>
+							<unit>ohms</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>2015</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.014</id>
+				<id>MSLT.L.027</id>
+				<id>MSLT.L.028</id>
+				<id>MSLT.L.030</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
+		<id>MSLE.L.PRT009</id>
+		<manufacturer>ServoTech Limited</manufacturer>
+		<model>PT100</model>
+		<serial>LS009</serial>
+		<description>A Platinum Resistance Thermometer</description>
+		<specifications></specifications>
+		<location>Underground Tape Tunnel</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Resistance DC" calibrationInterval="2">
+				<component name="prt">
+					<report id="Temperature/2022/097" enteredBy="Chris Young">
+						<reportIssueDate>2022-05-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
+						<measurementStopDate>2022-05-28</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Immersion: 300 mm;
+								Current: 1mA
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0206*(1+3.91900E-3*t - 6.770E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
@@ -2911,70 +2974,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
-		<id>MSLE.L.PRT009</id>
-		<manufacturer>ServoTech Limited</manufacturer>
-		<model>PT100</model>
-		<serial>LS009</serial>
-		<description>A Platinum Resistance Thermometer</description>
-		<specifications></specifications>
-		<location>Underground Tape Tunnel</location>
-		<status>Active</status>
-		<loggable>false</loggable>
-		<traceable>true</traceable>
-		<calibrations>
-			<measurand quantity="Resistance DC" calibrationInterval="2">
-				<component name="prt">
-					<report id="Temperature/2022/097" enteredBy="Chris Young">
-						<reportIssueDate>2022-05-30</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
-						<measurementStopDate>2022-05-28</measurementStopDate>
-						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
-						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
-						</conditions>
-						<acceptanceCriteria></acceptanceCriteria>
-						<equation>
-							<value variables="t">100.0206*(1+3.91900E-3*t - 6.770E-7*pow(t,2))</value>
-							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
-							<ranges>
-								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
-								</range>
-							</ranges>
-							<degreeFreedom>50</degreeFreedom>
-						</equation>
-					</report>
-				</component>
-			</measurand>
-		</calibrations>
-		<maintenance></maintenance>
-		<alterations></alterations>
-		<firmware></firmware>
-		<specifiedRequirements></specifiedRequirements>
-		<referenceMaterials></referenceMaterials>
-		<qualityManual>
-			<accessories></accessories>
-			<documentation></documentation>
-			<financial>
-				<purchaseYear>2015</purchaseYear>
-			</financial>
-			<personnelRestrictions>Length Team Members</personnelRestrictions>
-			<technicalProcedures>
-				<id>MSLT.L.014</id>
-				<id>MSLT.L.027</id>
-				<id>MSLT.L.028</id>
-				<id>MSLT.L.030</id>
-			</technicalProcedures>
-		</qualityManual>
-	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 		<id>MSLE.L.PRT010</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3007,8 +3007,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3037,7 +3037,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT011</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3070,8 +3070,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3100,7 +3100,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT012</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3133,8 +3133,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3163,7 +3163,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT013</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3196,8 +3196,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3226,7 +3226,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT014</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3259,8 +3259,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3289,7 +3289,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT015</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3322,8 +3322,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3352,7 +3352,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT016</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3385,8 +3385,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3415,7 +3415,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT017</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3448,8 +3448,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3479,7 +3479,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT018</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3512,8 +3512,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3542,7 +3542,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT019</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3575,8 +3575,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3605,7 +3605,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT020</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3638,8 +3638,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3668,7 +3668,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT021</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3701,8 +3701,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3731,7 +3731,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT022</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3764,8 +3764,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3794,7 +3794,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT023</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3827,8 +3827,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3857,7 +3857,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT024</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3890,8 +3890,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3920,7 +3920,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT025</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -3953,8 +3953,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -3983,7 +3983,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT026</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -4016,8 +4016,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -4046,7 +4046,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT027</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -4079,8 +4079,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -4109,7 +4109,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT028</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -4142,8 +4142,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -4172,7 +4172,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT029</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -4205,8 +4205,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -4235,7 +4235,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT030</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -4268,8 +4268,8 @@
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>25</maximum>
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -4298,7 +4298,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT039</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4358,7 +4358,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT040</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4418,7 +4418,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT041</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4478,7 +4478,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT042</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4538,7 +4538,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT045</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4598,7 +4598,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT046</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4658,7 +4658,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT047</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4718,7 +4718,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT048</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4747,7 +4747,7 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0034*(1+3.91260E-3*t - 6.069E-7*pow(t,2))</value>
-							<uncertainty variables="">0.00145</uncertainty>
+							<uncertainty variables="">0.0029/2</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
@@ -4778,7 +4778,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT049</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4838,7 +4838,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT050</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4898,7 +4898,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT051</id>
 		<manufacturer>MSL</manufacturer>
 		<model>PT100</model>
@@ -4958,7 +4958,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT052</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -4973,7 +4973,7 @@
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
 					<report id="Temperature/2023/251" enteredBy="Chris Young">
-						<reportIssueDate>2023-09-15</reportIssueDate>
+						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
@@ -4987,7 +4987,7 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1440*(1+3.91314E-3*t - 6.022E-7*pow(t,2))</value>
-							<uncertainty variables="">0.00145</uncertainty>
+							<uncertainty variables="">0.0029/2</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
 								<range variable="t">
@@ -5018,7 +5018,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT053</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5078,7 +5078,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT054</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5093,7 +5093,7 @@
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
 					<report id="Temperature/2023/253" enteredBy="Chris Young">
-						<reportIssueDate>2023-09-15</reportIssueDate>
+						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
@@ -5138,7 +5138,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT055</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5198,7 +5198,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT056</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5258,7 +5258,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT057</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5318,7 +5318,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT058</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5378,7 +5378,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT059</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5438,7 +5438,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT060</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5498,7 +5498,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT061</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6518,6 +6518,186 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
+	<equipment keywords="PRT" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.PRT078</id>
+		<manufacturer>ServoTech Limited</manufacturer>
+		<model>PT100</model>
+		<serial>LS56</serial>
+		<description>A Platinum Resistance Thermometer</description>
+		<specifications></specifications>
+		<location>Laser Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>pending</traceable>
+		<calibrations>
+			<measurand quantity="Resistance DC" calibrationInterval="2">
+				<component name="prt">
+					<report id="Temperature/2025/370" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Immersion: ;
+								Current: 
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit>ohms</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>2026</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id></id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="PRT" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.PRT079</id>
+		<manufacturer>ServoTech Limited</manufacturer>
+		<model>PT100</model>
+		<serial>LS57</serial>
+		<description>A Platinum Resistance Thermometer</description>
+		<specifications></specifications>
+		<location>Laser Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>pending</traceable>
+		<calibrations>
+			<measurand quantity="Resistance DC" calibrationInterval="2">
+				<component name="prt">
+					<report id="Temperature/2025/370" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Immersion: ;
+								Current:
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit>ohms</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>2026</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id></id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="PRT" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.PRT080</id>
+		<manufacturer>ServoTech Limited</manufacturer>
+		<model>PT100</model>
+		<serial>LS58</serial>
+		<description>A Platinum Resistance Thermometer</description>
+		<specifications></specifications>
+		<location>Laser Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>pending</traceable>
+		<calibrations>
+			<measurand quantity="Resistance DC" calibrationInterval="2">
+				<component name="prt">
+					<report id="Temperature/2025/370" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Immersion: ;
+								Current:
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit>ohms</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>2026</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id></id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
 	<equipment keywords="Resistance Bridge" enteredBy ="Chris Young">
 		<id>MSLE.L.105</id>
 		<manufacturer>Isothermal Technologies Limited</manufacturer>
@@ -7002,6 +7182,1326 @@
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
 			<technicalProcedures>
 				<id>MSLT.L.005</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Roundness" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.060</id>
+		<manufacturer>Rank-Taylor Hobson</manufacturer>
+		<model></model>
+		<serial>APT5846</serial>
+		<description>Hemispherical glass roundness standard for use with the Talyrond Roundness Measuring Machine</description>
+		<specifications>
+
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Roundness" calibrationInterval="5">
+				<component name="Roundness Artefact">
+					<report id="RN 61093" enteredBy="NMI">
+						<reportIssueDate>2006-10-13</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2006-10-11</measurementStartDate>
+						<measurementStopDate>2006-10-11</measurementStopDate>
+						<issuingLaboratory>National Measurement Institute Australia</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions></conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>1974 at the latest</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id></id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Micrometer" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.061</id>
+		<manufacturer>Tesa</manufacturer>
+		<model></model>
+		<serial>03.10001</serial>
+		<description>TESAMASTER External Vernier Micrometer. A 0 to 25 mm external micrometer manufactured by Tesa, having a vernier subdivide into divisions of 0.001 mm.</description>
+		<specifications>
+			0 to 25 mm range, with a 0.001 mm vernier subdivide
+		</specifications>
+		<location>CMM Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Traverse Deviations" calibrationInterval="5">
+				<component name="External Micrometer">
+					<report id="Length/2006/299" enteredBy="E F Howick">
+						<reportIssueDate>2006-10-26</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2006-10-25</measurementStartDate>
+						<measurementStopDate>2006-10-25</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.034.001</technicalProcedure>
+						<conditions>
+							<temperatureRange>19.5 C to 20.5 C</temperatureRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  int            , double          , double             , int</type>
+							<unit>  mm             , mm              , mm                 , no unit</unit>
+							<header>Reference Gauge, Deviation       ,Std. Uncertainty   , dof</header>
+							<data>
+							0               ,  0.000           , 0.00095             , 30
+							2.5             ,  0.000           , 0.00095             , 30
+							5.1             ,  0.000           , 0.00095             , 30
+							7.7             ,  0.000           , 0.00095             , 30
+							10.3            ,  0.001           , 0.00095             , 30
+							12.9            ,  0.001           , 0.00095             , 30
+							15              ,  0.001           , 0.00095             , 30
+							17.6            ,  0.001           , 0.00095             , 30
+							20.2            ,  0.000           , 0.00095             , 30
+							22.8            ,  0.001           , 0.00095             , 30
+							25              ,  0.001           , 0.00095             , 30
+							</data>
+						</table>
+					</report>
+					<report id="Length/1999/472" enteredBy="E F Howick">
+						<reportIssueDate>1999-10-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1999-10-07</measurementStartDate>
+						<measurementStopDate>1999-10-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 19.5 C to 20.5C;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">0.02</value>
+							<uncertainty variables="">0.003/2</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom>30</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Flatness" calibrationInterval="5">
+				<component name="External Micrometer">
+					<report id="Length/2006/299" enteredBy="E F Howick">
+						<reportIssueDate>2006-10-26</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2006-10-25</measurementStartDate>
+						<measurementStopDate>2006-10-25</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.034.001</technicalProcedure>
+						<conditions>
+							<temperatureRange>19.5 C to 20.5 C</temperatureRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">0.0005</value>
+							<uncertainty variables="">0.00008/2</uncertainty>
+							<unit>mm</unit>
+							<ranges>
+							</ranges>
+							<degreeFreedom>30</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Length/1999/472" enteredBy="E F Howick">
+						<reportIssueDate>1999-10-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1999-10-07</measurementStartDate>
+						<measurementStopDate>1999-10-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>19.5 C to 20.5 C</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">0.001</value>
+							<uncertainty variables="">0.0006/2</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom>30</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Parallelism" calibrationInterval="5">
+				<component name="External Micrometer">
+					<report id="Length/2006/299" enteredBy="E F Howick">
+						<reportIssueDate>2006-10-26</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2006-10-25</measurementStartDate>
+						<measurementStopDate>2006-10-25</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.034.001</technicalProcedure>
+						<conditions>
+							<temperatureRange>19.5 C to 20.5 C</temperatureRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">0.0005</value>
+							<uncertainty variables="">0.0001/2</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom>30</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Length/1999/472" enteredBy="E F Howick">
+						<reportIssueDate>1999-10-07</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1999-10-07</measurementStartDate>
+						<measurementStopDate>1999-10-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>19.5 C to 20.5 C</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">0.001</value>
+							<uncertainty variables="">0.001/2</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom>30</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id></id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Gauge" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.062</id>
+		<manufacturer>Matrix-Pitter</manufacturer>
+		<model>M112/2</model>
+		<serial>5928E</serial>
+		<description>A set of 112 Grade 1 hardened steel metric sized gauge blocks, ranging in nominal size from 0.5 mm to 100 mm.</description>
+		<specifications>Grade 1 hardened steel. Metric sized 0.5 mm to 100 mm. Reference Temperature of 20C.</specifications>
+		<location>Hilger Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Length" calibrationInterval="5">
+				<component name="Gauge block set">
+					<report id="Length/2005/672" enteredBy="">
+						<reportIssueDate>2005-09-23</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2005-09-15</measurementStartDate>
+						<measurementStopDate>2005-09-22</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.003.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 19.5 C to 20.5C;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double         ,double           ,double             </type>
+							<unit>  mm             ,um               ,um                 </unit>
+							<header>Nominal Length ,Centre Deviation ,Variation in Length </header>
+							<data>
+								0.5                ,-0.02            ,0.05
+								1                  ,0.07             ,0.12
+								1.0005             ,0.07             ,0.09
+								1.5                ,0.11             ,0.10
+								2                  ,-0.05            ,0.07
+								2.001              ,-0.12            ,0.04
+								2.002              ,0.01             ,0.10
+								2.003              ,-0.06            ,0.07
+								2.004              ,-0.08            ,0.06
+								2.005              ,-0.06            ,0.05
+								2.006              ,0.06             ,0.11
+								2.007              ,-0.07            ,0.12
+								2.008              ,-0.11            ,0.06
+								2.009              ,-0.16            ,0.07
+								2.01               ,-0.11            ,0.08
+								2.02               ,0.01             ,0.11
+								2.03               ,0.05             ,0.05
+								2.04               ,0.03             ,0.07
+								2.05               ,-0.07            ,0.07
+								2.06               ,0.10             ,0.11
+								2.07               ,0.04             ,0.10
+								2.08               ,0.13             ,0.09
+								2.09               ,0.04             ,0.06
+								2.1                ,0.10             ,0.04
+								2.11               ,0.04             ,0.08
+								2.12               ,-0.15            ,0.07
+								2.13               ,-0.06            ,0.08
+								2.14               ,-0.02            ,0.14
+								2.15               ,-0.06            ,0.08
+								2.16               ,-0.02            ,0.05
+								2.17               ,-0.08            ,0.06
+								2.18               ,0.05             ,0.13
+								2.19               ,0.07             ,0.13
+								2.2                ,-0.03            ,0.08
+								2.21               ,-0.04            ,0.07
+								2.22               ,-0.19            ,0.07
+								2.23               ,-0.02            ,0.09
+								2.24               ,0.04             ,0.14
+								2.25               ,-0.12            ,0.07
+								2.26               ,-0.03            ,0.10
+								2.27               ,0.05             ,0.07
+								2.28               ,-0.05            ,0.07
+								2.29               ,0.01             ,0.11
+								2.3                ,0.16             ,0.07
+								2.31               ,0.03             ,0.04
+								2.32               ,-0.05            ,0.08
+								2.33               ,-0.14            ,0.16
+								2.34               ,-0.04            ,0.05
+								2.35               ,0.04             ,0.10
+								2.36               ,0.11             ,0.10
+								2.37               ,0.04             ,0.12
+								2.38               ,0.09             ,0.08
+								2.39               ,0.01             ,0.07
+								2.4                ,-0.07            ,0.04
+								2.41               ,-0.18            ,0.07
+								2.42               ,0.00             ,0.07
+								2.43               ,0.12             ,0.07
+								2.44               ,0.01             ,0.06
+								2.45               ,-0.04            ,0.12
+								2.46               ,0.05             ,0.33
+								2.47               ,-0.07            ,0.11
+								2.48               ,0.07             ,0.09
+								2.49               ,0.11             ,0.16
+								2.5                ,0.04             ,0.12
+								3                  ,0.17             ,0.15
+								3.5                ,0.03             ,0.04
+								4                  ,0.05             ,0.10
+								4.5                ,0.01             ,0.10
+								5                  ,0.16             ,0.09
+								5.5                ,0.10             ,0.18
+								6                  ,0.10             ,0.14
+								6.5                ,0.15             ,0.08
+								7                  ,0.06             ,0.04
+								7.5                ,0.12             ,0.11
+								8                  ,0.09             ,0.09
+								8.5                ,0.12             ,0.12
+								9                  ,0.12             ,0.06
+								9.5                ,0.16             ,0.15
+								10                 ,0.11             ,0.05
+								10.5               ,0.11             ,0.05
+								11                 ,0.09             ,0.05
+								11.5               ,0.15             ,0.05
+								12                 ,0.23             ,0.05
+								12.5               ,0.19             ,0.05
+								13                 ,0.06             ,0.06
+								13.5               ,0.25             ,0.09
+								14                 ,0.07             ,0.04
+								14.5               ,0.11             ,0.05
+								15                 ,0.19             ,0.07
+								15.5               ,0.04             ,0.06
+								16                 ,0.17             ,0.04
+								16.5               ,0.14             ,0.04
+								17                 ,0.08             ,0.04
+								17.5               ,0.11             ,0.09
+								18                 ,0.13             ,0.05
+								18.5               ,0.14             ,0.05
+								19                 ,0.19             ,0.06
+								19.5               ,0.17             ,0.07
+								20                 ,0.18             ,0.08
+								20.5               ,0.09             ,0.07
+								21                 ,0.22             ,0.05
+								21.5               ,0.04             ,0.07
+								22                 ,0.13             ,0.05
+								22.5               ,0.05             ,0.06
+								23                 ,0.31             ,0.03
+								23.5               ,0.38             ,0.06
+								24                 ,0.28             ,0.09
+								24.5               ,0.19             ,0.06
+								25                 ,0.21             ,0.08
+								50                 ,0.08             ,0.09
+								75                 ,0.27             ,0.10
+								100                ,0.32,            ,0.18
+							</data>
+						</table>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+							<table>
+								<type>  double                  ,double                ,double                ,double                   </type>
+								<unit>  mm                      ,mm                    ,um                    ,um                       </unit>
+								<header>Range of Lengths (over) ,Range of Lengths (to) ,Uncertainty of Length ,Uncertainty of Variation </header>
+								<data>
+									-  ,10 ,0.05/2 ,0.04/2
+									10 ,25 ,0.06/2 ,0.04/2
+									25 ,50 ,0.09/2 ,0.04/2
+									50 ,75 ,0.12/2 ,0.04/2
+									75 ,100,0.16/2 ,0.04/2
+
+								</data>
+							</table>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>1950</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>100003336</assetNumber>
+					<depreciationEndYear>1960</depreciationEndYear>
+					<price currency="NZD">about 12K NZD (today) but but adjust for equivalent price in 1950</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Thermometer" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.064</id>
+		<manufacturer>Fluke, and Sensing Devices Ltd</manufacturer>
+		<model>2180A</model>
+		<serial>4815019, 89/S2</serial>
+		<description>An electronic thermometer, model 2180A, manufactured by Fluke, and a PRT (probe length: 100mm), manufactured by Sensing Devices Ltd.</description>
+		<specifications>
+			Probe length: 100 mm
+		</specifications>
+		<location>Unknown</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Temperature" calibrationInterval="5">
+				<component name="Fluke Electronic Thermometer">
+					<report id="Temperature/2017/666" enteredBy="MSL">
+						<reportIssueDate>2017-07-24</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-07-21</measurementStartDate>
+						<measurementStopDate>2017-07-22</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.011</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Immersion: 230 mm;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double              ,double     </type>
+							<unit>  degrees C           ,degrees C  </unit>
+							<header>Thermometer Reading ,Correction </header>
+							<data>
+								-0.65                  ,0.08
+								2.10                   ,0.08
+								4.77                   ,0.08
+								7.34                   ,0.09
+								10.02                  ,0.09
+								12.66                  ,0.10
+								15.30                  ,0.10
+								17.93                  ,0.10
+								20.76                  ,0.10
+								23.42                  ,0.10
+								25.99                  ,0.10
+								28.64                  ,0.10
+								31.31                  ,0.10
+								34.06				   ,0.10
+								36.71			  	   ,0.10
+								39.26			       ,0.09
+							</data>
+						</table>
+						<equation>
+							<value variables="t">7.9E-2 + 1.19E-3 * t + 2.09E-5 * pow(t,2) + -1.09E-6 * pow(t,3)
+							*(1+3.91277E-3*t - 5.942E-7*pow(t,2))</value>
+							<uncertainty variables="">0.063/2</uncertainty>
+							<unit>Celsius</unit>
+							<ranges>-1C to 40C</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+						<equation>
+						<value variables="Ice Point">-0.04</value>
+							<uncertainty variables="0.063/2"></uncertainty>
+							<unit>Celsius</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.002</id>
+				<id>MSLT.L.003</id>
+				<id>MSLT.L.012</id>
+				<id>MSLT.L.017</id>
+				<id>MSLT.L.018</id>
+				<id>MSLT.L.021</id>
+				<id>MSLT.L.022</id>
+				<id>MSLT.L.023</id>
+				<id>MSLT.L.025</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Survey Staff" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.065</id>
+		<manufacturer>Leica</manufacturer>
+		<model>Wild GPCL3</model>
+		<serial>NEDO 026998</serial>
+		<description>A 3 metre survey staff with a central invar scale bearing a barcode pattern in alternating black and yellow. Width of each elements is nominally an integer multiple of 2.025 mm. 
+		Staff has a sticker with "NEDO 026998" on the back. Located in a 3 metre green rectangular box.</description>
+		<specifications>
+			Length: 3 m
+			Barcode element width: integer multiple of 2.025 mm.
+		</specifications>
+		<location>long room</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Length" calibrationInterval="5">
+				<component name="Survey Staff">
+					<report id="Length/2004/648" enteredBy="MSL">
+						<reportIssueDate>2004-12-02</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2004-11-27</measurementStartDate>
+						<measurementStopDate>2004-11-27</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.025.002</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +/- 1.0 C;
+								Assumed Coeff Thermal Expansion: 1.0E-6 /C
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>ISO 12853-1:1999(E) Clauses 6 and 7 (complies), Clause 8 (does not comply)</acceptanceCriteria>
+						<equation>
+							<value variables="Zero-point Error">-0.010</value>
+							<uncertainty variables="">0.010/2</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+						<equation>
+							<value variables="Baseplate flatness">0.026</value>
+							<uncertainty variables="">0.010/4.3</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+							<equation>
+							<value variables="Baseplate-staff axis angle">-0.010</value>
+							<uncertainty variables="">0.7/4.3</uncertainty>
+							<unit>arc minutes</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>None</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Tape" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">	
+		<id>MSLE.L.066</id>
+		<manufacturer>FACOM</manufacturer>
+		<model>2884</model>
+		<serial>1028</serial>
+		<description>50 m FACOM tape measure. Black graduations on a yellow background.</description>
+		<specifications>
+			Length: 50 m
+			Metric scale
+		</specifications>
+		<location>Tunnel</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Length" calibrationInterval="5">
+				<component name="tape measure">
+					<report id="Length/2017/1076" enteredBy="E F Howick">
+						<reportIssueDate>2017-08-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
+						<measurementStopDate>2017-08-29</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +/- 1.0 C;
+								Tension: 50 N
+								Corrected to 20 C using a Coeff of Thermal Expansion of 11.5E-6
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">max deviation of 0.0246 mm at 181 mm, min deviation of -0.402 mm at L=41994 mm</value>
+							<uncertainty variables="L">pow( pow(10,2) + pow(10.5 * L, 2) ,0.5)/2</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="EDM" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.067</id>
+		<manufacturer>Leica</manufacturer>
+		<model>TC2003</model>
+		<serial>440209 </serial>
+		<description>Leica TC2003 total station (article no. 664661, IRL serial 11243), with 0.1 mm resolution distance capability and built-in theodolite with a resolution of 0.1 arcsecond. Carry case included.</description>
+		<specifications>
+			Distance Resolution: 0.1 mm
+			Theodolite Resolution: 01. arcsecond
+		</specifications>
+		<location>Tunnel</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Deviations" calibrationInterval="5">
+				<component name="Total Station">
+					<report id="Length/2010/828" enteredBy="L C Forde">
+						<reportIssueDate>2010-06-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2010-06-28</measurementStartDate>
+						<measurementStopDate>2010-06-30</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables="">0.13/2</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Corrections" calibrationInterval="5">
+				<component name="Total Station">
+					<report id="Length/2010/828" enteredBy="L C Forde">
+						<reportIssueDate>2010-06-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2010-06-28</measurementStartDate>
+						<measurementStopDate>2010-06-30</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<table>
+								<type>  int            , double </type>
+								<unit>  m             , mm</unit>
+								<header>Total Station Reading, Correction</header>
+								<data>
+									1                        , 0.48
+									2                        , 0.06
+									3                        , 0.00
+									4                        , -0.03
+									5                        , -0.06
+									6                        , -0.07
+									7                        , -0.08
+								</data>
+							</table>
+							<value variables=""></value>
+							<uncertainty variables=""></uncertainty>
+							<unit>mm</unit>
+							<ranges>1 to 7 m</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+						<equation>
+							<value variables="L">-0.07 - 1.3e-6 * L/1000</value>
+							<uncertainty variables=""></uncertainty>
+							<unit>mm</unit>
+							<ranges>Distance >7 m</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Prism Constant" calibrationInterval="5">
+				<component name="Total Station">
+					<report id="Length/2010/828" enteredBy="L C Forde">
+						<reportIssueDate>2010-06-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2010-06-28</measurementStartDate>
+						<measurementStopDate>2010-06-30</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.030.001</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">-0.07</value>
+							<uncertainty variables="">0.26/2</uncertainty>
+							<unit>mm</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Cyclic Error" calibrationInterval="5">
+				<component name="Total Station">
+					<report id="Length/2010/828" enteredBy="L C Forde">
+						<reportIssueDate>2010-06-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2010-06-28</measurementStartDate>
+						<measurementStopDate>2010-06-30</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">44</value>
+							<uncertainty variables="">25/2</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Distance after correction" calibrationInterval="5">
+				<component name="Total Station">
+					<report id="Length/2010/828" enteredBy="L C Forde">
+						<reportIssueDate>2010-06-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2010-06-28</measurementStartDate>
+						<measurementStopDate>2010-06-30</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>		
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables="">0.3/2</uncertainty>
+							<unit>mm</unit>
+							<ranges>1 to 7 m</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables="">0.3/2</uncertainty>
+							<unit>mm</unit>
+							<ranges>7 to 58 m</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables="">2 * pow( pow( 0.145 ,2) + pow( 0.6*E-6 * (L/1000 - 58) ,2) ,1/2)/2 </uncertainty>
+							<unit>mm</unit>
+							<ranges>Greater than 58 m</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials>See NAS folder 'EMT067_Leica_TC2003_Total_Station'</referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<price currency="NZD">36450</price>
+				<purchaseYear>2004</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.028</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Survey Staff" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.068</id>
+		<manufacturer>Leica</manufacturer>
+		<model>GWCL182</model>
+		<serial>0114</serial>
+		<description>IRL Number 007187. Industrial bar-coded staff (182 cm, invar staff with circular bubble and 2 interchangeable bases).</description>
+		<specifications>
+			Usable part of scale: 0.03 - 1.835 m
+			Standard Uncertainty in change in height dL (DIN 18717): 0.02 mm + 20 ppm
+			Linear Expansivity: less than 1 ppm/C
+			Limits to range of use: 1.80 - 60 m
+			Limits to temperature of use: -10 C - 40 C
+			Allowable angle of staff from vertical: 5'
+			Cicular bubble accuracy 12' / 2 mm
+		</specifications>
+		<location>Long room</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>True</traceable>
+		<calibrations>
+			<measurand quantity="Length deviation" calibrationInterval="5">
+				<component name="Barcode Staff">
+					<report id="Length/2017/1070" enteredBy="E F Howick">
+						<reportIssueDate>2017-08-02</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-07-24</measurementStartDate>
+						<measurementStopDate>2017-07-24</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.025.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +- 1.0 C;
+								Length measurements corrected to 20 C using CTE = 1e-6 / C
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="var"></value>
+							<uncertainty variables="L">pow( pow(10,2) + pow(10 * L, 2), 0.5)</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Zero-point measurement" calibrationInterval="5">
+				<component name="Barcode Staff">
+					<report id="Length/2017/1070" enteredBy="E F Howick">
+						<reportIssueDate>2017-08-02</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-07-24</measurementStartDate>
+						<measurementStopDate>2017-07-24</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.025.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +- 1.0 C;
+								Length measurements corrected to 20 C using CTE = 1e-6 / C
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">41364</value>
+							<uncertainty variables="L">40/2</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>Interchangeable bases and allen key in cardboard box with staff.</accessories>
+			<documentation></documentation>
+			<financial>
+				<price currency="NZD">1500</price>
+				<purchaseYear>2005</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Step Gauge" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
+		<id>MSLE.L.069</id>
+		<manufacturer>Mitutoyo</manufacturer>
+		<model>Check Master Code No: 515-722</model>
+		<serial>012408</serial>
+		<description>IRL Number: 003430. A 610 mm long step gauge with measuring faces every 10 mm.</description>
+		<specifications>
+			Length: 610 mm
+			Measurement face spacing: 10 mm
+		</specifications>
+		<location>CMM Room</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>True</traceable>
+		<calibrations>
+			<measurand quantity="Deviation" calibrationInterval="5">
+				<component name="Step Gauge">
+					<report id="Length/2005/661" enteredBy="E F Howick">
+						<reportIssueDate>2005-06-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2005-06-15</measurementStartDate>
+						<measurementStopDate>2005-06-20</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.032.001</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 18.5 to 20.5 C
+								Measurements corrected to 20 C using CTE = 11.5e-6 /C
+								CMM corrected measurements to 20 C using manufacturers supplied 8.3e-6 /C
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<table>
+								<type>  double           ,double              ,double             </type>
+								<unit>  mm               ,mm                  ,mm                 </unit>
+								<header>Nominal Distance ,Measured Deviation  ,Expanded Uncertainty (95%, k=2.6) </header>
+								<data>
+									10                   ,-0.00022            ,0.00043
+									20                   ,0.00022             ,0.00029
+									30                   ,0.00005             ,0.00042
+									40                   ,0.00018             ,0.00030
+									50                   ,0.00016             ,0.00043
+									60                   ,0.00021             ,0.00040
+									70                   ,0.00009             ,0.00048
+									80                   ,0.00026             ,0.00043
+									90                   ,0.00022             ,0.00038
+									100                  ,0.00024             ,0.00051
+									110                  ,0.00015             ,0.00038
+									120                  ,0.00024             ,0.00042
+									130                  ,0.00026             ,0.00037
+									140                  ,0.00013             ,0.00045
+									150                  ,0.00003             ,0.00031
+									160                  ,0.00016             ,0.00049
+									170                  ,-0.00002             ,0.00029
+									180                  ,-0.00005             ,0.00033
+									190                  ,-0.00015             ,0.00025
+									
+									200                  ,-0.00004             ,0.00025
+									210                  ,-0.00012             ,0.00030
+									220                  ,-0.00027             ,0.00030
+									230                  ,-0.00044             ,0.00023
+									240                  ,-0.00030             ,0.00043
+									250                  ,-0.00033             ,0.00026
+									260                  ,-0.00033             ,0.00052
+									270                  ,-0.00035             ,0.00038
+									280                  ,-0.00044             ,0.00051
+									290                  ,-0.00046             ,0.00054			
+									300                  ,-0.00064             ,0.00062
+									310                  ,-0.00082             ,0.00066
+									
+									320                  ,-0.00078             ,0.00070
+									330                  ,-0.00100             ,0.00066
+									340                  ,-0.00118             ,0.00072
+									350                  ,-0.00140             ,0.00072
+									360                  ,-0.00139             ,0.00078
+									370                  ,-0.00154             ,0.00071
+									380                  ,-0.00171             ,0.00075
+									390                  ,-0.00185             ,0.00081
+									400                  ,-0.00186             ,0.00086
+									410                  ,-0.00202             ,0.00099
+									420                  ,-0.00211             ,0.00085
+									430                  ,-0.00231             ,0.00106
+									440                  ,-0.00235             ,0.00113
+									450                  ,-0.00254             ,0.00117
+									460                  ,-0.00264             ,0.00113
+									470                  ,-0.00285             ,0.00132
+									480                  ,-0.00281             ,0.00133
+									490                  ,-0.00302             ,0.00143
+
+									500                  ,-0.00312             ,0.00145
+									510                  ,-0.00328             ,0.00162
+									520                  ,-0.00325             ,0.00177
+									530                  ,-0.00344             ,0.00204
+									540                  ,-0.00351             ,0.00215
+									550                  ,-0.00366             ,0.00246
+									560                  ,-0.00370             ,0.00271
+									570                  ,-0.00390             ,0.00303
+									580                  ,-0.00391             ,0.00323
+									590                  ,-0.00408             ,0.00343
+									600                  ,-0.00379             ,0.00368
+									610                  ,-0.00397             ,0.00397
+								</data>
+							</table>
+							<value variables=""></value>
+							<uncertainty variables="">See table.95% Uncertainty with k=2.6</uncertainty>
+							<unit></unit>
+							<ranges>
+								Temperature: 18.5 to 20.5 C
+								Measurements corrected to 20 C using CTE = 11.5e-6 /C
+								CMM corrected measurements to 20 C using manufacturers supplied 8.3e-6 /C
+								Coverage factor = 2.6
+							</ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.</id>
+		<manufacturer></manufacturer>
+		<model></model>
+		<serial></serial>
+		<description></description>
+		<specifications>
+
+		</specifications>
+		<location></location>
+		<status>Unknown</status>
+		<loggable>false</loggable>
+		<traceable>Unknown</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="years">
+				<component name="">
+					<report id="" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +- 1.0 C;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="var"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.</id>
+		<manufacturer></manufacturer>
+		<model></model>
+		<serial></serial>
+		<description></description>
+		<specifications>
+
+		</specifications>
+		<location></location>
+		<status>Unknown</status>
+		<loggable>false</loggable>
+		<traceable>Unknown</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="years">
+				<component name="">
+					<report id="" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +- 1.0 C;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="var"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.</id>
+		<manufacturer></manufacturer>
+		<model></model>
+		<serial></serial>
+		<description></description>
+		<specifications>
+
+		</specifications>
+		<location></location>
+		<status>Unknown</status>
+		<loggable>false</loggable>
+		<traceable>Unknown</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="years">
+				<component name="">
+					<report id="" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +- 1.0 C;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="var"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.</id>
+		<manufacturer></manufacturer>
+		<model></model>
+		<serial></serial>
+		<description></description>
+		<specifications>
+
+		</specifications>
+		<location></location>
+		<status>Unknown</status>
+		<loggable>false</loggable>
+		<traceable>Unknown</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="years">
+				<component name="">
+					<report id="" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +- 1.0 C;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="var"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.</id>
+		<manufacturer></manufacturer>
+		<model></model>
+		<serial></serial>
+		<description></description>
+		<specifications>
+
+		</specifications>
+		<location></location>
+		<status>Unknown</status>
+		<loggable>false</loggable>
+		<traceable>Unknown</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="years">
+				<component name="">
+					<report id="" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								Temperature: 20.0 +- 1.0 C;
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="var"></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+				<id>MSLT.L.</id>
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
