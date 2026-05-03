@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <register team="Length" xmlns="https://measurement.govt.nz/equipment-register">
- <equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young">
+	<equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young">
 		<id>MSLE.L.106</id>
 		<manufacturer>Vaisala</manufacturer>
 		<model>PTU303</model>
@@ -14,7 +14,7 @@
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
 				<component name="Hygrometer">
-					<report id="18-12-39" enteredBy="Chris Young">
+					<report id="HEL184120025" enteredBy="Chris Young">
 						<reportIssueDate>2018-12-12</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2018-10-08</measurementStartDate>
 						<measurementStopDate>2018-10-08</measurementStopDate>
@@ -39,30 +39,33 @@
 			</measurand>
 			<measurand quantity="Pressure" calibrationInterval="3">
 				<component name="Barometer">
-					<report id="Pressure/2020/616" enteredBy="Chris Young">
-						<reportIssueDate>2024-08-14</reportIssueDate>
+					<report id="Pressure/2024/690" enteredBy="Chris Young">
+						<reportIssueDate>2024-10-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-08-13</measurementStartDate>
 						<measurementStopDate>2024-08-13</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.P.001</technicalProcedure>
-						<conditions></conditions>
+						<conditions>
+							Temperature: 20.0 +/- 0.2 C
+							Pressure: 102.6 +/- kPa
+						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
 							<type>  int             , double            , double          , double             , int</type>
 							<unit>  hPa             , hPa               , hPa             , hPa                , no unit</unit>
 							<header>Nominal Pressure, Rising Pressure   , Falling Pressure, Std. Uncertainty   , dof</header>
 							<data>
-								950             ,  -0.145            , -0.145           , 0.0105             , 50
-								960             ,  -0.145            , -0.145           , 0.0105             , 50
-								970             ,  -0.149            , -0.149           , 0.0105             , 50
-								980             ,  -0.151            , -0.151           , 0.0105             , 50
-								990             ,  -0.141            , -0.146           , 0.0105             , 50
-								1000            ,  -0.143            , -0.143           , 0.0105             , 50
-								1010            ,  -0.143            , -0.143           , 0.0105             , 50
-								1020            ,  -0.147            , -0.142           , 0.0105             , 50
-								1030            ,  -0.141            , -0.141           , 0.0105             , 50
-								1040            ,  -0.141            , -0.141           , 0.0105             , 50
-								1050            ,  -0.144            , -0.141           , 0.0105             , 50
+								950             ,  -0.145            , -0.145           , 0.01                 , 20
+								960             ,  -0.145            , -0.145           , 0.01                 , 20
+								970             ,  -0.149            , -0.149           , 0.01                 , 20
+								980             ,  -0.151            , -0.151           , 0.01                 , 20
+								990             ,  -0.141            , -0.146           , 0.01                 , 20
+								1000            ,  -0.143            , -0.143           , 0.01                 , 20
+								1010            ,  -0.143            , -0.143           , 0.01                 , 20
+								1020            ,  -0.147            , -0.142           , 0.01                 , 20
+								1030            ,  -0.141            , -0.141           , 0.01                 , 20
+								1040            ,  -0.141            , -0.141           , 0.01                 , 20
+								1050            ,  -0.144            , -0.141           , 0.01                 , 20
 							</data>
 						</table>
 					</report>
@@ -70,7 +73,7 @@
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
 				<component name="Thermometer">
-					<report id="18-12-39" enteredBy="Chris Young">
+					<report id="HEL184120025" enteredBy="Chris Young">
 						<reportIssueDate>2018-12-12</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2018-10-08</measurementStartDate>
 						<measurementStopDate>2018-10-08</measurementStopDate>
@@ -173,9 +176,9 @@
 						<technicalProcedure>Not Stated</technicalProcedure>
 						<conditions>
 							<measurementConditions>
-								Humidity = 36%
-								Temperature = 23 degrees
-								Pressure = 978
+								Humidity = 36 +/- 5 rh%
+								Temperature = 23 +/- 1 °C
+								Pressure = 978 +/- 1 hPa
 							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
@@ -184,15 +187,15 @@
 							<unit>  hPa             , hPa               , hPa             , hPa                , no unit</unit>
 							<header>Nominal Pressure, Rising Pressure   , Falling Pressure, Std. Uncertainty   , dof</header>
 							<data>
-								500.02          ,  0.000            , 0.000           , 0.035             , 50
-								550.04          ,  0.000            , 0.000           , 0.035             , 50
-								650.01          ,  0.000            , 0.000           , 0.035             , 50
-								750.01          ,  0.000            , 0.000           , 0.035             , 50
-								849.99          ,  0.000            , 0.000           , 0.035             , 50
-								950.00          ,  0.000            , 0.000           , 0.035             , 50
-								1000.00         ,  0.000            , 0.000           , 0.035             , 50
-								1049.99         ,  0.000            , 0.000           , 0.035             , 50
-								1099.99         ,  0.000            , 0.000           , 0.035             , 50
+								500.02          ,  0.000            , 0.000           , 0.07/2             , 50
+								550.04          ,  0.000            , 0.000           , 0.07/2             , 50
+								650.01          ,  0.000            , 0.000           , 0.07/2             , 50
+								750.01          ,  0.000            , 0.000           , 0.07/2             , 50
+								849.99          ,  0.000            , 0.000           , 0.07/2             , 50
+								950.00          ,  0.000            , 0.000           , 0.07/2             , 50
+								1000.00         ,  0.000            , 0.000           , 0.07/2             , 50
+								1049.99         ,  0.000            , 0.000           , 0.07/2             , 50
+								1099.99         ,  0.000            , 0.000           , 0.07/2             , 50
 							</data>
 						</table>
 					</report>
@@ -208,7 +211,7 @@
 						<technicalProcedure>Not Stated</technicalProcedure>
 						<conditions>
 							<measurementConditions>
-								18 °C to 22 °C
+								20 °C to 24 °C
 								23 %rh to 31 %rh
 								973 hPa to 1013 hPa
 							</measurementConditions>
@@ -467,7 +470,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Gauge Block Set" enteredBy ="Chris Young">
+	<equipment keywords="Gauge Block Set" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.083</id>
 		<manufacturer>Opus Metrology UK</manufacturer>
 		<model>M122</model>
@@ -557,7 +560,7 @@
 								1.35                ,11034N           ,0.051            ,0.011               ,50
 								1.36                ,00782P           ,0.024            ,0.011               ,50
 								1.37                ,02200P           ,0.019            ,0.011               ,50
-								1.38                ,04366P           ,0.160            ,0.011               ,50
+								1.38                ,04366P           ,0.161            ,0.011               ,50
 								1.39                ,02031P           ,0.094            ,0.011               ,50
 								1.4                 ,14231R           ,0.016            ,0.011               ,50
 								1.41                ,04333P           ,0.087            ,0.011               ,50
@@ -5594,7 +5597,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT064</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5654,7 +5657,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT065</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5714,7 +5717,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT066</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5774,7 +5777,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT067</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5834,7 +5837,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT068</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5862,7 +5865,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1127*(1+3.91214E-3*t - 6.065E-7*pow(t,2))</value>
+							<value variables="t">100.0874*(1+3.92376E-3*t - 7.020E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0042/2</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
@@ -5894,7 +5897,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT069</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -5954,7 +5957,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT070</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6014,7 +6017,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT071</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6074,7 +6077,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT072</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6134,7 +6137,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT073</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6194,7 +6197,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT074</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6254,7 +6257,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT075</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6314,7 +6317,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT076</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6374,7 +6377,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT077</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7581,8 +7584,7 @@
 		<manufacturer>Leica</manufacturer>
 		<model>Wild GPCL3</model>
 		<serial>NEDO 026998</serial>
-		<description>A 3 metre survey staff with a central invar scale bearing a barcode pattern in alternating black and yellow. Width of each elements is nominally an integer multiple of 2.025 mm. 
-		Staff has a sticker with "NEDO 026998" on the back. Located in a 3 metre green rectangular box.</description>
+		<description>A 3 metre survey staff with a central invar scale bearing a barcode pattern in alternating black and yellow. Width of each elements is nominally an integer multiple of 2.025 mm. Staff has a sticker with "NEDO 026998" on the back. Located in a 3 metre green rectangular box.</description>
 		<specifications>
 			Length: 3 m
 			Barcode element width: integer multiple of 2.025 mm.
