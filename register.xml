@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <register team="Length" xmlns="https://measurement.govt.nz/equipment-register">
-	<equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young">
+	<equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04">
 		<id>MSLE.L.106</id>
 		<manufacturer>Vaisala</manufacturer>
 		<model>PTU303</model>
@@ -25,13 +25,13 @@
 						<conditions></conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + 0.2</value>
+							<value variables="h">h + 0.2</value>
 							<uncertainty variables="">0.5</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
-								<range variable="R">
-									<minimum>0</minimum>
-									<maximum>95</maximum>
+								<range variable="h">
+									<minimum>15</minimum>
+									<maximum>55</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -48,8 +48,18 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.P.001</technicalProcedure>
 						<conditions>
-							Temperature: 20.0 +/- 0.2 C
-							Pressure: 102.6 +/- kPa
+							<temperature unit ="C">
+								<range>
+									<minimum>19.8</minimum>
+									<maximum>20.2</maximum>
+								</range>
+							</temperature>
+							<pressure>
+								<range>
+									<minimum>102.5</minimum>
+									<maximum>102.7</maximum>
+								</range>
+							</pressure>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
@@ -82,17 +92,20 @@
 						<issuingLaboratory>Vaisala Finland</issuingLaboratory>
 						<technicalProcedure>Not Stated</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								19 °C to 21 °C
-							</measurementConditions>
+								<temperature unit ="C">
+									<range>
+										<minimum>19</minimum>
+										<maximum>21</maximum>
+									</range>
+								</temperature>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="T">T + (0.0)</value>
+							<value variables="t">t + (0.0)</value>
 							<uncertainty variables="">0.05</uncertainty>
-							<unit>°C</unit>
+							<unit>C</unit>
 							<ranges>
-								<range variable="T">
+								<range variable="t">
 									<minimum>19</minimum>
 									<maximum>21</maximum>
 								</range>
@@ -131,7 +144,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young">
+	<equipment keywords="Barometer Hygrometer Thermometer" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04">
 		<id>MSLE.L.128</id>
 		<manufacturer>Vaisala</manufacturer>
 		<model>Indigo500 Series HMP9 Probe</model>
@@ -156,11 +169,11 @@
 						<conditions></conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + 0.0</value>
+							<value variables="h">h + 0.0</value>
 							<uncertainty variables="">0.5</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="h">
 									<minimum>33</minimum>
 									<maximum>95</maximum>
 								</range>
@@ -179,11 +192,24 @@
 						<issuingLaboratory>Vaisala Finland</issuingLaboratory>
 						<technicalProcedure>Not Stated</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Humidity = 36 +/- 5 rh%
-								Temperature = 23 +/- 1 °C
-								Pressure = 978 +/- 1 hPa
-							</measurementConditions>
+								<temperature unit ="C">
+									<range>
+										<minimum>22</minimum>
+										<maximum>24</maximum>
+									</range>
+								</temperature>
+								<humidity unit ="%rh">
+									<range>
+										<minimum>31</minimum>
+										<maximum>41</maximum>
+									</range>
+								</humidity>
+								<pressure unit ="hPa">
+									<range>
+										<minimum>977</minimum>
+										<maximum>979</maximum>
+									</range>
+								</pressure>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
@@ -214,21 +240,32 @@
 						<issuingLaboratory>Vaisala Finland</issuingLaboratory>
 						<technicalProcedure>Not Stated</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								20 °C to 24 °C
-								23 %rh to 31 %rh
-								973 hPa to 1013 hPa
-							</measurementConditions>
+								<temperature unit ="C">
+									<range>
+										<minimum>20</minimum>
+										<maximum>24</maximum>
+									</range>
+								</temperature>
+								<humidity unit ="%rh">
+									<range>
+										<minimum>23</minimum>
+										<maximum>31</maximum>
+									</range>
+								</humidity>
+								<pressure unit ="hPa">
+									<range>
+										<minimum>973</minimum>
+										<maximum>1013</maximum>
+									</range>
+								</pressure>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="T">T + (0.0)</value>
+							<value variables="t">t + (0.0)</value>
 							<uncertainty variables="">0.05</uncertainty>
-							<unit>°C</unit>
+							<unit>C</unit>
 							<ranges>
-								<range variable="T">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
+								<range variable="t">
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -1125,18 +1162,16 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Flow Rate: 20 L/m;
-								Current: 1mA
-							</measurementConditions>
+								<flowRate unit ="L/m">20</flowRate>
+								<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + (-5.4 + 1.587E-2*R + 1.0757E-3*pow(R,2))</value>
+							<value variables="h">h + (-5.4 + 1.587E-2*h + 1.0757E-3*pow(h,2))</value>
 							<uncertainty variables="">0.43</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
 								</range>
@@ -1192,18 +1227,16 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Flow Rate: 20 L/m;
-								Current: 1mA
-							</measurementConditions>
+								<flowRate unit ="L/m">20</flowRate>
+								<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + (-4.71 + 2.538E-2*R + 1.009E-3*pow(R,2))</value>
+							<value variables="h">h + (-4.71 + 2.538E-2*h + 1.009E-3*pow(h,2))</value>
 							<uncertainty variables="">0.43</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
 								</range>
@@ -1259,18 +1292,16 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Flow Rate: 20 L/m;
-								Current: 1mA
-							</measurementConditions>
+								<flowRate unit ="L/m">20</flowRate>
+								<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + (-5.821 + 7.669E-2*R + 6.403E-4*pow(R,2))</value>
+							<value variables="h">h + (-5.821 + 7.669E-2*h + 6.403E-4*pow(h,2))</value>
 							<uncertainty variables="">0.415</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
 								</range>
@@ -1326,18 +1357,16 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Flow Rate: 20 L/m;
-								Current: 1mA
-							</measurementConditions>
+								<flowRate unit ="L/m">20</flowRate>
+								<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + (-6.873 + 6.796E-2*R + 1.0097E-3*pow(R,2))</value>
+							<value variables="h">h + (-6.873 + 6.796E-2*h + 1.0097E-3*pow(h,2))</value>
 							<uncertainty variables="">0.415</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
 								</range>
@@ -1397,11 +1426,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="W">632.991212579</value>
+							<value variables="w">632.991212579</value>
 							<uncertainty variables="">0.000000013</uncertainty>
 							<unit>nm</unit>
 							<ranges>
-								<range variable="W">
+								<range variable="w">
 									<minimum >632</minimum>
 									<maximum >633</maximum>
 								</range>
@@ -1463,11 +1492,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="W">532.245576449053</value>
+							<value variables="w">532.245576449053</value>
 							<uncertainty variables="">0.00000011</uncertainty>
 							<unit>nm</unit>
 							<ranges>
-								<range variable="W">
+								<range variable="w">
 									<minimum >532</minimum>
 									<maximum >533</maximum>
 								</range>
@@ -2431,16 +2460,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0220*(1+3.91771E-3*t - 6.541E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00185</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2494,16 +2521,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0209*(1+3.91798E-3*t - 6.589E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0039/2</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2557,16 +2582,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0231*(1+3.91879E-3*t - 6.663E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00185</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2620,16 +2643,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0282*(1+3.91730E-3*t - 6.591E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2683,16 +2704,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0208*(1+3.91743E-3*t - 6.573E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2746,16 +2765,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0146*(1+3.91721E-3*t - 6.619E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0039/2</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2809,16 +2826,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0261*(1+3.91856E-3*t - 6.770E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2872,16 +2887,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0293*(1+3.91841E-3*t - 6.649E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0046/2</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2935,16 +2948,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0206*(1+3.91900E-3*t - 6.770E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -2998,16 +3009,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0083*(1+3.91847E-3*t - 6.840E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0023</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3061,16 +3070,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0170*(1+3.91783E-3*t - 6.603E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3124,16 +3131,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0260*(1+3.91829E-3*t - 6.566E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0020</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3187,16 +3192,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0295*(1+3.91823E-3*t - 6.733E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0018</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3250,16 +3253,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0131*(1+3.91890E-3*t - 6.708E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00195</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3313,16 +3314,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">99.9934*(1+3.91978E-3*t - 6.865E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00235</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3376,16 +3375,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0074*(1+3.91910E-3*t - 6.706E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0020</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3439,16 +3436,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0263*(1+3.91911E-3*t - 6.704E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0021</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3503,16 +3498,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0168*(1+3.91820E-3*t - 6.637E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00185</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3566,16 +3559,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">99.9938*(1+3.91910E-3*t - 6.621E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3629,16 +3620,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0148*(1+3.91819E-3*t - 6.627E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3692,16 +3681,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0307*(1+3.91780E-3*t - 6.722E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0018</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3755,16 +3742,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0125*(1+3.91864E-3*t - 6.680E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0020</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3818,16 +3803,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0253*(1+3.91913E-3*t - 6.739E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00195</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3881,16 +3864,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0238*(1+3.91880E-3*t - 6.744E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00215</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -3944,16 +3925,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0207*(1+3.91816E-3*t - 6.761E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0022</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4007,16 +3986,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0105*(1+3.91880E-3*t - 6.729E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00245</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4070,16 +4047,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0272*(1+3.91768E-3*t - 6.866E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00215</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4133,16 +4108,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">99.9720*(1+3.91801E-3*t - 6.467E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4196,16 +4169,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0185*(1+3.91864E-3*t - 6.777E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0021</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4259,16 +4230,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 300 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">300</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0071*(1+3.91882E-3*t - 6.760E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0022</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4322,16 +4291,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">99.9794*(1+3.91474E-3*t - 6.165E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00175</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4382,16 +4349,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0349*(1+3.91467E-3*t - 5.991E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00205</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4442,16 +4407,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0332*(1+3.91536E-3*t - 6.100E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4502,16 +4465,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0308*(1+3.91409E-3*t - 6.036E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00205</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4562,16 +4523,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0073*(1+3.91282E-3*t - 6.164E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4622,16 +4581,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0560*(1+3.90771E-3*t - 6.116E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00175</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4682,16 +4639,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 120 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">120</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0111*(1+3.91229E-3*t - 6.088E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00165</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4742,16 +4697,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 120 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">120</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0034*(1+3.91260E-3*t - 6.069E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0029/2</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4802,16 +4755,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 120 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">120</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0370*(1+3.90477E-3*t - 6.034E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0017</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4862,16 +4813,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0102*(1+3.90733E-3*t - 5.991E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0018</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4922,16 +4871,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0041*(1+3.90814E-3*t - 6.024E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00185</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -4982,16 +4929,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 120 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">120</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1440*(1+3.91314E-3*t - 6.022E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0029/2</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5042,16 +4987,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 150 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">150</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1062*(1+3.91316E-3*t - 6.078E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00265</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5102,16 +5045,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 150 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">150</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1127*(1+3.91214E-3*t - 6.065E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00275</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5162,16 +5103,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1140*(1+3.91148E-3*t - 5.951E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00195</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5222,16 +5161,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1643*(1+3.91124E-3*t - 5.907E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00265</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5282,16 +5219,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 150 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">150</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1001*(1+3.91297E-3*t - 5.998E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00235</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5342,16 +5277,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1276*(1+3.91174E-3*t - 5.928E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00195</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5402,16 +5335,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 150 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">150</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1099*(1+3.91311E-3*t - 6.086E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0029</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5462,16 +5393,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 150 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">150</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1126*(1+3.91274E-3*t - 6.043E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0024</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5522,16 +5451,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1260*(1+3.91268E-3*t - 5.925E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00225</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5582,16 +5509,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1113*(1+3.91185E-3*t - 5.940E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00185</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5642,16 +5567,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1114*(1+3.91321E-3*t - 5.986E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00285</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5702,16 +5625,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1086*(1+3.91277E-3*t - 5.942E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00165</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5762,16 +5683,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0880*(1+3.91250E-3*t - 5.918E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00235</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5822,16 +5741,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1120*(1+3.91280E-3*t - 5.935E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00235</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5882,16 +5799,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 170 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1037*(1+3.91270E-3*t - 5.917E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00245</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -5942,16 +5857,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1127*(1+3.91214E-3*t - 6.065E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0042/2</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6002,16 +5915,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0832*(1+3.92428E-3*t - 7.067E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00205</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6062,16 +5973,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0958*(1+3.92307E-3*t - 7.060E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0020</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6122,16 +6031,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1020*(1+3.92324E-3*t - 7.247E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00245</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6182,16 +6089,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0936*(1+3.92356E-3*t - 7.069E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0022</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6242,16 +6147,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0891*(1+3.92393E-3*t - 7.090E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00185</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6302,16 +6205,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0787*(1+3.92317E-3*t - 6.994E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00185</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6362,16 +6263,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.1196*(1+3.92275E-3*t - 6.849E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0018</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6422,16 +6321,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0855*(1+3.92355E-3*t - 6.743E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00195</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6482,16 +6379,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 160 mm;
-								Current: 1mA
-							</measurementConditions>
+							<immersion unit ="mm">160</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t">100.0996*(1+3.92404E-3*t - 7.152E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00205</uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6542,16 +6437,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: ;
-								Current: 
-							</measurementConditions>
+							<immersion unit ="mm"></immersion>
+							<current unit ="mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t"></value>
 							<uncertainty variables=""></uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6602,16 +6495,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: ;
-								Current:
-							</measurementConditions>
+							<immersion unit ="mm"></immersion>
+							<current unit ="mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t"></value>
 							<uncertainty variables=""></uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6662,16 +6553,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: ;
-								Current:
-							</measurementConditions>
+							<immersion unit ="mm"></immersion>
+							<current unit ="mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="t"></value>
 							<uncertainty variables=""></uncertainty>
-							<unit>ohms</unit>
+							<unit>C</unit>
 							<ranges>
 								<range variable="t">
 									<minimum>0</minimum>
@@ -6725,14 +6614,12 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.033.005</technicalProcedure>
 						<conditions>
-							<measurementConditions>
 								Sensing Current: 1 mA;
 								Measurement Channel: 1;
 								Reference Channel: Internal 100 ohm;
 								Thermometer: Default PRT;
 								Range: 125 ohms;
 								The ambient temperature was 20 °C ± 2 °C
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -6803,9 +6690,7 @@
 						<issuingLaboratory>The Northern Temperature Primary Laboratory, N.T.P.L</issuingLaboratory>
 						<technicalProcedure>not stated</technicalProcedure>
 						<conditions>
-							<measurementConditions>
 								Sensing Current: 1 mA or 1.4 mA;
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
@@ -7263,7 +7148,12 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.034.001</technicalProcedure>
 						<conditions>
-							<temperatureRange>19.5 C to 20.5 C</temperatureRange>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
@@ -7292,14 +7182,17 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure></technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 19.5 C to 20.5C;
-							</measurementConditions>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">0.02</value>
-							<uncertainty variables="">0.003/2</uncertainty>
+							<uncertainty variables="">0.0015</uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>30</degreeFreedom>
@@ -7316,12 +7209,17 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.034.001</technicalProcedure>
 						<conditions>
-							<temperatureRange>19.5 C to 20.5 C</temperatureRange>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">0.0005</value>
-							<uncertainty variables="">0.00008/2</uncertainty>
+							<uncertainty variables="">0.00004</uncertainty>
 							<unit>mm</unit>
 							<ranges>
 							</ranges>
@@ -7334,11 +7232,18 @@
 						<measurementStopDate>1999-10-07</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure></technicalProcedure>
-						<conditions>19.5 C to 20.5 C</conditions>
+						<conditions>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
+						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">0.001</value>
-							<uncertainty variables="">0.0006/2</uncertainty>
+							<uncertainty variables="">0.0003</uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>30</degreeFreedom>
@@ -7355,12 +7260,17 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.034.001</technicalProcedure>
 						<conditions>
-							<temperatureRange>19.5 C to 20.5 C</temperatureRange>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">0.0005</value>
-							<uncertainty variables="">0.0001/2</uncertainty>
+							<uncertainty variables="">0.00005</uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>30</degreeFreedom>
@@ -7372,11 +7282,18 @@
 						<measurementStopDate>1999-10-07</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure></technicalProcedure>
-						<conditions>19.5 C to 20.5 C</conditions>
+						<conditions>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
+						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">0.001</value>
-							<uncertainty variables="">0.001/2</uncertainty>
+							<uncertainty variables="">0.0005</uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>30</degreeFreedom>
@@ -7423,9 +7340,12 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.003.003</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 19.5 C to 20.5C;
-							</measurementConditions>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
@@ -7547,17 +7467,11 @@
 								100                ,0.32,            ,0.18
 							</data>
 						</table>
-						<equation>
-							<value variables=""></value>
-							<uncertainty variables=""></uncertainty>
-							<unit></unit>
-							<ranges></ranges>
-							<degreeFreedom></degreeFreedom>
-							<table>
-								<type>  double                  ,double                ,double                ,double                   </type>
-								<unit>  mm                      ,mm                    ,um                    ,um                       </unit>
-								<header>Range of Lengths (over) ,Range of Lengths (to) ,Uncertainty of Length ,Uncertainty of Variation </header>
-								<data>
+						<table>
+							<type>  double                  ,double                ,double                ,double                   </type>
+							<unit>  mm                      ,mm                    ,um                    ,um                       </unit>
+							<header>Range of Lengths (over) ,Range of Lengths (to) ,Uncertainty of Length ,Uncertainty of Variation </header>
+							<data>
 									-  ,10 ,0.05/2 ,0.04/2
 									10 ,25 ,0.06/2 ,0.04/2
 									25 ,50 ,0.09/2 ,0.04/2
@@ -7565,8 +7479,7 @@
 									75 ,100,0.16/2 ,0.04/2
 
 								</data>
-							</table>
-						</equation>
+						</table>
 					</report>
 				</component>
 			</measurand>
@@ -7616,9 +7529,7 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.011</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Immersion: 230 mm;
-							</measurementConditions>
+							<immersion unit ="mm">230</immersion>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
@@ -7647,14 +7558,19 @@
 						<equation>
 							<value variables="t">7.9E-2 + 1.19E-3 * t + 2.09E-5 * pow(t,2) + -1.09E-6 * pow(t,3)
 							*(1+3.91277E-3*t - 5.942E-7*pow(t,2))</value>
-							<uncertainty variables="">0.063/2</uncertainty>
+							<uncertainty variables="">0.0315</uncertainty>
 							<unit>Celsius</unit>
-							<ranges>-1C to 40C</ranges>
+							<ranges>
+								<range variable="t">
+									<minimum>-1</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
 							<degreeFreedom></degreeFreedom>
 						</equation>
 						<equation>
 						<value variables="Ice Point">-0.04</value>
-							<uncertainty variables="0.063/2"></uncertainty>
+							<uncertainty variables="0.0315"></uncertainty>
 							<unit>Celsius</unit>
 							<ranges></ranges>
 							<degreeFreedom></degreeFreedom>
@@ -7712,10 +7628,13 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.025.002</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +/- 1.0 C;
+							<temperature unit ="C">
+								<range>
+									<minimum>19</minimum>
+									<maximum>21</maximum>
+								</range>
+							</temperature>
 								Assumed Coeff Thermal Expansion: 1.0E-6 /C
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria>ISO 12853-1:1999(E) Clauses 6 and 7 (complies), Clause 8 (does not comply)</acceptanceCriteria>
 						<equation>
@@ -7784,16 +7703,19 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure></technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +/- 1.0 C;
-								Tension: 50 N
+							<temperature unit ="C">
+								<range>
+									<minimum>19</minimum>
+									<maximum>21</maximum>
+								</range>
+							</temperature>
+							<tension unit ="N">50</tension>
 								Corrected to 20 C using a Coeff of Thermal Expansion of 11.5E-6
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">max deviation of 0.0246 mm at 181 mm, min deviation of -0.402 mm at L=41994 mm</value>
-							<uncertainty variables="L">pow( pow(10,2) + pow(10.5 * L, 2) ,0.5)/2</uncertainty>
+							<uncertainty variables="l">pow( pow(10,2) + pow(10.5 * l, 2) ,0.5)/2</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom></degreeFreedom>
@@ -7843,13 +7765,11 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables=""></value>
-							<uncertainty variables="">0.13/2</uncertainty>
+							<uncertainty variables="">0.065</uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom></degreeFreedom>
@@ -7866,8 +7786,6 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -7910,8 +7828,6 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.030.001</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -7933,8 +7849,6 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -7956,8 +7870,6 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.027.003</technicalProcedure>
 						<conditions>
-							<measurementConditions>		
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -7976,7 +7888,7 @@
 						</equation>
 						<equation>
 							<value variables=""></value>
-							<uncertainty variables="">2 * pow( pow( 0.145 ,2) + pow( 0.6*E-6 * (L/1000 - 58) ,2) ,1/2)/2 </uncertainty>
+							<uncertainty variables="l">2 * pow( pow( 0.145 ,2) + pow( 0.6*E-6 * (l/1000 - 58) ,2) ,1/2)/2 </uncertainty>
 							<unit>mm</unit>
 							<ranges>Greater than 58 m</ranges>
 							<degreeFreedom></degreeFreedom>
@@ -8032,15 +7944,18 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.025.003</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +- 1.0 C;
+							<temperature unit ="C">
+								<range>
+									<minimum>19</minimum>
+									<maximum>21</maximum>
+								</range>
+							</temperature>
 								Length measurements corrected to 20 C using CTE = 1e-6 / C
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="var"></value>
-							<uncertainty variables="L">pow( pow(10,2) + pow(10 * L, 2), 0.5)</uncertainty>
+							<uncertainty variables="l">pow( pow(10,2) + pow(10 * L, 2), 0.5)</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom></degreeFreedom>
@@ -8057,15 +7972,18 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.025.003</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +- 1.0 C;
+							<temperature unit ="C">
+								<range>
+									<minimum>19</minimum>
+									<maximum>21</maximum>
+								</range>
+							</temperature>
 								Length measurements corrected to 20 C using CTE = 1e-6 / C
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">41364</value>
-							<uncertainty variables="L">40/2</uncertainty>
+							<uncertainty variables="">20</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom></degreeFreedom>
@@ -8116,11 +8034,14 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.L.032.001</technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 18.5 to 20.5 C
+							<temperature units="C">
+								<range>
+									<minimum>18.5</minimum>
+									<maximum>20.5</maximum>
+								</range>
+							</temperature>
 								Measurements corrected to 20 C using CTE = 11.5e-6 /C
 								CMM corrected measurements to 20 C using manufacturers supplied 8.3e-6 /C
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -8129,26 +8050,25 @@
 								<unit>  mm               ,mm                  ,mm                 </unit>
 								<header>Nominal Distance ,Measured Deviation  ,Expanded Uncertainty (95%, k=2.6) </header>
 								<data>
-									10                   ,-0.00022            ,0.00043
-									20                   ,0.00022             ,0.00029
-									30                   ,0.00005             ,0.00042
-									40                   ,0.00018             ,0.00030
-									50                   ,0.00016             ,0.00043
-									60                   ,0.00021             ,0.00040
-									70                   ,0.00009             ,0.00048
-									80                   ,0.00026             ,0.00043
-									90                   ,0.00022             ,0.00038
-									100                  ,0.00024             ,0.00051
-									110                  ,0.00015             ,0.00038
-									120                  ,0.00024             ,0.00042
-									130                  ,0.00026             ,0.00037
-									140                  ,0.00013             ,0.00045
-									150                  ,0.00003             ,0.00031
-									160                  ,0.00016             ,0.00049
+									10                   ,-0.00022             ,0.00043
+									20                   ,0.00022              ,0.00029
+									30                   ,0.00005              ,0.00042
+									40                   ,0.00018              ,0.00030
+									50                   ,0.00016              ,0.00043
+									60                   ,0.00021              ,0.00040
+									70                   ,0.00009              ,0.00048
+									80                   ,0.00026              ,0.00043
+									90                   ,0.00022              ,0.00038
+									100                  ,0.00024              ,0.00051
+									110                  ,0.00015              ,0.00038
+									120                  ,0.00024              ,0.00042
+									130                  ,0.00026              ,0.00037
+									140                  ,0.00013              ,0.00045
+									150                  ,0.00003              ,0.00031
+									160                  ,0.00016              ,0.00049
 									170                  ,-0.00002             ,0.00029
 									180                  ,-0.00005             ,0.00033
 									190                  ,-0.00015             ,0.00025
-									
 									200                  ,-0.00004             ,0.00025
 									210                  ,-0.00012             ,0.00030
 									220                  ,-0.00027             ,0.00030
@@ -8161,7 +8081,6 @@
 									290                  ,-0.00046             ,0.00054			
 									300                  ,-0.00064             ,0.00062
 									310                  ,-0.00082             ,0.00066
-									
 									320                  ,-0.00078             ,0.00070
 									330                  ,-0.00100             ,0.00066
 									340                  ,-0.00118             ,0.00072
@@ -8180,7 +8099,6 @@
 									470                  ,-0.00285             ,0.00132
 									480                  ,-0.00281             ,0.00133
 									490                  ,-0.00302             ,0.00143
-
 									500                  ,-0.00312             ,0.00145
 									510                  ,-0.00328             ,0.00162
 									520                  ,-0.00325             ,0.00177
@@ -8198,67 +8116,6 @@
 							<value variables=""></value>
 							<uncertainty variables="">See table.95% Uncertainty with k=2.6</uncertainty>
 							<unit></unit>
-							<ranges>
-								Temperature: 18.5 to 20.5 C
-								Measurements corrected to 20 C using CTE = 11.5e-6 /C
-								CMM corrected measurements to 20 C using manufacturers supplied 8.3e-6 /C
-								Coverage factor = 2.6
-							</ranges>
-							<degreeFreedom></degreeFreedom>
-						</equation>
-					</report>
-				</component>
-			</measurand>
-		</calibrations>
-		<maintenance></maintenance>
-		<alterations></alterations>
-		<firmware></firmware>
-		<specifiedRequirements></specifiedRequirements>
-		<referenceMaterials></referenceMaterials>
-		<qualityManual>
-			<accessories></accessories>
-			<documentation></documentation>
-			<financial>
-				<purchaseYear></purchaseYear>
-			</financial>
-			<personnelRestrictions>Length Team Members</personnelRestrictions>
-			<technicalProcedures>
-				<id>MSLT.L.</id>
-			</technicalProcedures>
-		</qualityManual>
-	</equipment>
-	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
-		<id>MSLE.L.</id>
-		<manufacturer></manufacturer>
-		<model></model>
-		<serial></serial>
-		<description></description>
-		<specifications>
-
-		</specifications>
-		<location></location>
-		<status>Unknown</status>
-		<loggable>false</loggable>
-		<traceable>Unknown</traceable>
-		<calibrations>
-			<measurand quantity="" calibrationInterval="years">
-				<component name="">
-					<report id="" enteredBy="">
-						<reportIssueDate></reportIssueDate>
-						<measurementStartDate recalibrateReference="true"></measurementStartDate>
-						<measurementStopDate></measurementStopDate>
-						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure></technicalProcedure>
-						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +- 1.0 C;
-							</measurementConditions>
-						</conditions>
-						<acceptanceCriteria></acceptanceCriteria>
-						<equation>
-							<value variables="var"></value>
-							<uncertainty variables=""></uncertainty>
-							<unit></unit>
 							<ranges></ranges>
 							<degreeFreedom></degreeFreedom>
 						</equation>
@@ -8283,7 +8140,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
+	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.</id>
 		<manufacturer></manufacturer>
 		<model></model>
@@ -8306,177 +8163,6 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure></technicalProcedure>
 						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +- 1.0 C;
-							</measurementConditions>
-						</conditions>
-						<acceptanceCriteria></acceptanceCriteria>
-						<equation>
-							<value variables="var"></value>
-							<uncertainty variables=""></uncertainty>
-							<unit></unit>
-							<ranges></ranges>
-							<degreeFreedom></degreeFreedom>
-						</equation>
-					</report>
-				</component>
-			</measurand>
-		</calibrations>
-		<maintenance></maintenance>
-		<alterations></alterations>
-		<firmware></firmware>
-		<specifiedRequirements></specifiedRequirements>
-		<referenceMaterials></referenceMaterials>
-		<qualityManual>
-			<accessories></accessories>
-			<documentation></documentation>
-			<financial>
-				<purchaseYear></purchaseYear>
-			</financial>
-			<personnelRestrictions>Length Team Members</personnelRestrictions>
-			<technicalProcedures>
-				<id>MSLT.L.</id>
-			</technicalProcedures>
-		</qualityManual>
-	</equipment>
-	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
-		<id>MSLE.L.</id>
-		<manufacturer></manufacturer>
-		<model></model>
-		<serial></serial>
-		<description></description>
-		<specifications>
-
-		</specifications>
-		<location></location>
-		<status>Unknown</status>
-		<loggable>false</loggable>
-		<traceable>Unknown</traceable>
-		<calibrations>
-			<measurand quantity="" calibrationInterval="years">
-				<component name="">
-					<report id="" enteredBy="">
-						<reportIssueDate></reportIssueDate>
-						<measurementStartDate recalibrateReference="true"></measurementStartDate>
-						<measurementStopDate></measurementStopDate>
-						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure></technicalProcedure>
-						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +- 1.0 C;
-							</measurementConditions>
-						</conditions>
-						<acceptanceCriteria></acceptanceCriteria>
-						<equation>
-							<value variables="var"></value>
-							<uncertainty variables=""></uncertainty>
-							<unit></unit>
-							<ranges></ranges>
-							<degreeFreedom></degreeFreedom>
-						</equation>
-					</report>
-				</component>
-			</measurand>
-		</calibrations>
-		<maintenance></maintenance>
-		<alterations></alterations>
-		<firmware></firmware>
-		<specifiedRequirements></specifiedRequirements>
-		<referenceMaterials></referenceMaterials>
-		<qualityManual>
-			<accessories></accessories>
-			<documentation></documentation>
-			<financial>
-				<purchaseYear></purchaseYear>
-			</financial>
-			<personnelRestrictions>Length Team Members</personnelRestrictions>
-			<technicalProcedures>
-				<id>MSLT.L.</id>
-			</technicalProcedures>
-		</qualityManual>
-	</equipment>
-	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
-		<id>MSLE.L.</id>
-		<manufacturer></manufacturer>
-		<model></model>
-		<serial></serial>
-		<description></description>
-		<specifications>
-
-		</specifications>
-		<location></location>
-		<status>Unknown</status>
-		<loggable>false</loggable>
-		<traceable>Unknown</traceable>
-		<calibrations>
-			<measurand quantity="" calibrationInterval="years">
-				<component name="">
-					<report id="" enteredBy="">
-						<reportIssueDate></reportIssueDate>
-						<measurementStartDate recalibrateReference="true"></measurementStartDate>
-						<measurementStopDate></measurementStopDate>
-						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure></technicalProcedure>
-						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +- 1.0 C;
-							</measurementConditions>
-						</conditions>
-						<acceptanceCriteria></acceptanceCriteria>
-						<equation>
-							<value variables="var"></value>
-							<uncertainty variables=""></uncertainty>
-							<unit></unit>
-							<ranges></ranges>
-							<degreeFreedom></degreeFreedom>
-						</equation>
-					</report>
-				</component>
-			</measurand>
-		</calibrations>
-		<maintenance></maintenance>
-		<alterations></alterations>
-		<firmware></firmware>
-		<specifiedRequirements></specifiedRequirements>
-		<referenceMaterials></referenceMaterials>
-		<qualityManual>
-			<accessories></accessories>
-			<documentation></documentation>
-			<financial>
-				<purchaseYear></purchaseYear>
-			</financial>
-			<personnelRestrictions>Length Team Members</personnelRestrictions>
-			<technicalProcedures>
-				<id>MSLT.L.</id>
-			</technicalProcedures>
-		</qualityManual>
-	</equipment>
-	<equipment keywords="TEMPLATE" enteredBy ="Charlotte Hayton">
-		<id>MSLE.L.</id>
-		<manufacturer></manufacturer>
-		<model></model>
-		<serial></serial>
-		<description></description>
-		<specifications>
-
-		</specifications>
-		<location></location>
-		<status>Unknown</status>
-		<loggable>false</loggable>
-		<traceable>Unknown</traceable>
-		<calibrations>
-			<measurand quantity="" calibrationInterval="years">
-				<component name="">
-					<report id="" enteredBy="">
-						<reportIssueDate></reportIssueDate>
-						<measurementStartDate recalibrateReference="true"></measurementStartDate>
-						<measurementStopDate></measurementStopDate>
-						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure></technicalProcedure>
-						<conditions>
-							<measurementConditions>
-								Temperature: 20.0 +- 1.0 C;
-							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
