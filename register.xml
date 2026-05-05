@@ -9034,14 +9034,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="L">0</value>
+							<value variables="">0</value>
 							<uncertainty variables="L">pow( pow(5,2) + pow(5 * L, 2), 0.5)</uncertainty>
 							<unit>um</unit>
 							<ranges>
-								<range variable="L">
-									<minimum>0</minimum>
-									<maximum>50</maximum>
-								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
