@@ -1639,7 +1639,7 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">40</value>
-							<uncertainty variables="D">106</uncertainty>
+							<uncertainty variables="">106</uncertainty>
 							<unit>nm</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -8908,7 +8908,7 @@
 						</equation>
 						<equation>
 							<value variables="">0</value>
-							<uncertainty variables="">2 * pow( pow( 0.145 ,2) + pow( 0.6*E-6 * (L/1000 - 58) ,2) ,1/2)/2 </uncertainty>
+							<uncertainty variables="">2 * pow( pow(0.145 ,2) + pow( 0.6*e-6 * (L/1000 - 58) ,2) ,1/2)/2 </uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -9041,8 +9041,8 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="var">0</value>
-							<uncertainty variables="L">pow( pow(10,2) + pow(10 * L, 2), 0.5)</uncertainty>
+							<value variables="L">0</value>
+							<uncertainty variables="L">pow( pow(5,2) + pow(5 * L, 2), 0.5)</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -9065,7 +9065,7 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">41364</value>
-							<uncertainty variables="L">20</uncertainty>
+							<uncertainty variables="">20</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
