@@ -1390,15 +1390,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">100</value>
+							<value variables="">100</value>
 							<uncertainty variables="">30</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1426,15 +1421,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">60</value>
+							<value variables="">60</value>
 							<uncertainty variables="">30</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1462,15 +1452,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">90</value>
+							<value variables="">90</value>
 							<uncertainty variables="">30</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1498,15 +1483,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">90</value>
+							<value variables="">90</value>
 							<uncertainty variables="">30</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1534,15 +1514,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">20</value>
+							<value variables="">20</value>
 							<uncertainty variables="">30</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1570,15 +1545,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">-70</value>
+							<value variables="">-70</value>
 							<uncertainty variables="">52.25</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1606,15 +1576,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">220</value>
+							<value variables="">220</value>
 							<uncertainty variables="">63</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1642,15 +1607,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">20</value>
+							<value variables="">20</value>
 							<uncertainty variables="">84.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1678,15 +1638,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">40</value>
+							<value variables="">40</value>
 							<uncertainty variables="">106</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1714,15 +1669,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">-360</value>
+							<value variables="">-360</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1750,15 +1700,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">-330</value>
+							<value variables="">-330</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1786,15 +1731,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">690</value>
+							<value variables="">690</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1822,15 +1762,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">480</value>
+							<value variables="">480</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1858,15 +1793,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">40</value>
+							<value variables="">40</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1894,15 +1824,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">-100</value>
+							<value variables="">-100</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1930,15 +1855,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">230</value>
+							<value variables="">230</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -1966,15 +1886,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="D">0</value>
+							<value variables="">0</value>
 							<uncertainty variables="">127.5</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="D">
-									<minimum>19</minimum>
-									<maximum>21</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2294,15 +2209,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="W">632.991212579</value>
+							<value variables="">632.991212579</value>
 							<uncertainty variables="">0.000000013</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="W">
-									<minimum >632</minimum>
-									<maximum >633</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2360,15 +2270,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="W">532.245576449053</value>
+							<value variables="">532.245576449053</value>
 							<uncertainty variables="">0.00000011</uncertainty>
 							<unit>nm</unit>
-							<ranges>
-								<range variable="W">
-									<minimum >532</minimum>
-									<maximum >533</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2427,15 +2332,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612234.13</value>
+							<value variables="">473612234.13</value>
 							<uncertainty variables="">0.165</uncertainty>
 							<unit>MHz</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2453,15 +2353,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612229.93</value>
+							<value variables="">473612229.93</value>
 							<uncertainty variables="">0.055</uncertainty>
 							<unit>MHz</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2609,15 +2504,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612220.8</value>
+							<value variables="">473612220.8</value>
 							<uncertainty variables="">0.35</uncertainty>
 							<unit>MHZ</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2681,15 +2571,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612158</value>
+							<value variables="">473612158</value>
 							<uncertainty variables="">0.3</uncertainty>
 							<unit>MHz</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2707,15 +2592,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612227.60</value>
+							<value variables="">473612227.60</value>
 							<uncertainty variables="">0.10</uncertainty>
 							<unit>MHz</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2733,15 +2613,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612223.30</value>
+							<value variables="">473612223.30</value>
 							<uncertainty variables="">0.185</uncertainty>
 							<unit>MHz</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2805,15 +2680,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612224.69</value>
+							<value variables="">473612224.69</value>
 							<uncertainty variables="">0.27</uncertainty>
 							<unit>MHZ</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2831,15 +2701,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612220.15</value>
+							<value variables="">473612220.15</value>
 							<uncertainty variables="">0.165</uncertainty>
 							<unit>MHZ</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2903,15 +2768,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612232.5</value>
+							<value variables="">473612232.5</value>
 							<uncertainty variables="">0.6</uncertainty>
 							<unit>MHz</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -2975,15 +2835,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="f">473612239.7</value>
+							<value variables="">473612239.7</value>
 							<uncertainty variables="">0.35</uncertainty>
 							<unit>MHz</unit>
-							<ranges>
-								<range variable="f">
-									<minimum >473.5</minimum>
-									<maximum >473.7</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -7526,15 +7381,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">0</value>
+							<value variables="">0</value>
 							<uncertainty variables="">0</uncertainty>
 							<unit>ohms</unit>
-							<ranges>
-								<range variable="t">
-									<minimum>0</minimum>
-									<maximum>40</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -7585,14 +7435,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">0</value>
+							<value variables="">0</value>
 							<uncertainty variables="">0</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
-								<range variable="t">
-									<minimum>0</minimum>
-									<maximum>40</maximum>
-								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
@@ -7644,15 +7490,10 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">0</value>
+							<value variables="">0</value>
 							<uncertainty variables="">0</uncertainty>
 							<unit>ohms</unit>
-							<ranges>
-								<range variable="t">
-									<minimum>0</minimum>
-									<maximum>40</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -8145,15 +7986,10 @@
 						<conditions></conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="r">99.999967</value>
+							<value variables="">99.999967</value>
 							<uncertainty variables="">0.000006</uncertainty>
 							<unit>ohms</unit>
-							<ranges>
-								<range variable="r">
-									<minimum >99.999967</minimum>
-									<maximum >99.999967</maximum>
-								</range>
-							</ranges>
+							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -8168,15 +8004,10 @@
 						<conditions></conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">1.130</value>
+							<value variables="">1.130</value>
 							<uncertainty variables="">0.008</uncertainty>
-							<unit>ohms</unit>
-							<ranges>
-								<range variable="t">
-									<minimum>15</minimum>
-									<maximum>30</maximum>
-								</range>
-							</ranges>
+							<unit>ohms/C</unit>
+							<ranges></ranges>
 							<degreeFreedom>18</degreeFreedom>
 						</equation>
 					</report>
@@ -8286,11 +8117,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
-							<type>  int            , double          , double             , int</type>
+							<type>  double            , double          , double             , int</type>
 							<unit>  mm             , mm              , mm                 , no unit</unit>
 							<header>Reference Gauge, Deviation       ,Std. Uncertainty   , dof</header>
 							<data>
-							0               ,  0.000           , 0.00095             , 30
+							0.0             ,  0.000           , 0.00095             , 30
 							2.5             ,  0.000           , 0.00095             , 30
 							5.1             ,  0.000           , 0.00095             , 30
 							7.7             ,  0.000           , 0.00095             , 30
@@ -8585,7 +8416,7 @@
 								25                 ,0.21             ,0.08
 								50                 ,0.08             ,0.09
 								75                 ,0.27             ,0.10
-								100                ,0.32,            ,0.18
+								100                ,0.32             ,0.18
 							</data>
 						</table>
 						<table>
@@ -8593,7 +8424,7 @@
 							<unit>  mm                      ,mm                    ,um                    ,um                       </unit>
 							<header>Range of Lengths (over) ,Range of Lengths (to) ,Uncertainty of Length ,Uncertainty of Variation </header>
 							<data>
-								-  ,10 ,0.025 ,0.02
+								0  ,10 ,0.025 ,0.02
 								10 ,25 ,0.030 ,0.02
 								25 ,50 ,0.045 ,0.02
 								50 ,75 ,0.060 ,0.02
@@ -8680,19 +8511,33 @@
 						<equation>
 							<value variables="t">7.9E-2 + 1.19E-3 * t + 2.09E-5 * pow(t,2) + -1.09E-6 * pow(t,3)*(1+3.91277E-3*t - 5.942E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0315</uncertainty>
-							<unit>Celsius</unit>
+							<unit>C</unit>
 							<ranges>
-								<range variable ="t">
+								<range variable="t">
 									<minimum>-1</minimum>
 									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
+					</report>
+				</component>
+				<component name="Ice Point">
+					<report id="Length/Icepoint/001" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2017-07-24</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-07-21</measurementStartDate>
+						<measurementStopDate>2017-07-22</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.011</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-						<value variables="Ice Point">-0.04</value>
-							<uncertainty variables="">0.0315</uncertainty>
-							<unit>Celsius</unit>
+							<value variables="">-0.040</value>
+							<uncertainty variables="">0.005</uncertainty>
+							<unit>C</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
@@ -8741,7 +8586,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Length" calibrationInterval="5">
-				<component name="Survey Staff">
+				<component name="Zero Point Error">
 					<report id="Length/2004/648" enteredBy="Charlotte Hayton">
 						<reportIssueDate>2004-12-02</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2004-11-27</measurementStartDate>
@@ -8761,21 +8606,65 @@
 							<documentaryStandardsISO>12853-1:1999(E) Clauses 6 and 7 (complies), Clause 8 (does not comply)</documentaryStandardsISO> 
 						</acceptanceCriteria>
 						<equation>
-							<value variables="ZPE">-0.010</value>
+							<value variables="">-0.010</value>
 							<uncertainty variables="">0.005</uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
+					</report>
+				</component>
+				<component name="Baseplate Flatness">
+					<report id="Length/2004/648" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2004-12-02</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2004-11-27</measurementStartDate>
+						<measurementStopDate>2004-11-27</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.025.002</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.0</minimum>
+									<maximum>20.0</maximum>
+								</temperature>
+								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO>12853-1:1999(E) Clauses 6 and 7 (complies), Clause 8 (does not comply)</documentaryStandardsISO>
+						</acceptanceCriteria>
 						<equation>
-							<value variables="Baseplate flatness">0.026</value>
+							<value variables="">0.026</value>
 							<uncertainty variables="">0.0233</uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
-							<equation>
-							<value variables="Baseplate_staff_axis_angle">-0.010</value>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity ="Angle" calibrationInterval="5">
+				<component name="Baseplate To Staff Axis Angle">
+					<report id="Length/2004/648" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2004-12-02</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2004-11-27</measurementStartDate>
+						<measurementStopDate>2004-11-27</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.025.002</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.0</minimum>
+									<maximum>20.0</maximum>
+								</temperature>
+								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO>12853-1:1999(E) Clauses 6 and 7 (complies), Clause 8 (does not comply)</documentaryStandardsISO>
+						</acceptanceCriteria>
+						<equation>
+							<value variables="">-0.010</value>
 							<uncertainty variables="">0.16</uncertainty>
 							<unit>arc minutes</unit>
 							<ranges></ranges>
@@ -8816,9 +8705,9 @@
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
-			<measurand quantity="Length" calibrationInterval="5">
-				<component name="tape measure">
-					<report id="Length/2017/1076" enteredBy="Charlotte Hayton">
+			<measurand quantity="Deviation in Length" calibrationInterval="5">
+				<component name="Maximum Deviation">
+					<report id="Length/2017/1076" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-05-06">
 						<reportIssueDate>2017-08-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
 						<measurementStopDate>2017-08-29</measurementStopDate>
@@ -8835,13 +8724,42 @@
 							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
-						<equation>
-							<value variables="">max deviation of 0.0246 mm at 181 mm, min deviation of -0.402 mm at L=41994 mm</value>
-							<uncertainty variables="L">pow( pow(5,2) + pow(5.25 * L, 2) ,0.5)</uncertainty>
-							<unit>um</unit>
-							<ranges></ranges>
-							<degreeFreedom>50</degreeFreedom>
-						</equation>
+						<table>
+							<type>  double, double, double, int</type>
+							<unit>  mm, mm, mm, dimensionless  </unit>
+							<header>Nominal, Deviation, Standard Uncertainty, DOF </header>
+							<data>
+								181,0.025,0.005, 50
+							</data>
+						</table>	
+					</report>
+				</component>
+				<component name="Minimum Deviation">
+					<report id="Length/2017/1076" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-05-06"> 
+						<reportIssueDate>2017-08-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
+						<measurementStopDate>2017-08-29</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum></minimum>
+									<maximum></maximum>
+								</temperature>
+								<tension unit ="N">50</tension>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double, double, double, int</type>
+							<unit>  mm, mm, mm, dimensionless  </unit>
+							<header>Nominal, Deviation, Standard Uncertainty, DOF </header>
+							<data>
+								41944,-0.402,0.220, 50
+							</data>
+						</table>
 					</report>
 				</component>
 			</measurand>
@@ -8990,7 +8908,7 @@
 						</equation>
 						<equation>
 							<value variables="">0</value>
-							<uncertainty variables="">2 * pow( pow( 0.145 ,2) + pow( 0.6*E-6 * (L/1000 - 58) ,2) ,1/2)/2 </uncertainty>
+							<uncertainty variables="">2 * pow( pow(0.145 ,2) + pow( 0.6*e-6 * (L/1000 - 58) ,2) ,1/2)/2 </uncertainty>
 							<unit>mm</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -9013,7 +8931,7 @@
 				<purchaseYear>2004</purchaseYear>
 				<warrantyExpirationDate>2009-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
-					<assetNumber>???????></assetNumber>
+					<assetNumber>???????</assetNumber>
 					<depreciationEndYear>2014</depreciationEndYear>
 					<price currency="NZD">36450</price>
 				</capitalExpenditure>
@@ -9123,8 +9041,8 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="var">0</value>
-							<uncertainty variables="L">pow( pow(10,2) + pow(10 * L, 2), 0.5)</uncertainty>
+							<value variables="L">0</value>
+							<uncertainty variables="L">pow( pow(5,2) + pow(5 * L, 2), 0.5)</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -9147,7 +9065,7 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">41364</value>
-							<uncertainty variables="L">20</uncertainty>
+							<uncertainty variables="">20</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
