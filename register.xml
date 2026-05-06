@@ -9991,7 +9991,7 @@
 		<referenceMaterials></referenceMaterials>
 		<qualityManual>
 			<accessories>
-				Adjustable angle base beam (see MSLE.L.152)
+				<holder>Adjustable angle base beam see MSLE.L.152</holder>
 			</accessories>
 			<documentation>
 				9_KOBA_Sphere Beam.pdf
@@ -10118,8 +10118,10 @@
 		<referenceMaterials></referenceMaterials>
 		<qualityManual>
 			<accessories>
-				Lever Head Serial No. 000866 (see MSLE.L.154)
-				Lever Head Serial No. 000859 (see MSLE.L.155)
+				<heads>
+					<head>Lever Head Serial No. 000866 see MSLE.L.154</head>
+					<head>Lever Head Serial No. 000859 see MSLE.L.155</head>
+				</heads>	
 			</accessories>
 			<documentation>
 			</documentation>
