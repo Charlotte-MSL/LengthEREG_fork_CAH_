@@ -9035,7 +9035,7 @@
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
 							<value variables="">0</value>
-							<uncertainty variables="L">pow( pow(5,2) + pow(5 * L, 2), 0.5)</uncertainty>
+							<uncertainty variables="">0</uncertainty>
 							<unit>um</unit>
 							<ranges>
 							</ranges>
