@@ -9975,9 +9975,9 @@
 		<description>A 2 Metre Sphere Beam CMM Measurement Artefact for CMM Accuracy Validation</description>
 		<specifications>
 			<length unit ="m">2</length>
-			<sphereDiameter unit ="mm">30</mass>
-			<sphereSpacing unit ="mm">200</mass>
-		    <expansionCoefficient unit ="/C">-0.5</mass>
+			<sphereDiameter unit ="mm">30</sphereDiameter>
+			<sphereSpacing unit ="mm">200</sphereSpacing>
+		    <expansionCoefficient unit ="/C">-0.5</expansionCoefficient>
 		</specifications>
 		<location>CMM Lab</location>
 		<status>Active</status>
