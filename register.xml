@@ -8906,13 +8906,6 @@
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
-						<equation>
-							<value variables="">0</value>
-							<uncertainty variables="">2 * pow( pow(0.145 ,2) + pow( 0.6*e-6 * (L/1000 - 58) ,2) ,1/2)/2 </uncertainty>
-							<unit>mm</unit>
-							<ranges></ranges>
-							<degreeFreedom>50</degreeFreedom>
-						</equation>
 					</report>
 				</component>
 			</measurand>
@@ -9041,10 +9034,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="L">0</value>
-							<uncertainty variables="L">pow( pow(5,2) + pow(5 * L, 2), 0.5)</uncertainty>
+							<value variables="">0</value>
+							<uncertainty variables="">0</uncertainty>
 							<unit>um</unit>
-							<ranges></ranges>
+							<ranges>
+							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
