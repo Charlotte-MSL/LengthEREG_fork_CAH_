@@ -9647,7 +9647,7 @@
 	</equipment>
 	<equipment keywords="Counter" enteredBy ="Chris Young">
 		<id>MSLE.L.148</id>
-		<manufacturer>KeySight</manufacturer>
+		<manufacturer>Keysight</manufacturer>
 		<model>53210A</model>
 		<serial>MY59300175</serial>
 		<description>A 12 digit 350 MHz RF counter</description>
@@ -9967,6 +9967,48 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
+	<equipment keywords="CMM Gauge" enteredBy ="Chris Young">
+		<id>MSLE.L.126</id>
+		<manufacturer>Koba</manufacturer>
+		<model>6472000200</model>
+		<serial>92047</serial>
+		<description>A 2 Metre Sphere Beam CMM Measurement Artefact for CMM Accuracy Validation</description>
+		<specifications>
+			<length unit ="m">2</length>
+			<sphereDiameter unit ="mm">30</mass>
+			<sphereSpacing unit ="mm">200</mass>
+		    <expansionCoefficient unit ="/C">-0.5</mass>
+		</specifications>
+		<location>CMM Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+				Adjustable angle base beam (see MSLE.L.152)
+			</accessories>
+			<documentation>
+				9_KOBA_Sphere Beam.pdf
+			</documentation>
+			<financial>
+				<purchaseYear>2023</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00009065</assetNumber>
+					<depreciationEndYear>2038</depreciationEndYear>
+					<price currency="NZD">25762</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
 	<equipment keywords="Gauge" enteredBy ="Chris Young">
 		<id>MSLE.L.118</id>
 		<manufacturer>Tesa</manufacturer>
@@ -10013,6 +10055,152 @@
 					<assetNumber>FA00007731</assetNumber>
 					<depreciationEndYear>2029</depreciationEndYear>
 					<price currency="NZD">14881.77</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="CMM Gauge" enteredBy ="Chris Young">
+		<id>MSLE.L.152</id>
+		<manufacturer>Koba</manufacturer>
+		<model>6076020000</model>
+		<serial>Ball Beam Mount (92047)</serial>
+		<description>A Torsion-Free Base Mount For a Sphere Beam</description>
+		<specifications>
+		</specifications>
+		<location>CMM Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2023</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00009065</assetNumber>
+					<depreciationEndYear>2038</depreciationEndYear>
+					<price currency="NZD">19330.17</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+    <equipment keywords="Gauge" enteredBy ="Chris Young">
+		<id>MSLE.L.153</id>
+		<manufacturer>Mitutoyo</manufacturer>
+		<model>M-553</model>
+		<serial>150011</serial>
+		<description>A Mitutoyo Mu-Checker Controller</description>
+		<specifications>
+		</specifications>
+		<location>CMM Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+				Lever Head Serial No. 000866 (see MSLE.L.154)
+				Lever Head Serial No. 000859 (see MSLE.L.155)
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2018</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00005420</assetNumber>
+					<depreciationEndYear>2026</depreciationEndYear>
+					<price currency="NZD">3400</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Gauge" enteredBy ="Chris Young">
+		<id>MSLE.L.154</id>
+		<manufacturer>Mitutoyo</manufacturer>
+		<model>519-522</model>
+		<serial>000866</serial>
+		<description>A Mitutoyo Lever Head For a Mitutoyo Mu-Checker Controller</description>
+		<specifications>
+		</specifications>
+		<location>CMM Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2018</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00005421</assetNumber>
+					<depreciationEndYear>2026</depreciationEndYear>
+					<price currency="NZD">1260</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Gauge" enteredBy ="Chris Young">
+		<id>MSLE.L.155</id>
+		<manufacturer>Mitutoyo</manufacturer>
+		<model>519-522</model>
+		<serial>000859</serial>
+		<description>A Mitutoyo Lever Head For a Mitutoyo Mu-Checker Controller</description>
+		<specifications>
+		</specifications>
+		<location>CMM Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2018</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00005422</assetNumber>
+					<depreciationEndYear>2026</depreciationEndYear>
+					<price currency="NZD">1260</price>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
