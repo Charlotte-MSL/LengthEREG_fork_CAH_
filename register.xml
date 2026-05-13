@@ -266,6 +266,8 @@
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -7432,12 +7434,17 @@
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.033.005</technicalProcedure>
 						<conditions>
-								Sensing Current: 1 mA;
-								Measurement Channel: 1;
-								Reference Channel: Internal 100 ohm;
-								Thermometer: Default PRT;
-								Range: 125 ohms;
-								The ambient temperature was 20 °C ± 2 °C
+							<sensingCurrent unit ="mA">1</sensingCurrent>
+							<measurementChannel>1</measurementChannel>
+							<referenceInternalR unit="ohm">100</referenceInternalR>
+							<thermometerType>PRT</thermometerType>
+							<range unit ="ohm">125</range>
+							<temperature unit ="C">
+								<range>
+									<minimum>18.0</minimum>
+									<maximum>22.0</maximum>
+								</range>
+							</temperature>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -7547,7 +7554,10 @@
 						<issuingLaboratory>The Northern Temperature Primary Laboratory, N.T.P.L</issuingLaboratory>
 						<technicalProcedure>not stated</technicalProcedure>
 						<conditions>
-								Sensing Current: 1 mA or 1.4 mA;
+							<sensingCurrent unit ="mA">
+								<value1>1</value1>
+								<value2>1.4</value2>
+							</sensingCurrent>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<table>
@@ -7736,32 +7746,7 @@
 						</equation>
 					</report>
 				</component>
-				<component name ="Bridge 1 MY41089285 not calibrated">
-					<report id="uncalibrated" enteredBy="Chris Young">
-						<reportIssueDate>1000-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
-						<measurementStopDate>1000-01-01</measurementStopDate>
-						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
-						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
-						<conditions>
-							<sensingCurrent>1.002 mA</sensingCurrent>
-							<resistanceRange>100 ohm</resistanceRange>
-						</conditions>
-						<acceptanceCriteria></acceptanceCriteria>
-						<equation>
-							<value variables="r">r + 0</value>
-							<uncertainty variables="">0.001</uncertainty>
-							<unit>ohm</unit>
-							<ranges>
-								<range variable="r">
-									<minimum>15</minimum>
-									<maximum>116</maximum>
-								</range>
-							</ranges>
-						</equation>
-					</report>
-				</component>
-				<component name ="Bridge 2 no card not calibrated">
+				<component name ="Bridge 2 no card, not calibrated">
 					<report id="uncalibrated" enteredBy="Chris Young">
 						<reportIssueDate>1000-01-01</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
@@ -9183,7 +9168,7 @@
 									<maximum>21</maximum>
 								</range>
 							</temperature>
-								Length measurements corrected to 20 C using CTE = 1e-6 / C
+							<expansionCoefficient unit ="/C">1e-6</expansionCoefficient>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
@@ -10338,5 +10323,149 @@
 			<technicalProcedures>
 			</technicalProcedures>
 		</qualityManual>
+	</equipment>
+	<equipment keywords="Microscope" enteredBy ="Chris Young">
+		<id>MSLE.L.156</id>
+		<manufacturer>Evident Lext</manufacturer>
+		<model>OLS5100</model>
+		<serial>2L54769</serial>
+		<description>Evident Lext OLS5100 3D Laser Scanning Microscope</description>
+		<specifications>
+		</specifications>
+		<location>Long Room</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2023</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00008881</assetNumber>
+					<depreciationEndYear>2031</depreciationEndYear>
+					<price currency="NZD">85000</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Microscope Optical Component" enteredBy ="Chris Young">
+		<id>MSLE.L.157</id>
+		<manufacturer>Evident Lext</manufacturer>
+		<model>OLS5100</model>
+		<serial>Lens Set</serial>
+		<description>Evident Lext OLS5100 3D Laser Scanning Microscope Lenses</description>
+		<specifications>
+		</specifications>
+		<location>Long Room</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2023</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00008910</assetNumber>
+					<depreciationEndYear>2031</depreciationEndYear>
+					<price currency="NZD">20000</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Stage Controller" enteredBy ="Chris Young">
+		<id>MSLE.L.158</id>
+		<manufacturer>Warsash Scientific</manufacturer>
+		<model>E-625.SR</model>
+		<serial>119068095</serial>
+		<description>Piezo Amplifier Servo Controll Unit Warsash E-625.SR</description>
+		<specifications>
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2020</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00006786</assetNumber>
+					<depreciationEndYear>2028</depreciationEndYear>
+					<price currency="NZD">5018.93</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+		</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Stage Component" enteredBy ="Chris Young">
+		<id>MSLE.L.159</id>
+		<manufacturer>Warsash Scientific</manufacturer>
+		<model>P-611.1S</model>
+		<serial>120003763</serial>
+		<description>Linear Nanopositioner 100um Warsash P-611.1s</description>
+		<specifications>
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations></calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories>
+			</accessories>
+			<documentation>
+			</documentation>
+			<financial>
+				<purchaseYear>2020</purchaseYear>
+				<capitalExpenditure>
+					<assetNumber>FA00006785</assetNumber>
+					<depreciationEndYear>2028</depreciationEndYear>
+					<price currency="NZD">3325.78</price>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>	
 	</equipment>
 </register>
