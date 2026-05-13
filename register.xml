@@ -101,7 +101,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">t + (0.0)</value>
+							<value variables="t">t + 0.0</value>
 							<uncertainty variables="">0.05</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -1982,7 +1982,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="h">h + (-5.4 + 1.587E-2*h + 1.0757E-3*pow(h,2))</value>
+							<value variables="h">h -5.4 + 1.587E-2*h + 1.0757E-3*pow(h,2)</value>
 							<uncertainty variables="">0.43</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
@@ -2047,7 +2047,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="h">h + (-4.71 + 2.538E-2*h + 1.009E-3*pow(h,2))</value>
+							<value variables="h">h - 4.71 + 2.538E-2*h + 1.009E-3*pow(h,2)</value>
 							<uncertainty variables="">0.43</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
@@ -2112,7 +2112,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="h">h + (-5.821 + 7.669E-2*h + 6.403E-4*pow(h,2))</value>
+							<value variables="h">h - 5.821 + 7.669E-2*h + 6.403E-4*pow(h,2)</value>
 							<uncertainty variables="">0.415</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
@@ -2177,7 +2177,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="h">h + (-6.873 + 6.796E-2*h + 1.0097E-3*pow(h,2))</value>
+							<value variables="h">h - 6.873 + 6.796E-2*h + 1.0097E-3*pow(h,2)</value>
 							<uncertainty variables="">0.415</uncertainty>
 							<unit>%rh</unit>
 							<ranges>
@@ -7441,11 +7441,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + 2.2089E-5 -2.1410E-6*R + 1.6033e-8*pow(R,2)</value>
+							<value variables="r">r + 2.2089E-5 -2.1410E-6*r + 1.6033e-8*pow(r,2)</value>
 							<uncertainty variables="">0.0000205</uncertainty>
 							<unit>ohms</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="r">
 									<minimum>15</minimum>
 									<maximum>116</maximum>
 								</range>
@@ -7539,7 +7539,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="5">
-				<component name="Bridge">
+				<component name="Bridge 1">
 					<report id="43039" enteredBy="Chris Young">
 						<reportIssueDate>2023-04-26</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-04-26</measurementStartDate>
@@ -7612,6 +7612,58 @@
 		<loggable>true</loggable>
 		<traceable>true</traceable>
 		<calibrations>
+			<measurand quantity="Resistance DC" calibrationInterval="5">
+				<component name ="Bridge 2 MY60008210">
+					<report id="uncalibrated" enteredBy="Chris Young">
+						<reportIssueDate>2017-08-28</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
+						<measurementStopDate>2017-08-28</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+				<component name ="Bridge 3 MY60008581">
+					<report id="uncalibrated" enteredBy="Chris Young">
+						<reportIssueDate>2017-08-28</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
+						<measurementStopDate>2017-08-28</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+			</measurand>
 		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
@@ -7657,7 +7709,110 @@
 		<status>Active</status>
 		<loggable>true</loggable>
 		<traceable>true</traceable>
-		<calibrations></calibrations>
+		<calibrations>
+			<measurand quantity="Resistance DC" calibrationInterval="5">
+				<component name ="Bridge 1 MY41089285 not calibrated">
+					<report id="uncalibrated" enteredBy="Chris Young">
+						<reportIssueDate>1000-01-01</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
+						<measurementStopDate>1000-01-01</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+				<component name ="Bridge 1 MY41089285 not calibrated">
+					<report id="uncalibrated" enteredBy="Chris Young">
+						<reportIssueDate>1000-01-01</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
+						<measurementStopDate>1000-01-01</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+				<component name ="Bridge 2 no card not calibrated">
+					<report id="uncalibrated" enteredBy="Chris Young">
+						<reportIssueDate>1000-01-01</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
+						<measurementStopDate>1000-01-01</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+				<component name ="Bridge 3 no card not calibrated">
+					<report id="uncalibrated" enteredBy="Chris Young">
+						<reportIssueDate>1000-01-01</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
+						<measurementStopDate>1000-01-01</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
 		<firmware>
@@ -7700,7 +7855,85 @@
 		<status>Active</status>
 		<loggable>true</loggable>
 		<traceable>true</traceable>
-		<calibrations></calibrations>
+		<calibrations>
+			<measurand quantity="Resistance DC" calibrationInterval="5">
+				<component name ="Bridge 1 MY41083638">
+					<report id="Temperature/2017/686a" enteredBy="Chris Young">
+						<reportIssueDate>2017-08-28</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
+						<measurementStopDate>2017-08-28</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+				<component name ="Bridge 2 MY41166819">
+					<report id="Temperature/2017/686b" enteredBy="Chris Young">
+						<reportIssueDate>2017-08-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-24</measurementStartDate>
+						<measurementStopDate>2017-08-30</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r + 0.0005422 - 0.00002382*r</value>
+							<uncertainty variables="">0.00085</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+				<component name ="Bridge 3 MY41013721">
+					<report id="Temperature/2017/686c" enteredBy="Chris Young">
+						<reportIssueDate>2017-08-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-24</measurementStartDate>
+						<measurementStopDate>2017-08-30</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
+						<conditions>
+							<sensingCurrent>1.002 mA</sensingCurrent>
+							<resistanceRange>100 ohm</resistanceRange>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="r">r - 0.005868 - 0.00002963*r</value>
+							<uncertainty variables="">0.0022</uncertainty>
+							<unit>ohm</unit>
+							<ranges>
+								<range variable="r">
+									<minimum>15</minimum>
+									<maximum>116</maximum>
+								</range>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
 		<firmware>
@@ -7744,11 +7977,11 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="5">
-				<component name ="Bridge 1 MY41083638">
-					<report id="Temperature/2017/686a" enteredBy="Chris Young">
-						<reportIssueDate>2017-08-28</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
-						<measurementStopDate>2017-08-28</measurementStopDate>
+				<component name ="Bridge 1 41009189 not calibrated">
+					<report id="Temperature/2017/XXX" enteredBy="Chris Young">
+						<reportIssueDate>1000-01-01</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
+						<measurementStopDate>1000-01-01</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
 						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
 						<conditions>
@@ -7757,11 +7990,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + 0</value>
+							<value variables="r">r + 0</value>
 							<uncertainty variables="">0.001</uncertainty>
 							<unit>ohm</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="r">
 									<minimum>15</minimum>
 									<maximum>116</maximum>
 								</range>
@@ -7769,11 +8002,11 @@
 						</equation>
 					</report>
 				</component>
-				<component name ="Bridge 2 MY41166819">
-					<report id="Temperature/2017/686b" enteredBy="Chris Young">
-						<reportIssueDate>2017-08-30</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">2017-08-24</measurementStartDate>
-						<measurementStopDate>2017-08-30</measurementStopDate>
+				<component name ="Bridge 2 no card not calibrated">
+					<report id="Temperature/2017/XXX" enteredBy="Chris Young">
+						<reportIssueDate>1000-01-01</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
+						<measurementStopDate>1000-01-01</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
 						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
 						<conditions>
@@ -7782,11 +8015,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R + 0.0005422 - 0.00002382*R</value>
-							<uncertainty variables="">0.00085</uncertainty>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
 							<unit>ohm</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="r">
 									<minimum>15</minimum>
 									<maximum>116</maximum>
 								</range>
@@ -7794,11 +8027,11 @@
 						</equation>
 					</report>
 				</component>
-				<component name ="Bridge 3 MY41013721">
-					<report id="Temperature/2017/686c" enteredBy="Chris Young">
-						<reportIssueDate>2017-08-30</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">2017-08-24</measurementStartDate>
-						<measurementStopDate>2017-08-30</measurementStopDate>
+				<component name ="Bridge 3 no card not calibrated">
+					<report id="Temperature/2017/XXX" enteredBy="Chris Young">
+						<reportIssueDate>1000-01-01</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">1000-01-01</measurementStartDate>
+						<measurementStopDate>1000-01-01</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
 						<technicalProcedure>MSLT.T.033.004</technicalProcedure>
 						<conditions>
@@ -7807,11 +8040,11 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="R">R - 0.005868 - 0.00002963*R</value>
-							<uncertainty variables="">0.0022</uncertainty>
+							<value variables="r">r + 0</value>
+							<uncertainty variables="">0.001</uncertainty>
 							<unit>ohm</unit>
 							<ranges>
-								<range variable="R">
+								<range variable="r">
 									<minimum>15</minimum>
 									<maximum>116</maximum>
 								</range>
