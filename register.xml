@@ -8,6 +8,7 @@
 		<description>A barometer for measuring pressure, humidity and temperature</description>
 		<specifications>
 			<addr type ="ip">10.12.102.25</addr>
+			<access type ="port">23</access>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
@@ -152,6 +153,7 @@
 		<description>A barometer for measuring pressure, humidity and temperature</description>
 		<specifications>
 			<addr type ="ip">10.12.102.22</addr>
+			<access type ="port">502</access>
 		</specifications>
 		<location>CMM Lab</location>
 		<status>Active</status>
@@ -1964,6 +1966,7 @@
 		<description>A Relative Humidity Hygrometer and Thermometer</description>
 		<specifications>
 			<addr type ="ip">10.14.102.6</addr>
+		    <access type ="port">14</access>
 		</specifications>
 		<location>Underground Tape Tunnel</location>
 		<status>Active</status>
@@ -2029,6 +2032,7 @@
 		<description>A Relative Humidity Hygrometer and Thermometer</description>
 		<specifications>
 			<addr type ="ip">10.14.102.5</addr>
+			<access type ="port">14</access>
 		</specifications>
 		<location>Underground Tape Tunnel</location>
 		<status>Active</status>
@@ -2094,6 +2098,7 @@
 		<description>A Relative Humidity Hygrometer and Thermometer</description>
 		<specifications>
 			<addr type ="ip">10.12.102.34</addr>
+			<access type ="port">14</access>
 		</specifications>
 		<location>Laser Lab</location>
 		<status>Active</status>
@@ -2159,6 +2164,7 @@
 		<description>A Relative Humidity Hygrometer and Thermometer</description>
 		<specifications>
 			<addr type ="ip">10.12.102.23</addr>
+			<access type ="port">14</access>
 		</specifications>
 		<location>Long Room</location>
 		<status>Active</status>
