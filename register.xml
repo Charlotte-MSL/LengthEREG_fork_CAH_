@@ -16,7 +16,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
-				<component name="Hygrometer">
+				<component name="hygrometer">
 					<report id="HEL184120025" enteredBy="Chris Young">
 						<reportIssueDate>2018-12-12</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2018-10-08</measurementStartDate>
@@ -41,7 +41,7 @@
 				</component>
 			</measurand>
 			<measurand quantity="Pressure" calibrationInterval="3">
-				<component name="Barometer">
+				<component name="barometer">
 					<report id="Pressure/2024/690" enteredBy="Chris Young">
 						<reportIssueDate>2024-10-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-08-13</measurementStartDate>
@@ -85,7 +85,7 @@
 				</component>
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
-				<component name="Thermometer">
+				<component name="thermometer">
 					<report id="HEL184120025" enteredBy="Chris Young">
 						<reportIssueDate>2018-12-12</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2018-10-08</measurementStartDate>
@@ -161,7 +161,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
-				<component name="Hygrometer">
+				<component name="hygrometer">
 					<report id="HEL244760365" enteredBy="Chris Young">
 						<reportIssueDate>2024-11-23</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-11-23</measurementStartDate>
@@ -186,7 +186,7 @@
 				</component>
 			</measurand>
 			<measurand quantity="Pressure" calibrationInterval="3">
-				<component name="Barometer">
+				<component name="barometer">
 					<report id="H44-24470039" enteredBy="Chris Young">
 						<reportIssueDate>2024-11-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-11-20</measurementStartDate>
@@ -234,7 +234,7 @@
 				</component>
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
-				<component name="Thermometer">
+				<component name="thermometer">
 					<report id="HEL244760365" enteredBy="Chris Young">
 						<reportIssueDate>2024-11-23</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-11-23</measurementStartDate>
