@@ -525,16 +525,9 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Flatness" calibrationInterval="1">
-				<component name="MSLE.L.145">
-				</component>
-			</measurand>
-			<measurand quantity="Flatness" calibrationInterval="1">
-				<component name="MSLE.L.146">
-				</component>
-			</measurand>
-			<measurand quantity="Flatness" calibrationInterval="1">
-				<component name="MSLE.L.084">
-				</component>
+				<component name="MSLE.L.145"></component>
+				<component name="MSLE.L.146"></component>
+				<component name="MSLE.L.084"></component>
 			</measurand>
 		</calibrations>
 		<maintenance></maintenance>
@@ -694,7 +687,7 @@
 		<specifications>
 			<grade>K</grade>
 			<material>ceramic</material>
-			<metric>false</metric>
+			<metric>true</metric>
 			<youngsmodulus unit ="GPa">200</youngsmodulus>
 			<poissonsratio unit ="Dimensionless">0.23</poissonsratio>
 			<expansioncoefficient unit ="\K">9.5</expansioncoefficient>
@@ -1536,6 +1529,7 @@
 		<description>A set if screw together long gauge blocks</description>
 		<specifications>
 			<grade>00</grade>
+			<metric>true</metric>
 			<material>steel</material>
 			<youngsmodulus>200</youngsmodulus>
 			<poissonsratio>0.23</poissonsratio>
