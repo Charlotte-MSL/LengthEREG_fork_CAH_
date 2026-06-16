@@ -308,11 +308,24 @@
 		<serial>8023</serial>
 		<description>Gauge Block Comparator</description>
 		<specifications>
-			<forceTopAvil>3 Oz</forceTopAvil>
-			<forceTopAvil>1 Oz</forceTopAvil>
-			<probeDiameter>0.25 inch</probeDiameter>
-			<probeYoungsModulus>1160 GPa</probeYoungsModulus>
-			<probePoissonsRatio>0.143</probePoissonsRatio>
+			<forceTopAnvil unit ="Oz">3</forceTopAnvil>
+			<forceBottomAnvil unit ="Oz">1</forceBottomAnvil>
+			<probeDiameter unit ="inch">0.25</probeDiameter>
+			<probeYoungsModulus unit =" GPa">1160</probeYoungsModulus>
+			<probePoissonsRatio unit ="dimensionless">0.143</probePoissonsRatio>
+			<scaleResolution unit ="nm">10</scaleResolution>
+			<scaleCalibration unit ="nm">8</scaleCalibration>
+			<reproducibility unit ="nm">0</reproducibility>
+			<stdu_delta unit ="nm">5.3</stdu_delta>
+			<stdu_alpha_g unit ="/K">0.5774</stdu_alpha_g>
+			<stdu_delta_alpha unit ="/K">0.8165</stdu_delta_alpha>
+			<stdu_theta_s unit ="K">0.035</stdu_theta_s>
+			<stdu_delta_theta unit ="K">0.05774</stdu_delta_theta>
+			<stdu_delta_theta_variation unit ="K">0.014434</stdu_delta_theta_variation>
+			<expanded_uncertainty_deviation_dependent_cmc unit ="um/m">1.4</expanded_uncertainty_deviation_dependent_cmc>
+			<expanded_uncertainty_deviation_independent_cmc unit ="nm">36</expanded_uncertainty_deviation_independent_cmc>
+			<expanded_uncertainty_variation_dependent_cmc unit ="um/m">0.35</expanded_uncertainty_variation_dependent_cmc>
+			<expanded_uncertainty_variation_independent_cmc unit ="nm">30</expanded_uncertainty_variation_independent_cmc>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
@@ -320,7 +333,35 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Length" calibrationInterval="1">
-				<component name="Federal Comparator">
+				<component name="Scale Calibration">
+					<report id="Scale_Cal01" enteredBy="Chris Young">
+						<reportIssueDate>2022-05-15</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2022-05-15</measurementStartDate>
+						<measurementStopDate>2022-05-15</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory</issuingLaboratory>
+						<technicalProcedure>MSLT.L.003</technicalProcedure>
+						<conditions>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.8</minimum>
+									<maximum>20.2</maximum>
+								</range>
+							</temperature>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="l">l-(l*0.0096)</value>
+							<uncertainty variables="">0.05</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>19.8</minimum>
+									<maximum>20.2</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -484,7 +525,15 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Flatness" calibrationInterval="1">
-				<component name="Reference Flat">
+				<component name="MSLE.L.145">
+				</component>
+			</measurand>
+			<measurand quantity="Flatness" calibrationInterval="1">
+				<component name="MSLE.L.146">
+				</component>
+			</measurand>
+			<measurand quantity="Flatness" calibrationInterval="1">
+				<component name="MSLE.L.084">
 				</component>
 			</measurand>
 		</calibrations>
@@ -645,10 +694,14 @@
 		<specifications>
 			<grade>K</grade>
 			<material>ceramic</material>
-			<youngsmodulus>200</youngsmodulus>
-			<poissonsratio>0.23</poissonsratio>
-			<expansioncoefficient>9.5</expansioncoefficient>
-			<expansioncoefficient_uncertainty>0.58</expansioncoefficient_uncertainty>
+			<metric>false</metric>
+			<youngsmodulus unit ="GPa">200</youngsmodulus>
+			<poissonsratio unit ="Dimensionless">0.23</poissonsratio>
+			<expansioncoefficient unit ="\K">9.5</expansioncoefficient>
+			<expansioncoefficient_uncertainty unit ="\K">0.58</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm">8</stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m">0.064</stdu_dependent>
+			<stdu_independent unit ="nm">11</stdu_independent>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
@@ -665,10 +718,30 @@
 						<technicalProcedure>MSLT.L.005.006</technicalProcedure>
 						<conditions>
 							<measurementConditions>
-								Measurements were made with the interferometer platen in the temperature range 19.91 °C to 20.10 °C.
-								The air inside the interferometer chamber was in the temperature range 19.81 °C to 20.13 °C. The
-								atmospheric pressure (at the height of the interferometer) was in the range 995.6 hPa to 1028.1 hPa.
-								The relative humidity in the interferometer chamber was in the range 36 %rh to 60 %rh.
+								<platenTemperature unit ="C">
+									<range>
+										<minimum>19.91</minimum>
+										<maximum>20.10</maximum>
+									</range>
+								</platenTemperature>
+								<airTemperature unit ="C">
+									<range>
+										<minimum>19.81</minimum>
+										<maximum>20.13</maximum>
+									</range>
+								</airTemperature>
+								<airPressure unit ="hPa">
+									<range>
+										<minimum>995.81</minimum>
+										<maximum>1028.10</maximum>
+									</range>
+								</airPressure>
+								<Humidity unit ="%rh">
+									<range>
+										<minimum>36.0</minimum>
+										<maximum>60.0</maximum>
+									</range>
+								</Humidity>
 							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
@@ -839,11 +912,15 @@
 		<description>A set of 92 imperial ceramic gauge blocks ranging in size from 0.05 inch to 4 inch</description>
 		<specifications>
 			<grade>K</grade>
+			<metric>false</metric>
 			<material>ceramic</material>
-			<youngsmodulus>200</youngsmodulus>
-			<poissonsratio>0.23</poissonsratio>
-			<expansioncoefficient>9.5</expansioncoefficient>
-			<expansioncoefficient_uncertainty>0.58</expansioncoefficient_uncertainty>
+			<youngsmodulus unit ="GPa">200</youngsmodulus>
+			<poissonsratio unit ="Dimensionless">0.23</poissonsratio>
+			<expansioncoefficient unit ="\K">9.5</expansioncoefficient>
+			<expansioncoefficient_uncertainty unit ="\K">0.58</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm">6</stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m">0.065</stdu_dependent>
+			<stdu_independent unit ="nm">12.6</stdu_independent>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
@@ -851,7 +928,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Length" calibrationInterval="5">
-				<component name="Set21080P">
+				<component name="Gauge Block Set">
 					<report id="Length/2024/1309" enteredBy="Chris Young">
 						<reportIssueDate>2025-01-09</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-10-14</measurementStartDate>
@@ -860,10 +937,30 @@
 						<technicalProcedure>MSLT.L.005.006</technicalProcedure>
 						<conditions>
 							<measurementConditions>
-								Measurements were made with the interferometer platen in the temperature range 19.93 °C to 20.05 °C.
-								The air inside the interferometer chamber was in the temperature range 19.93 °C to 20.08 °C. The
-								atmospheric pressure (at the height of the interferometer) was in the range 999.5 hPa to 1028.5 hPa.
-								The relative humidity in the interferometer chamber was in the range 33 %rh to 57 %rh.
+								<platenTemperature unit ="C">
+									<range>
+										<minimum>19.93</minimum>
+										<maximum>20.05</maximum>
+									</range>
+								</platenTemperature>
+								<airTemperature unit ="C">
+									<range>
+										<minimum>19.93</minimum>
+										<maximum>20.08</maximum>
+									</range>
+								</airTemperature>
+								<airPressure unit ="hPa">
+									<range>
+										<minimum>999.50</minimum>
+										<maximum>1028.50</maximum>
+									</range>
+								</airPressure>
+								<Humidity unit ="%rh">
+									<range>
+										<minimum>33.0</minimum>
+										<maximum>57.0</maximum>
+									</range>
+								</Humidity>
 							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
@@ -1005,11 +1102,15 @@
 		<description>A set of 88 tungsten carbide gauge blocks</description>
 		<specifications>
 			<grade>00</grade>
+			<metric>true</metric>
 			<material>tungsten carbide</material>
-			<youngsmodulus>599.84</youngsmodulus>
-			<poissonsratio>0.200</poissonsratio>
-			<expansioncoefficient>4.23</expansioncoefficient>
-			<expansioncoefficient_uncertainty>0.10</expansioncoefficient_uncertainty>
+			<youngsmodulus unit ="GPa">599.84</youngsmodulus>
+			<poissonsratio unit ="dimensionless">0.200</poissonsratio>
+			<expansioncoefficient unit ="/K">4.23</expansioncoefficient>
+			<expansioncoefficient_uncertainty unit ="/K">0.10</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm">8</stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m">0.064</stdu_dependent>
+			<stdu_independent unit ="nm">11</stdu_independent>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
@@ -1017,7 +1118,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Length" calibrationInterval="5">
-				<component name="Set4105">
+				<component name="Gauge Block Set">
 					<report id="Length/2024/1310" enteredBy="Chris Young">
 						<reportIssueDate>2025-01-09</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-07-04</measurementStartDate>
@@ -1178,11 +1279,15 @@
 		<description>The gauge block set is manufactured by Tesa and contains 10 metric ceramic gauge blocks ranging in nominal size from 2.5 mm to 25 mm.</description>
 		<specifications>
 			<grade>00</grade>
+			<metric>true</metric>
 			<material>ceramic</material>
 			<youngsmodulus>200</youngsmodulus>
 			<poissonsratio>0.23</poissonsratio>
 			<expansioncoefficient>9.5</expansioncoefficient>
 			<expansioncoefficient_uncertainty>0.58</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm">4</stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m">0.063</stdu_dependent>
+			<stdu_independent unit ="nm">9.2</stdu_independent>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
@@ -1190,7 +1295,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Length" calibrationInterval="5">
-				<component name="00025P">
+				<component name="Gauge Block Set">
 					<report id="Length/2025/1316" enteredBy="Chris Young">
 						<reportIssueDate>2025-05-22</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-05-22</measurementStartDate>
@@ -1199,8 +1304,12 @@
 						<technicalProcedure>MSLT.L.003.009</technicalProcedure>
 						<conditions>
 							<measurementConditions>
-								Gauge block measurements were made with the comparator platen in the temperature range of
-								19.97 °C to 20.08 °C.
+								<platenTemperature unit ="C">
+									<range>
+										<minimum>19.97</minimum>
+										<maximum>20.08</maximum>
+									</range>
+								</platenTemperature>
 							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
@@ -1230,10 +1339,30 @@
 						<technicalProcedure>MSLT.L.005.006</technicalProcedure>
 						<conditions>
 							<measurementConditions>
-								Measurements were made with the interferometer platen in the temperature range 19.90 °C to 19.98 °C.
-								The air inside the interferometer chamber was in the temperature range 19.93 °C to 20.01 °C.
-								The atmospheric pressure (at the height of the interferometer) was in the range 1003.9 hPa to 1027.5 hPa.
-								The relative humidity in the interferometer chamber was in the range 54 %rh to 58 %rh.
+								<platenTemperature unit ="C">
+									<range>
+										<minimum>19.90</minimum>
+										<maximum>19.98</maximum>
+									</range>
+								</platenTemperature>
+								<airTemperature unit ="C">
+									<range>
+										<minimum>19.93</minimum>
+										<maximum>20.01</maximum>
+									</range>
+								</airTemperature>
+								<airPressure unit ="hPa">
+									<range>
+										<minimum>1003.90</minimum>
+										<maximum>1027.50</maximum>
+									</range>
+								</airPressure>
+								<Humidity unit ="%rh">
+									<range>
+										<minimum>54.0</minimum>
+										<maximum>58.0</maximum>
+									</range>
+								</Humidity>
 							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
@@ -1284,11 +1413,15 @@
 		<description>Nine steel gauge blocks (rectangular cross section) of nominal lengths 125 mm to 600 mm. The 600 mm gauge is housed in a seperate box from the 125 mm to 500 mm gauges</description>
 		<specifications>
 			<grade>00</grade>
-			<material>Steel</material>
+			<metric>true</metric>
+			<material>steel</material>
 			<youngsmodulus unit ="GPa">200</youngsmodulus>
 			<poissonsratio unit ="dimensionless">0.23</poissonsratio>
 			<expansioncoefficient unit ="/C">10.8</expansioncoefficient>
 			<expansioncoefficient_uncertainty unit ="/C">0.58</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm"></stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m"></stdu_dependent>
+			<stdu_independent unit ="nm"></stdu_independent>
 		</specifications>
 		<location>CMM Lab</location>
 		<status>Retired</status>
@@ -1327,11 +1460,15 @@
 		<description>Eight zirconia long gauge blocks (rectangular cross section) of nominal lengths 125 mm to 500 mm.</description>
 		<specifications>
 			<grade>00</grade>
-			<material>Zirconia</material>
+			<metric>true</metric>
+			<material>ceramic</material>
 			<youngsmodulus unit ="GPa">200</youngsmodulus>
 			<poissonsratio unit ="dimensionless">0.23</poissonsratio>
 			<expansioncoefficient unit ="/C">9.3</expansioncoefficient>
 			<expansioncoefficient_uncertainty unit ="/C">0.58</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm">0</stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m">0</stdu_dependent>
+			<stdu_independent unit ="nm">0</stdu_independent>
 		</specifications>
 		<location>CMM Lab</location>
 		<status>Active</status>
@@ -1339,7 +1476,7 @@
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Length" calibrationInterval="5">
-				<component name="1905516">
+				<component name="Gauge Block Set">
 					<report id="M-20L287" enteredBy="Chris Young">
 						<reportIssueDate>2020-12-17</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2020-11-13</measurementStartDate>
@@ -1394,9 +1531,9 @@
 	<equipment keywords="Gauge Block Set" enteredBy ="Chris Young">
 		<id>MSLE.L.151</id>
 		<manufacturer>Mitutoyo</manufacturer>
-		<model>Rectangular Cross-Section Screw Together</model>
+		<model>Square Cross-Section Screw Together</model>
 		<serial>MSL Square Gauge Block Set</serial>
-		<description>The gauge block set is manufactured by Tesa and contains 10 metric ceramic gauge blocks ranging in nominal size from 2.5 mm to 25 mm.</description>
+		<description>A set if screw together long gauge blocks</description>
 		<specifications>
 			<grade>00</grade>
 			<material>steel</material>
@@ -1404,6 +1541,9 @@
 			<poissonsratio>0.23</poissonsratio>
 			<expansioncoefficient>10.8</expansioncoefficient>
 			<expansioncoefficient_uncertainty>0.29</expansioncoefficient_uncertainty>
+			<stdu_wringing_uncertainty unit ="nm">0</stdu_wringing_uncertainty>
+			<stdu_dependent unit ="um/m">0</stdu_dependent>
+			<stdu_independent unit ="nm">0</stdu_independent>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
