@@ -352,11 +352,11 @@
 						<equation>
 							<value variables="l">l-(l*0.0096)</value>
 							<uncertainty variables="">0.05</uncertainty>
-							<unit>C</unit>
+							<unit>um</unit>
 							<ranges>
-								<range variable="t">
-									<minimum>19.8</minimum>
-									<maximum>20.2</maximum>
+								<range variable="l">
+									<minimum>-5.0</minimum>
+									<maximum>5.0</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
