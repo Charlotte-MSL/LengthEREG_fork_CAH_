@@ -1954,7 +1954,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Hygrometer" enteredBy="Chris Young">
+	<equipment keywords="Hygrometer" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-029">
 		<id>MSLE.L.097</id>
 		<manufacturer>Omega, USA</manufacturer>
 		<model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
@@ -1996,6 +1996,34 @@
 					</report>
 				</component>
 			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/651" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (2.58E-1 - 5.9E-3*t)</value>
+							<uncertainty variables="">0.06</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
 		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
@@ -2019,7 +2047,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Hygrometer" enteredBy="Chris Young">
+	<equipment keywords="Hygrometer" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-029">
 		<id>MSLE.L.098</id>
 		<manufacturer>Omega, USA</manufacturer>
 		<model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
@@ -2061,6 +2089,34 @@
 					</report>
 				</component>
 			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/652" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (1.95E-1 - 2.5E-3*t)</value>
+							<uncertainty variables="">0.06</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
 		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
@@ -2084,7 +2140,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Hygrometer" enteredBy="Chris Young">
+	<equipment keywords="Hygrometer" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-029">
 		<id>MSLE.L.099</id>
 		<manufacturer>Omega, USA</manufacturer>
 		<model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
@@ -2119,6 +2175,34 @@
 								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/653" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (2.97E-1 - 4.4E-3*t)</value>
+							<uncertainty variables="">0.06</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -2184,6 +2268,34 @@
 								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/654" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (-2.64E-1 - 8.7E-3*t)</value>
+							<uncertainty variables="">0.12</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -2516,7 +2628,7 @@
 		<description>A Zeeman Stabilised Laser Head</description>
 		<specifications></specifications>
 		<location>Long Room</location>
-		<status>Active</status>
+		<status>Damaged</status>
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
@@ -2689,10 +2801,10 @@
 		<manufacturer>Keysight Technologies Limited</manufacturer>
 		<model>5519A</model>
 		<serial>US40091129</serial>
-		<description>A Zeeman Stabilised Laser Head (2nd Hand Purchase Sam's Laser)</description>
+		<description>A Zeeman Stabilised Laser Head (2nd Hand Purchase Sam's Laser). Prior Linescale laser (replaced early 2026)</description>
 		<specifications></specifications>
-		<location>Long Room</location>
-		<status>Active</status>
+		<location>Laser Lab</location>
+		<status>Damaged</status>
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
@@ -7484,7 +7596,7 @@
 			</technicalProcedures>
 		</qualityManual>
 		</equipment>
-		<equipment keywords="Resistance Bridge" enteredBy ="Chris Young">
+	<equipment keywords="Resistance Bridge" enteredBy ="Chris Young">
 		<id>MSLE.L.147</id>
 		<manufacturer>Isothermal Technologies Limited</manufacturer>
 		<model>MicrosKanner 913</model>
@@ -8498,7 +8610,7 @@
 							<measurementConditions>
 								<temperature unit ="C">
 									<minimum>19.0</minimum>
-									<maximum>20.0</maximum>
+									<maximum>21.0</maximum>
 								</temperature>
 								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
 							</measurementConditions>
@@ -8526,7 +8638,7 @@
 							<measurementConditions>
 								<temperature unit ="C">
 									<minimum>19.0</minimum>
-									<maximum>20.0</maximum>
+									<maximum>21.0</maximum>
 								</temperature>
 								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
 							</measurementConditions>
@@ -8556,7 +8668,7 @@
 							<measurementConditions>
 								<temperature unit ="C">
 									<minimum>19.0</minimum>
-									<maximum>20.0</maximum>
+									<maximum>21.0</maximum>
 								</temperature>
 								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
 							</measurementConditions>
