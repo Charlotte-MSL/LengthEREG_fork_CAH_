@@ -7510,7 +7510,7 @@
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
 		<serial>LS56</serial>
-		<description>A Platinum Resistance Thermometer</description>
+		<description>A Platinum Resistance Thermometer with probe length 90 mm</description>
 		<specifications></specifications>
 		<location>Laser Lab</location>
 		<status>Dormant</status>
@@ -7520,21 +7520,26 @@
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
 					<report id="Temperature/2025/370" enteredBy="Charlotte Hayton">
-						<reportIssueDate>0001-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">0001-01-01</measurementStartDate>
-						<measurementStopDate>0001-01-01</measurementStopDate>
+						<reportIssueDate>2026-05-21</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
+						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="mm"></immersion>
-							<current unit ="mA"></current>
+							<immersion unit ="200 mm"></immersion>
+							<current unit ="1 mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="">0</value>
-							<uncertainty variables="">0</uncertainty>
-							<unit>ohms</unit>
-							<ranges></ranges>
+							<value variables="t">99.821*(1+3.92608E-3*t - 6.954*pow(t,2))</value>
+							<uncertainty variables="">0.0026</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -7562,7 +7567,7 @@
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
 		<serial>LS57</serial>
-		<description>A Platinum Resistance Thermometer</description>
+		<description>A Platinum Resistance Thermometer with probe length 90 mm</description>
 		<specifications></specifications>
 		<location>Laser Lab</location>
 		<status>Dormant</status>
@@ -7572,21 +7577,25 @@
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
 					<report id="Temperature/2025/370" enteredBy="Charlotte Hayton">
-						<reportIssueDate>0001-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">0001-01-01</measurementStartDate>
-						<measurementStopDate>0001-01-01</measurementStopDate>
+						<reportIssueDate>2026-06-03</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
+						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="mm"></immersion>
-							<current unit ="mA"></current>
+							<immersion unit ="200 mm"></immersion>
+							<current unit ="1 mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="">0</value>
-							<uncertainty variables="">0</uncertainty>
-							<unit>ohms</unit>
+							<value variables="t">99.985*(1+3.92443E-3*t - 6.643*pow(t,2))</value>
+							<uncertainty variables="">0.00235</uncertainty>
+							<unit>C</unit>
 							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
@@ -7615,7 +7624,7 @@
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
 		<serial>LS58</serial>
-		<description>A Platinum Resistance Thermometer</description>
+		<description>A Platinum Resistance Thermometer with probe length 90 mm</description>
 		<specifications></specifications>
 		<location>Laser Lab</location>
 		<status>Dormant</status>
@@ -7625,20 +7634,20 @@
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
 					<report id="Temperature/2025/370" enteredBy="Charlotte Hayton">
-						<reportIssueDate>0001-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">0001-01-01</measurementStartDate>
-						<measurementStopDate>0001-01-01</measurementStopDate>
+						<reportIssueDate>2026-06-03</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
+						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="mm"></immersion>
-							<current unit ="mA"></current>
+							<immersion unit ="200 mm"></immersion>
+							<current unit ="1 mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="">0</value>
-							<uncertainty variables="">0</uncertainty>
-							<unit>ohms</unit>
+							<value variables="t">99.9724*(1+3.92428E-3*t - 6.671*pow(t,2))</value>
+							<uncertainty variables="">0.0024</uncertainty>
+							<unit>C</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
