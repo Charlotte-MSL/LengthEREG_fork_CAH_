@@ -132,8 +132,9 @@
 				<warrantyExpirationDate>2021-10-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>FA00005929</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-09-20</depreciationStartDate>
 					<price currency="NZD">4261.14</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -391,8 +392,9 @@
 				<purchaseYear>1975</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>1000003347</assetNumber>
-					<depreciationEndYear>1985</depreciationEndYear>
+					<depreciationStartDate>1975-01-01</depreciationStartDate>
 					<price currency="NZD">30000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -445,8 +447,9 @@
 				<purchaseYear>1972</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>1000003348</assetNumber>
-					<depreciationEndYear>1982</depreciationEndYear>
+					<depreciationStartDate>1972-01-01</depreciationStartDate>
 					<price currency="NZD">30000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -500,8 +503,9 @@
 				<purchaseYear>2011</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002338</assetNumber>
-					<depreciationEndYear>2019</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="EUR">26580.09</price>
+					<usefulLife>4</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -542,8 +546,9 @@
 				<purchaseYear>1970</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>1000003373</assetNumber>
-					<depreciationEndYear>1980</depreciationEndYear>
+					<depreciationStartDate>1970-01-01</depreciationStartDate>
 					<price currency="NZD">100000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -583,8 +588,9 @@
 				<purchaseYear>2013</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00003100</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">10418.25</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -625,8 +631,9 @@
 				<purchaseYear>2020</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00006783</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2020-01-15</depreciationStartDate>
 					<price currency="NZD">4551.86</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -667,8 +674,9 @@
 				<purchaseYear>2020</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00006784</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
-					<price currency="NZD">4575.19</price>
+					<depreciationStartDate>2020-01-15</depreciationStartDate>
+					<price currency="NZD">4551.86</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -884,8 +892,9 @@
 				<warrantyExpirationDate>2018-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>FA00002990</assetNumber>
-					<depreciationEndYear>2023</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">9337.60</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -1074,8 +1083,9 @@
 				<warrantyExpirationDate>2018-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>FA00002991</assetNumber>
-					<depreciationEndYear>2023</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">7884.40</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -1251,8 +1261,9 @@
 				<warrantyExpirationDate>1985-04-21</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>100003333</assetNumber>
-					<depreciationEndYear>2093</depreciationEndYear>
+					<depreciationStartDate>1980-01-01</depreciationStartDate>
 					<price currency="NZD">5000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -1435,8 +1446,9 @@
 				<warrantyExpirationDate>2009-01-16</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>FA00001974</assetNumber>
-					<depreciationEndYear>2017</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">1488.41</price>
+					<usefulLife>3</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -1507,12 +1519,13 @@
 			<accessories></accessories>
 			<documentation></documentation>
 			<financial>
-				<purchaseYear>2020</purchaseYear>
+				<purchaseYear>2019</purchaseYear>
 				<warrantyExpirationDate>2022-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>FA00006201</assetNumber>
-					<depreciationEndYear>2027</depreciationEndYear>
+					<depreciationStartDate>2019-03-20</depreciationStartDate>
 					<price currency="NZD">10275.00</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2405,8 +2418,9 @@
 				<purchaseYear>1997</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>10003453</assetNumber>
-					<depreciationEndYear>2007</depreciationEndYear>
+					<depreciationStartDate>1997-01-01</depreciationStartDate>
 					<price currency="USD">100000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2466,8 +2480,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00007678</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-06-01</depreciationStartDate>
 					<price currency="NZD">62292.63</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2549,8 +2564,9 @@
 				<purchaseYear>2000</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>10000342</assetNumber>
-					<depreciationEndYear>2009</depreciationEndYear>
+					<depreciationStartDate>2000-01-01</depreciationStartDate>
 					<price currency="NZD">10000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2591,8 +2607,9 @@
 				<purchaseYear>2008</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>100011990</assetNumber>
-					<depreciationEndYear>2017</depreciationEndYear>
+					<depreciationStartDate>2008-01-01</depreciationStartDate>
 					<price currency="NZD">13002</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2633,8 +2650,9 @@
 				<purchaseYear>2014</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00003406</assetNumber>
-					<depreciationEndYear>2022</depreciationEndYear>
+					<depreciationStartDate>2014-10-10</depreciationStartDate>
 					<price currency="NZD">2366.11</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2700,8 +2718,9 @@
 				<purchaseYear>2014</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00003370</assetNumber>
-					<depreciationEndYear>2024</depreciationEndYear>
+					<depreciationStartDate>2014-06-18</depreciationStartDate>
 					<price currency="NZD">2141.77</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2809,8 +2828,9 @@
 				<purchaseYear>2014</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>100021938</assetNumber>
-					<depreciationEndYear>2024</depreciationEndYear>
+					<depreciationStartDate>2014-01-01</depreciationStartDate>
 					<price currency="USD">2099</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2897,8 +2917,9 @@
 				<purchaseYear>2016</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00003872</assetNumber>
-					<depreciationEndYear>2024</depreciationEndYear>
+					<depreciationStartDate>2016-10-04</depreciationStartDate>
 					<price currency="NZD">4139.84</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -2964,8 +2985,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>Contact Finance to find</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2018-01-01</depreciationStartDate>
 					<price currency="USD">29520</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3031,8 +3053,9 @@
 				<purchaseYear>2024</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00009126</assetNumber>
-					<depreciationEndYear>2034</depreciationEndYear>
+					<depreciationStartDate>2024-07-01</depreciationStartDate>
 					<price currency="NZD">30518</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3072,8 +3095,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>100011206</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-01-01</depreciationStartDate>
 					<price currency="NZD">6600</price>
+					<usefulLife>5</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3106,8 +3130,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00005417</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-03-01</depreciationStartDate>
 					<price currency="NZD">6526</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3140,8 +3165,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00005416</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-03-01</depreciationStartDate>
 					<price currency="NZD">6666.00</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3212,9 +3238,10 @@
 			<financial>
 				<purchaseYear>2010</purchaseYear>
 				<capitalExpenditure>
-					<assetNumber>1000008368</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<assetNumber>100008368</assetNumber>
+					<depreciationStartDate>2010-01-01</depreciationStartDate>
 					<price currency="NZD">1575</price>
+					<usefulLife>5</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3251,8 +3278,9 @@
 				<purchaseYear>2010</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>1000011958</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2010-01-01</depreciationStartDate>
 					<price currency="NZD">1575</price>
+					<usefulLife>5</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3288,8 +3316,9 @@
 				<purchaseYear>2010</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>1000008367</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2010-01-01</depreciationStartDate>
 					<price currency="NZD">1575</price>
+					<usefulLife>5</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -3328,8 +3357,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008172</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-21</depreciationStartDate>
 					<price currency="NZD">2045.70</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -5921,8 +5951,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -5984,8 +6015,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6047,8 +6079,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6110,8 +6143,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6173,8 +6207,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6236,8 +6271,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6299,8 +6335,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6362,8 +6399,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6425,8 +6463,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6488,8 +6527,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6551,8 +6591,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6614,8 +6655,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6677,8 +6719,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6740,8 +6783,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -6803,8 +6847,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008173</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-10-22</depreciationStartDate>
 					<price currency="NZD">353.15</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -7555,7 +7600,7 @@
 		<manufacturer>Isothermal Technologies Limited</manufacturer>
 		<model>MicroK500</model>
 		<serial>381223/1</serial>
-		<description>A Thermometry Resistance Bridge and Channel Expander (ISOTECH microK 500 and ISOTECH 913 MicrosKanner)</description>
+		<description>A Thermometry Resistance Bridge and Channel Expander (ISOTECH microK 500)</description>
 		<specifications>
 			<internalResistor unit ="ohms">100.0089</internalResistor>
 		    <addr type = "gpib">15</addr>
@@ -7618,8 +7663,9 @@
 				<warrantyExpirationDate>2021-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>FA00005978</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-11-06</depreciationStartDate>
 					<price currency="NZD">26816</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -7657,8 +7703,9 @@
 				<warrantyExpirationDate>2021-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>FA00005979</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-11-06</depreciationStartDate>
 					<price currency="NZD">13741</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -7733,9 +7780,10 @@
 				<purchaseYear>2023</purchaseYear>
 				<warrantyExpirationDate>2024-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
-					<assetNumber>Contact Finance to Find</assetNumber>
-					<depreciationEndYear>2033</depreciationEndYear>
+					<assetNumber>FA00008987</assetNumber>
+					<depreciationStartDate>2024-06-01</depreciationStartDate>
 					<price currency="NZD">29228</price>
+					<usefulLife>15</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -7830,8 +7878,9 @@
 				<warrantyExpirationDate>2010-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>100004927</assetNumber>
-					<depreciationEndYear>2019</depreciationEndYear>
+					<depreciationStartDate>2009-01-01</depreciationStartDate>
 					<price currency="NZD">4000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -7952,8 +8001,9 @@
 				<purchaseYear>2016</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00003835</assetNumber>
-					<depreciationEndYear>2024</depreciationEndYear>
+					<depreciationStartDate>2016-07-29</depreciationStartDate>
 					<price currency="NZD">3629.00</price>
+					<usefulLife>9</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -8073,8 +8123,9 @@
 				<purchaseYear>2010</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber></assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2020-01-01</depreciationStartDate>
 					<price currency="NZD">3000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 				<warrantyExpirationDate>2015-01-01</warrantyExpirationDate>
 			</financial>
@@ -8192,8 +8243,9 @@
 				<warrantyExpirationDate>2011-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>1000011702</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2011-01-01</depreciationStartDate>
 					<price currency="NZD">3000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -8708,8 +8760,9 @@
 				<purchaseYear>1950</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>100003336</assetNumber>
-					<depreciationEndYear>1960</depreciationEndYear>
-					<price currency="NZD">12000</price>
+					<depreciationStartDate>1950-01-01</depreciationStartDate>
+					<price currency="NZD">2000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9176,8 +9229,9 @@
 				<warrantyExpirationDate>2009-01-01</warrantyExpirationDate>
 				<capitalExpenditure>
 					<assetNumber>???????</assetNumber>
-					<depreciationEndYear>2014</depreciationEndYear>
+					<depreciationStartDate>2004-01-01</depreciationStartDate>
 					<price currency="NZD">36450</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9222,8 +9276,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00007677</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-01-26</depreciationStartDate>
 					<price currency="NZD">2911.50</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9462,9 +9517,10 @@
 			<financial>
 				<purchaseYear>2004</purchaseYear>
 				<capitalExpenditure>
-					<assetNumber></assetNumber>
-					<depreciationEndYear>2011</depreciationEndYear>
+					<assetNumber>??????</assetNumber>
+					<depreciationStartDate>2004-01-01</depreciationStartDate>
 					<price currency="NZD">10000</price>
+					<usefulLife>10</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9497,8 +9553,9 @@
 				<purchaseYear>2022</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008633</assetNumber>
-					<depreciationEndYear>2035</depreciationEndYear>
+					<depreciationStartDate>2023-07-03</depreciationStartDate>
 					<price currency="NZD">593562.31</price>
+					<usefulLife>12</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9531,8 +9588,9 @@
 				<purchaseYear>2022</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008615</assetNumber>
-					<depreciationEndYear>2030</depreciationEndYear>
+					<depreciationStartDate>2022-07-20</depreciationStartDate>
 					<price currency="NZD">80026.50</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9565,8 +9623,9 @@
 				<purchaseYear>2022</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008612</assetNumber>
-					<depreciationEndYear>2030</depreciationEndYear>
+					<depreciationStartDate>2022-07-20</depreciationStartDate>
 					<price currency="NZD">20093</price>
+					<usefulLife>8</usefulLife>	
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9604,8 +9663,9 @@
 				<purchaseYear>2013</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002301</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">1828</price>
+					<usefulLife>4</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9640,8 +9700,9 @@
 				<purchaseYear>2013</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002298</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">1828</price>
+					<usefulLife>4</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9678,8 +9739,9 @@
 				<purchaseYear>2013</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002691</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">2599.52</price>
+					<usefulLife>4</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9712,8 +9774,9 @@
 				<purchaseYear>2013</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002749</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">2848.69</price>
+					<usefulLife>4</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9753,8 +9816,9 @@
 				<purchaseYear>2013</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002750</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">2460.12</price>
+					<usefulLife>4</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9787,8 +9851,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00005932</assetNumber>
-					<depreciationEndYear>2027</depreciationEndYear>
+					<depreciationStartDate>2018-09-21</depreciationStartDate>
 					<price currency="NZD">69450.00</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9822,8 +9887,9 @@
 				<purchaseYear>2013</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002899</assetNumber>
-					<depreciationEndYear>2020</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">3034.00</price>
+					<usefulLife>7</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9856,8 +9922,9 @@
 				<purchaseYear>2008</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00002796</assetNumber>
-					<depreciationEndYear>2015</depreciationEndYear>
+					<depreciationStartDate>2013-12-01</depreciationStartDate>
 					<price currency="NZD">18471.00</price>
+					<usefulLife>6</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9890,8 +9957,9 @@
 				<purchaseYear>2023</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00009055</assetNumber>
-					<depreciationEndYear>2037</depreciationEndYear>
+					<depreciationStartDate>2024-03-25</depreciationStartDate>
 					<price currency="NZD">39159.21</price>
+					<usefulLife>15</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9924,8 +9992,9 @@
 				<purchaseYear>2023</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008912</assetNumber>
-					<depreciationEndYear>2038</depreciationEndYear>
+					<depreciationStartDate>2023-03-08</depreciationStartDate>
 					<price currency="NZD">8513</price>
+					<usefulLife>15</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9958,8 +10027,9 @@
 				<purchaseYear>2014</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00003313</assetNumber>
-					<depreciationEndYear>2021</depreciationEndYear>
+					<depreciationStartDate>2014-06-13</depreciationStartDate>
 					<price currency="NZD">41418</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -9998,8 +10068,9 @@
 				<purchaseYear>2015</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00003548</assetNumber>
-					<depreciationEndYear>2023</depreciationEndYear>
+					<depreciationStartDate>2015-05-28</depreciationStartDate>
 					<price currency="NZD">56233</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10052,8 +10123,9 @@
 				<purchaseYear>2020</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00006818</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2020-12-01</depreciationStartDate>
 					<price currency="NZD">690189.00</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10107,8 +10179,9 @@
 				<purchaseYear>2020</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00006816</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2020-03-23</depreciationStartDate>
 					<price currency="NZD">377441.72</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10149,8 +10222,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00007762</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2023-03-21</depreciationStartDate>
 					<price currency="NZD">87769.25</price>
+					<usefulLife>6</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10212,8 +10286,9 @@
 				<purchaseYear>2017</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00005178</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-07-01</depreciationStartDate>
 					<price currency="NZD">94460.20</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10254,8 +10329,9 @@
 				<purchaseYear>2023</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00009065</assetNumber>
-					<depreciationEndYear>2038</depreciationEndYear>
+					<depreciationStartDate>2024-03-25</depreciationStartDate>
 					<price currency="NZD">25762</price>
+					<usefulLife>15</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10307,8 +10383,9 @@
 				<purchaseYear>2021</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00007731</assetNumber>
-					<depreciationEndYear>2029</depreciationEndYear>
+					<depreciationStartDate>2021-06-28</depreciationStartDate>
 					<price currency="NZD">14881.77</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10343,8 +10420,9 @@
 				<purchaseYear>2023</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00009065</assetNumber>
-					<depreciationEndYear>2038</depreciationEndYear>
+					<depreciationStartDate>2024-03-25</depreciationStartDate>
 					<price currency="NZD">19330.17</price>
+					<usefulLife>15</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10383,8 +10461,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00005420</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-03-12</depreciationStartDate>
 					<price currency="NZD">3400</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10419,8 +10498,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00005421</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-03-12</depreciationStartDate>
 					<price currency="NZD">1260</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10455,8 +10535,9 @@
 				<purchaseYear>2018</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00005422</assetNumber>
-					<depreciationEndYear>2026</depreciationEndYear>
+					<depreciationStartDate>2018-03-12</depreciationStartDate>
 					<price currency="NZD">1260</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10491,8 +10572,9 @@
 				<purchaseYear>2023</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008881</assetNumber>
-					<depreciationEndYear>2031</depreciationEndYear>
+					<depreciationStartDate>2023-01-01</depreciationStartDate>
 					<price currency="NZD">85000</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10527,8 +10609,9 @@
 				<purchaseYear>2023</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00008910</assetNumber>
-					<depreciationEndYear>2031</depreciationEndYear>
+					<depreciationStartDate>2023-01-01</depreciationStartDate>
 					<price currency="NZD">20000</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10563,8 +10646,9 @@
 				<purchaseYear>2020</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00006786</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2020-01-15</depreciationStartDate>
 					<price currency="NZD">5018.93</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
@@ -10599,8 +10683,9 @@
 				<purchaseYear>2020</purchaseYear>
 				<capitalExpenditure>
 					<assetNumber>FA00006785</assetNumber>
-					<depreciationEndYear>2028</depreciationEndYear>
+					<depreciationStartDate>2020-01-15</depreciationStartDate>
 					<price currency="NZD">3325.78</price>
+					<usefulLife>8</usefulLife>
 				</capitalExpenditure>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
