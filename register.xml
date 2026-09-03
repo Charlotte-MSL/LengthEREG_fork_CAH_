@@ -1368,7 +1368,7 @@
 		</qualityManual>
 	</equipment>
 	<equipment keywords="Visible Laser" enteredBy="Chris Young">
-		<id>MSLE.L.017</id>
+		<id>MSLE.L.031</id>
 		<manufacturer>Winter's Electro-Optics Inc</manufacturer>
 		<model>Model 100</model>
 		<serial>153</serial>
@@ -1379,7 +1379,7 @@
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
-			<measurand quantity="Wavelength" calibrationInterval="3">
+			<measurand quantity="Wavelength" calibrationInterval="0">
 				<component name="Laser Head">
 					<report id="MEP2003" enteredBy="Chris Young">
 						<reportIssueDate>2003-01-01</reportIssueDate>
@@ -7002,6 +7002,360 @@
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
 			<technicalProcedures>
 				<id>MSLT.L.005</id>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Roundness Standard" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.030</id>
+		<manufacturer>National Measurement Institute</manufacturer>
+		<model>RN061092</model>
+		<serial>112/434-614</serial>
+		<description>The flick standard is made of hardened steel and comprises a plug gauge with a nominally 2.44 um flat region machined onto the measuring face. The gauge is mounted in an anodized aluminium case with a black lid. The gauge is marked: 96 u" 112-434-614 2.44 u"</description>
+		<specifications>
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Average Difference in Diameter" calibrationInterval="5">
+				<component name="Roundness Flick Standard">
+					<report id="Length/2013/936" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2013-03-21</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2013-03-21</measurementStartDate>
+						<measurementStopDate>2013-03-21</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.039.002</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.9</minimum>
+									<maximum>20.1</maximum>
+								</temperature>
+								<expansionCoefficient unit =""></expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO></documentaryStandardsISO>
+						</acceptanceCriteria>
+						<equation>
+							<value variables="d">2.46</value>
+							<uncertainty variables="um">0.02</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Elastic Compression" calibrationInterval="5">
+				<component name="Roundness Flick Standard">
+					<report id="Length/2013/936" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2013-03-21</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2013-03-21</measurementStartDate>
+						<measurementStopDate>2013-03-21</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.039.002</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.9</minimum>
+									<maximum>20.1</maximum>
+								</temperature>
+								<expansionCoefficient unit =""></expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO></documentaryStandardsISO>
+						</acceptanceCriteria>
+						<equation>
+							<value variables="Compression">0.04</value>
+							<uncertainty variables="um">0.02</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Rule" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.032</id>
+		<manufacturer>Toledo Steel International</manufacturer>
+		<model>1500 mm</model>
+		<serial></serial>
+		<description>1500 mm steel rule, with upper and lower scales graduated in 1 mm division except for the first 100 mm of the upper scale which is in 0.5 mm division. Rule is engraved with "Length/99/487" and "Length/2000/506".</description>
+		<specifications>
+			<length unit ="mm">1500</length>
+			<metric>true</metric>
+		</specifications>
+		<location>Long room</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Upper Scale Deivation" calibrationInterval="5">
+				<component name="Steel Rule">
+					<report id="Length/2000/506" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2000-11-09</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2000-11-09</measurementStartDate>
+						<measurementStopDate>2000-11-09</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.002.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</temperature>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double, double, double, double, double, int</type>
+							<unit>  mm, mm, mm, mm, mm, dimensionless  </unit>
+							<header>Maximal Deviation, Maximal Deviation Location, Minimum Deviation, Minimal Deviation Location, Standard Uncertainty, DOF </header>
+							<data>
+								0.06			,5							 ,0.03				,667						,0.015					,50
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Lower Scale Deviation" calibrationInterval="5">
+				<component name="Steel Rule">
+					<report id="Length/2017/1076" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-05-06">
+						<reportIssueDate>2017-08-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
+						<measurementStopDate>2017-08-29</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</temperature>
+								<tension unit ="N">50</tension>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double, double, double, double, double, int</type>
+							<unit>  mm, mm, mm, mm, mm, dimensionless  </unit>
+							<header> Maximal Deviation, Maximal Deviation Location, Minimum Deviation, Minimal Deviation Location, Standard Uncertainty, DOF </header>
+							<data>
+								0.03						  ,3				  ,-0.03			 ,692						 ,0.015					,50
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="End Squareness" calibrationInterval="5">
+				<component name="Sqaureness">
+					<report id="Length/2000/506" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2000-11-09</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2000-11-09</measurementStartDate>
+						<measurementStopDate>2000-11-09</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</temperature>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double, double, double, int</type>
+							<unit>  deg, deg, mm, dimensionless  </unit>
+							<header>Upper Scale Squareness, Lower Scale Squareness, Uncertainty per 10 mm, DOF </header>
+							<data>
+									90				  ,90							,0.0025			 	  ,50
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Barometer" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.033</id>
+		<manufacturer>Vaisala</manufacturer>
+		<model>PTB220 Class A Digital Barometer (Portable)</model>
+		<serial>X4030003</serial>
+		<description>PTB220A barometric pressure transmitter, incl. PTB200RS serial interface model (RS485/422, PTB220DU display keyboard, PTB220TS case and battery</description>
+		<specifications>
+		</specifications>
+		<location>Tunnel</location>
+		<status>Dormant</status>
+		<loggable>true</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Pressure" calibrationInterval="3">
+				<component name="barometer">
+					<report id="Pressure/2022/650" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2022-06-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2022-06-08</measurementStartDate>
+						<measurementStopDate>2022-06-08</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.P.001.011</technicalProcedure>
+						<conditions>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.9</minimum>
+									<maximum>20.3</maximum>
+								</range>
+							</temperature>
+							<pressure>
+								<range>
+									<minimum>100.5</minimum>
+									<maximum>100.7</maximum>
+								</range>
+							</pressure>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  int             , double            , double          , double             , int</type>
+							<unit>  hPa             , hPa               , hPa             , hPa                , no unit</unit>
+							<header>Nominal Pressure, Rising Pressure   , Falling Pressure, Std. Uncertainty   , dof</header>
+							<data>
+								950             ,  -0.266            , -0.266           , 0.0105               , 20
+								960             ,  -0.266            , -0.271           , 0.0105               , 20
+								970             ,  -0.270            , -0.270           , 0.0105               , 20
+								980             ,  -0.263            , -0.268           , 0.0105               , 20
+								990             ,  -0.262            , -0.262           , 0.0105               , 20
+								1000            ,  -0.250            , -0.255           , 0.0105               , 20
+								1010            ,  -0.250            , -0.245           , 0.0105               , 20
+								1020            ,  -0.264            , -0.249           , 0.0105               , 20
+								1030            ,  -0.254            , -0.254           , 0.0105               , 20
+								1040            ,  -0.249            , -0.254           , 0.0105               , 20
+								1050            ,  -0.257            , -0.252           , 0.0105               , 20
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>				
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Power" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.035</id>
+		<manufacturer>Newport</manufacturer>
+		<model>
+			Meter: 840-C
+			Head: 818-SL
+			Attenutator: 883-SL
+		</model>
+		<serial>
+			DSIR Number: 003414 and 003415
+			Meter: N/A
+			Head: 4212
+			Attenuator: 4212
+		</serial>
+		<description>Newport Handheld Optical Power Meter with silicon detector head with range 400-1100 nm.</description>
+		<specifications>
+			Detector range of 400-1100 nm
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>false</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="">
+				<component name="">
+					<report id="" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory></issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="">
+									<minimum></minimum>
+									<maximum></maximum>
+								</temperature>
+								<expansionCoefficient unit =""></expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO></documentaryStandardsISO>
+						</acceptanceCriteria>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>1993</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
