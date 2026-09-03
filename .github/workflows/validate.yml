@@ -8,16 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout equipment-register repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Clone schema repository
         run: git clone --depth 1 https://github.com/MSLNZ/equipment-register-schema.git
       - name: Install uv
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
         with:
           enable-cache: false
       - name: Run validator tool
         run: |
-          uvx --with https://github.com/MSLNZ/msl-equipment.git[validate] \
+          uvx --with msl-equipment-validate@git+https://github.com/MSLNZ/msl-equipment#subdirectory=packages/validate \
             msl-equipment-validate \
             --skip-checksum \
             --schema equipment-register-schema/equipment-register.xsd \
