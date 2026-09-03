@@ -4491,12 +4491,6 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Visible Laser" enteredBy="Chris Young">
-		<id>MSLE.L.031</id>
-		<manufacturer>Winter's Electro-Optics Inc</manufacturer>
-		<model>Model 100</model>
-		<serial>153</serial>
-		<description>Iodine Stabilised HeNe Laser 633 nm</description>
 	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 		<id>MSLE.L.PRT018</id>
 		<manufacturer>ServoTech Limited</manufacturer>
@@ -4509,14 +4503,6 @@
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
-			<measurand quantity="Wavelength" calibrationInterval="0">
-				<component name="Laser Head">
-					<report id="MEP2003" enteredBy="Chris Young">
-						<reportIssueDate>2003-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">2003-01-01</measurementStartDate>
-						<measurementStopDate>2003-01-01</measurementStopDate>
-						<issuingLaboratory>CIPM</issuingLaboratory>
-						<technicalProcedure>MSLT.L.006.005</technicalProcedure>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
 					<report id="Temperature/2022/106" enteredBy="Chris Young">
