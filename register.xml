@@ -2105,7 +2105,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Hygrometer" enteredBy="Chris Young">
+	<equipment keywords="Hygrometer" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 		<id>MSLE.L.097</id>
 		<manufacturer>Omega, USA</manufacturer>
 		<model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
@@ -2148,6 +2148,34 @@
 					</report>
 				</component>
 			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/651" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (2.58E-1 - 5.9E-3*t)</value>
+							<uncertainty variables="">0.06</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
 		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
@@ -2171,7 +2199,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Hygrometer" enteredBy="Chris Young">
+	<equipment keywords="Hygrometer" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 		<id>MSLE.L.098</id>
 		<manufacturer>Omega, USA</manufacturer>
 		<model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
@@ -2214,6 +2242,34 @@
 					</report>
 				</component>
 			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/652" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (1.95E-1 - 2.5E-3*t)</value>
+							<uncertainty variables="">0.06</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
 		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
@@ -2237,7 +2293,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Hygrometer" enteredBy="Chris Young">
+	<equipment keywords="Hygrometer" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 		<id>MSLE.L.099</id>
 		<manufacturer>Omega, USA</manufacturer>
 		<model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
@@ -2273,6 +2329,34 @@
 								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/653" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (2.97E-1 - 4.4E-3*t)</value>
+							<uncertainty variables="">0.06</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -2339,6 +2423,34 @@
 								<range variable="h">
 									<minimum>31</minimum>
 									<maximum>84</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Temperature" calibrationInterval="3">
+				<component name="hygrometer">
+					<report id="Humidity/2025/654" enteredBy="Chris Young">
+						<reportIssueDate>2025-04-10</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
+						<measurementStopDate>2025-04-07</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.H.002.006</technicalProcedure>
+						<conditions>
+							<flowRate unit ="L/m">20</flowRate>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">t + (-2.64E-1 - 8.7E-3*t)</value>
+							<uncertainty variables="">0.12</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>16</minimum>
+									<maximum>31</maximum>
 								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -2676,7 +2788,7 @@
 		<description>A Zeeman Stabilised Laser Head</description>
 		<specifications></specifications>
 		<location>Long Room</location>
-		<status>Active</status>
+		<status>Damaged</status>
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
@@ -2851,10 +2963,10 @@
 		<manufacturer>Keysight Technologies Limited</manufacturer>
 		<model>5519A</model>
 		<serial>US40091129</serial>
-		<description>A Zeeman Stabilised Laser Head (2nd Hand Purchase Sam's Laser)</description>
+		<description>A Zeeman Stabilised Laser Head (2nd Hand Purchase Sam's Laser). Prior Linescale laser (replaced early 2026)</description>
 		<specifications></specifications>
-		<location>Long Room</location>
-		<status>Active</status>
+		<location>Laser Lab</location>
+		<status>Damaged</status>
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
@@ -6026,7 +6138,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT055</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6064,6 +6176,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/533" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1162*(1+3.91111E-3*t - 5.929-7*pow(t,2))</value>
+							<uncertainty variables="">0.00215</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6090,7 +6226,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT056</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6118,6 +6254,30 @@
 						<equation>
 							<value variables="t">100.1643*(1+3.91124E-3*t - 5.907E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00265</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+					<report id="Temperature/2026/534" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1662*(1+3.91126E-3*t - 5.921-7*pow(t,2))</value>
+							<uncertainty variables="">0.0027</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -6218,7 +6378,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT058</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6256,6 +6416,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/535" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1322*(1+3.91144E-3*t - 5.916-7*pow(t,2))</value>
+							<uncertainty variables="">0.0022</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6282,7 +6466,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT059</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6346,7 +6530,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT060</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6410,7 +6594,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT061</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6448,6 +6632,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/536" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1292*(1+3.91257E-3*t - 5.935-7*pow(t,2))</value>
+							<uncertainty variables="">0.0025</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6474,7 +6682,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT062</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6512,6 +6720,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/537" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.113*(1+3.91191E-3*t - 5.939-7*pow(t,2))</value>
+							<uncertainty variables="">0.0019</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6538,7 +6770,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT063</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6576,6 +6808,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/538" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1205*(1+3.91287E-3*t - 6.011-7*pow(t,2))</value>
+							<uncertainty variables="">0.0028</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6602,7 +6858,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT064</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6640,6 +6896,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/539" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1088*(1+3.91319E-3*t - 6.013-7*pow(t,2))</value>
+							<uncertainty variables="">0.00175</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6666,7 +6946,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT065</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6704,6 +6984,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/540" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0903*(1+3.91275E-3*t - 5.9-775*pow(t,2))</value>
+							<uncertainty variables="">0.0046</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6730,7 +7034,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT066</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6768,6 +7072,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/541" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1156*(1+3.91244E-3*t - 5.874-7*pow(t,2))</value>
+							<uncertainty variables="">0.00245</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6794,7 +7122,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT067</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6832,6 +7160,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1054*(1+3.91285E-3*t - 5.934-7*pow(t,2))</value>
+							<uncertainty variables="">0.00255</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6858,7 +7210,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT068</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6896,6 +7248,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/543" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0874*(1+3.92228E-3*t - 6.5110-7*pow(t,2))</value>
+							<uncertainty variables="">0.0018</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6916,7 +7292,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT069</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6954,6 +7330,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/544" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0832*(1+3.92259E-3*t - 6.5330-7*pow(t,2))</value>
+							<uncertainty variables="">0.00175</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -6974,7 +7374,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT070</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7012,6 +7412,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/545" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0953*(1+3.92176E-3*t - 6.5600-7*pow(t,2))</value>
+							<uncertainty variables="">0.00205</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7032,7 +7456,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT071</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7070,6 +7494,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1015*(1+3.92132E-3*t - 6.6020-7*pow(t,2))</value>
+							<uncertainty variables="">0.0019</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7090,7 +7538,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT072</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7128,6 +7576,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/547" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0941*(1+3.92166E-3*t - 6.4840-7*pow(t,2))</value>
+							<uncertainty variables="">0.00205</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7148,7 +7620,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT073</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7186,6 +7658,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/548" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0892*(1+3.92222E-3*t - 6.5060-7*pow(t,2))</value>
+							<uncertainty variables="">0.00175</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7206,7 +7702,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT074</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7244,6 +7740,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/549" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0785*(1+3.92209E-3*t - 6.5860-7*pow(t,2))</value>
+							<uncertainty variables="">0.00175</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7264,7 +7784,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT075</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7302,6 +7822,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/550" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1196*(1+3.92176E-3*t - 6.5200-7*pow(t,2))</value>
+							<uncertainty variables="">0.0017</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7322,7 +7866,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT076</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7360,6 +7904,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/551" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0855*(1+3.92296E-3*t - 6.5680-7*pow(t,2))</value>
+							<uncertainty variables="">0.00175</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7380,7 +7948,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
 		<id>MSLE.L.PRT077</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7418,6 +7986,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/552" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-08-20</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
+						<measurementStopDate>2026-08-16</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">170</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.1002*(1+3.92241E-3*t - 6.5730-7*pow(t,2))</value>
+							<uncertainty variables="">0.00</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
@@ -7443,7 +8035,7 @@
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
 		<serial>LS56</serial>
-		<description>A Platinum Resistance Thermometer</description>
+		<description>A Platinum Resistance Thermometer with probe length 90 mm</description>
 		<specifications></specifications>
 		<location>Laser Lab</location>
 		<status>Dormant</status>
@@ -7452,22 +8044,27 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/370" enteredBy="Charlotte Hayton">
-						<reportIssueDate>0001-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">0001-01-01</measurementStartDate>
-						<measurementStopDate>0001-01-01</measurementStopDate>
+					<report id="Temperature/2026/517" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-05-21</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
+						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="mm"></immersion>
-							<current unit ="mA"></current>
+							<immersion unit ="200 mm"></immersion>
+							<current unit ="1 mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="">0</value>
-							<uncertainty variables="">0</uncertainty>
-							<unit>ohms</unit>
-							<ranges></ranges>
+							<value variables="t">99.9821*(1+3.92608E-3*t - 6.954*pow(t,2))</value>
+							<uncertainty variables="">0.0026</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -7495,7 +8092,7 @@
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
 		<serial>LS57</serial>
-		<description>A Platinum Resistance Thermometer</description>
+		<description>A Platinum Resistance Thermometer with probe length 90 mm</description>
 		<specifications></specifications>
 		<location>Laser Lab</location>
 		<status>Dormant</status>
@@ -7504,22 +8101,26 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/370" enteredBy="Charlotte Hayton">
-						<reportIssueDate>0001-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">0001-01-01</measurementStartDate>
-						<measurementStopDate>0001-01-01</measurementStopDate>
+					<report id="Temperature/2026/518" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-06-03</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
+						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="mm"></immersion>
-							<current unit ="mA"></current>
+							<immersion unit ="200 mm"></immersion>
+							<current unit ="1 mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="">0</value>
-							<uncertainty variables="">0</uncertainty>
-							<unit>ohms</unit>
+							<value variables="t">99.9855*(1+3.92443E-3*t - 6.643*pow(t,2))</value>
+							<uncertainty variables="">0.00235</uncertainty>
+							<unit>C</unit>
 							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
 							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
@@ -7548,7 +8149,7 @@
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
 		<serial>LS58</serial>
-		<description>A Platinum Resistance Thermometer</description>
+		<description>A Platinum Resistance Thermometer with probe length 90 mm</description>
 		<specifications></specifications>
 		<location>Laser Lab</location>
 		<status>Dormant</status>
@@ -7557,21 +8158,21 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/370" enteredBy="Charlotte Hayton">
-						<reportIssueDate>0001-01-01</reportIssueDate>
-						<measurementStartDate recalibrateReference="true">0001-01-01</measurementStartDate>
-						<measurementStopDate>0001-01-01</measurementStopDate>
+					<report id="Temperature/2026/519" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-06-03</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
+						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
-						<technicalProcedure>MSLT.T.016.013</technicalProcedure>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="mm"></immersion>
-							<current unit ="mA"></current>
+							<immersion unit ="200 mm"></immersion>
+							<current unit ="1 mA"></current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="">0</value>
-							<uncertainty variables="">0</uncertainty>
-							<unit>ohms</unit>
+							<value variables="t">99.9724*(1+3.92428E-3*t - 6.671*pow(t,2))</value>
+							<uncertainty variables="">0.0024</uncertainty>
+							<unit>C</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
@@ -7677,7 +8278,7 @@
 			</technicalProcedures>
 		</qualityManual>
 		</equipment>
-		<equipment keywords="Resistance Bridge" enteredBy ="Chris Young">
+	<equipment keywords="Resistance Bridge" enteredBy ="Chris Young">
 		<id>MSLE.L.147</id>
 		<manufacturer>Isothermal Technologies Limited</manufacturer>
 		<model>MicrosKanner 913</model>
@@ -8909,7 +9510,7 @@
 							<measurementConditions>
 								<temperature unit ="C">
 									<minimum>19.0</minimum>
-									<maximum>20.0</maximum>
+									<maximum>21.0</maximum>
 								</temperature>
 								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
 							</measurementConditions>
@@ -8937,7 +9538,7 @@
 							<measurementConditions>
 								<temperature unit ="C">
 									<minimum>19.0</minimum>
-									<maximum>20.0</maximum>
+									<maximum>21.0</maximum>
 								</temperature>
 								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
 							</measurementConditions>
@@ -8967,7 +9568,7 @@
 							<measurementConditions>
 								<temperature unit ="C">
 									<minimum>19.0</minimum>
-									<maximum>20.0</maximum>
+									<maximum>21.0</maximum>
 								</temperature>
 								<expansionCoefficient unit ="/C">1.0E-6</expansionCoefficient>
 							</measurementConditions>
@@ -10692,5 +11293,359 @@
 			<technicalProcedures>
 			</technicalProcedures>
 		</qualityManual>	
+	</equipment>
+	<equipment keywords="Roundness Standard" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.030</id>
+		<manufacturer>National Measurement Institute</manufacturer>
+		<model>RN061092</model>
+		<serial>112/434-614</serial>
+		<description>The flick standard is made of hardened steel and comprises a plug gauge with a nominally 2.44 um flat region machined onto the measuring face. The gauge is mounted in an anodized aluminium case with a black lid. The gauge is marked: 96 u" 112-434-614 2.44 u"</description>
+		<specifications>
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Average Difference in Diameter" calibrationInterval="5">
+				<component name="Roundness Flick Standard">
+					<report id="Length/2013/936" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2013-03-21</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2013-03-21</measurementStartDate>
+						<measurementStopDate>2013-03-21</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.039.002</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.9</minimum>
+									<maximum>20.1</maximum>
+								</temperature>
+								<expansionCoefficient unit =""></expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO></documentaryStandardsISO>
+						</acceptanceCriteria>
+						<equation>
+							<value variables="d">2.46</value>
+							<uncertainty variables="um">0.02</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Elastic Compression" calibrationInterval="5">
+				<component name="Roundness Flick Standard">
+					<report id="Length/2013/936" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2013-03-21</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2013-03-21</measurementStartDate>
+						<measurementStopDate>2013-03-21</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.039.002</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.9</minimum>
+									<maximum>20.1</maximum>
+								</temperature>
+								<expansionCoefficient unit =""></expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO></documentaryStandardsISO>
+						</acceptanceCriteria>
+						<equation>
+							<value variables="Compression">0.04</value>
+							<uncertainty variables="um">0.02</uncertainty>
+							<unit>um</unit>
+							<ranges></ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Rule" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.032</id>
+		<manufacturer>Toledo Steel International</manufacturer>
+		<model>1500 mm</model>
+		<serial></serial>
+		<description>1500 mm steel rule, with upper and lower scales graduated in 1 mm division except for the first 100 mm of the upper scale which is in 0.5 mm division. Rule is engraved with "Length/99/487" and "Length/2000/506".</description>
+		<specifications>
+			<length unit ="mm">1500</length>
+			<metric>true</metric>
+		</specifications>
+		<location>Long room</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Upper Scale Deivation" calibrationInterval="5">
+				<component name="Steel Rule">
+					<report id="Length/2000/506" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2000-11-09</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2000-11-09</measurementStartDate>
+						<measurementStopDate>2000-11-09</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.L.002.003</technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</temperature>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double, double, double, double, double, int</type>
+							<unit>  mm, mm, mm, mm, mm, dimensionless  </unit>
+							<header>Maximal Deviation, Maximal Deviation Location, Minimum Deviation, Minimal Deviation Location, Standard Uncertainty, DOF </header>
+							<data>
+								0.06			,5							 ,0.03				,667						,0.015					,50
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="Lower Scale Deviation" calibrationInterval="5">
+				<component name="Steel Rule">
+					<report id="Length/2017/1076" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-05-06">
+						<reportIssueDate>2017-08-30</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
+						<measurementStopDate>2017-08-29</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</temperature>
+								<tension unit ="N">50</tension>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double, double, double, double, double, int</type>
+							<unit>  mm, mm, mm, mm, mm, dimensionless  </unit>
+							<header> Maximal Deviation, Maximal Deviation Location, Minimum Deviation, Minimal Deviation Location, Standard Uncertainty, DOF </header>
+							<data>
+								0.03						  ,3				  ,-0.03			 ,692						 ,0.015					,50
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+			<measurand quantity="End Squareness" calibrationInterval="5">
+				<component name="Sqaureness">
+					<report id="Length/2000/506" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2000-11-09</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2000-11-09</measurementStartDate>
+						<measurementStopDate>2000-11-09</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</temperature>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  double, double, double, int</type>
+							<unit>  deg, deg, mm, dimensionless  </unit>
+							<header>Upper Scale Squareness, Lower Scale Squareness, Uncertainty per 10 mm, DOF </header>
+							<data>
+								90				  ,90							,0.0025			 	  ,50
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Barometer" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.033</id>
+		<manufacturer>Vaisala</manufacturer>
+		<model>PTB220 Class A Digital Barometer (Portable)</model>
+		<serial>X4030003</serial>
+		<description>PTB220A barometric pressure transmitter, incl. PTB200RS serial interface model (RS485/422, PTB220DU display keyboard, PTB220TS case and battery</description>
+		<specifications>
+		</specifications>
+		<location>Tunnel</location>
+		<status>Dormant</status>
+		<loggable>true</loggable>
+		<traceable>true</traceable>
+		<calibrations>
+			<measurand quantity="Pressure" calibrationInterval="3">
+				<component name="barometer">
+					<report id="Pressure/2022/650" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2022-06-08</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2022-06-08</measurementStartDate>
+						<measurementStopDate>2022-06-08</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.P.001.011</technicalProcedure>
+						<conditions>
+							<temperature unit ="C">
+								<range>
+									<minimum>19.9</minimum>
+									<maximum>20.3</maximum>
+								</range>
+							</temperature>
+							<pressure>
+								<range>
+									<minimum>100.5</minimum>
+									<maximum>100.7</maximum>
+								</range>
+							</pressure>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<table>
+							<type>  int             , double            , double          , double             , int</type>
+							<unit>  hPa             , hPa               , hPa             , hPa                , no unit</unit>
+							<header>Nominal Pressure, Rising Pressure   , Falling Pressure, Std. Uncertainty   , dof</header>
+							<data>
+								950             ,  -0.266            , -0.266           , 0.0105               , 20
+								960             ,  -0.266            , -0.271           , 0.0105               , 20
+								970             ,  -0.270            , -0.270           , 0.0105               , 20
+								980             ,  -0.263            , -0.268           , 0.0105               , 20
+								990             ,  -0.262            , -0.262           , 0.0105               , 20
+								1000            ,  -0.250            , -0.255           , 0.0105               , 20
+								1010            ,  -0.250            , -0.245           , 0.0105               , 20
+								1020            ,  -0.264            , -0.249           , 0.0105               , 20
+								1030            ,  -0.254            , -0.254           , 0.0105               , 20
+								1040            ,  -0.249            , -0.254           , 0.0105               , 20
+								1050            ,  -0.257            , -0.252           , 0.0105               , 20
+							</data>
+						</table>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
+	<equipment keywords="Power" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.035</id>
+		<manufacturer>Newport</manufacturer>
+		<model>
+			Meter: 840-C
+			Head: 818-SL
+			Attenutator: 883-SL
+		</model>
+		<serial>
+			DSIR Number: 003414 and 003415
+			Meter: N/A
+			Head: 4212
+			Attenuator: 4212
+		</serial>
+		<description>Newport Handheld Optical Power Meter with silicon detector head with range 400-1100 nm.</description>
+		<specifications>
+			Detector range of 400-1100 nm
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Active</status>
+		<loggable>false</loggable>
+		<traceable>false</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="">
+				<component name="">
+					<report id="" enteredBy="">
+						<reportIssueDate></reportIssueDate>
+						<measurementStartDate recalibrateReference="true"></measurementStartDate>
+						<measurementStopDate></measurementStopDate>
+						<issuingLaboratory></issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="">
+									<minimum></minimum>
+									<maximum></maximum>
+								</temperature>
+								<expansionCoefficient unit =""></expansionCoefficient>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria>
+							<documentaryStandardsISO></documentaryStandardsISO>
+						</acceptanceCriteria>
+						<equation>
+							<value variables=""></value>
+							<uncertainty variables=""></uncertainty>
+							<unit></unit>
+							<ranges></ranges>
+							<degreeFreedom></degreeFreedom>
+						</equation>
+					</report>
+				</component>
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware></firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear>1993</purchaseYear>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+			</technicalProcedures>
+		</qualityManual>
 	</equipment>
 </register>
