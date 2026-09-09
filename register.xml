@@ -17,7 +17,7 @@
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="HEL184120025" enteredBy="Chris Young">
+					<report id="HEL184120025" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04"> 
 						<reportIssueDate>2018-12-12</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2018-10-08</measurementStartDate>
 						<measurementStopDate>2018-10-08</measurementStopDate>
@@ -42,7 +42,7 @@
 			</measurand>
 			<measurand quantity="Pressure" calibrationInterval="3">
 				<component name="barometer">
-					<report id="Pressure/2024/690" enteredBy="Chris Young">
+					<report id="Pressure/2024/690" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04">
 						<reportIssueDate>2024-10-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-08-13</measurementStartDate>
 						<measurementStopDate>2024-08-13</measurementStopDate>
@@ -86,7 +86,7 @@
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
 				<component name="thermometer">
-					<report id="HEL184120025" enteredBy="Chris Young">
+					<report id="HEL184120025" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04">
 						<reportIssueDate>2018-12-12</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2018-10-08</measurementStartDate>
 						<measurementStopDate>2018-10-08</measurementStopDate>
@@ -163,7 +163,7 @@
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="HEL244760365" enteredBy="Chris Young">
+					<report id="HEL244760365" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04">
 						<reportIssueDate>2024-11-23</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-11-23</measurementStartDate>
 						<measurementStopDate>2024-11-23</measurementStopDate>
@@ -188,7 +188,7 @@
 			</measurand>
 			<measurand quantity="Pressure" calibrationInterval="3">
 				<component name="barometer">
-					<report id="H44-24470039" enteredBy="Chris Young">
+					<report id="H44-24470039" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04">
 						<reportIssueDate>2024-11-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-11-20</measurementStartDate>
 						<measurementStopDate>2024-11-20</measurementStopDate>
@@ -236,7 +236,7 @@
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
 				<component name="thermometer">
-					<report id="HEL244760365" enteredBy="Chris Young">
+					<report id="HEL244760365" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-04">
 						<reportIssueDate>2024-11-23</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2024-11-23</measurementStartDate>
 						<measurementStopDate>2024-11-23</measurementStopDate>
@@ -2122,7 +2122,7 @@
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/651" enteredBy="Chris Young">
+					<report id="Humidity/2025/651" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -2150,7 +2150,7 @@
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/651" enteredBy="Chris Young">
+					<report id="Humidity/2025/651" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -2216,7 +2216,7 @@
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/652" enteredBy="Chris Young">
+					<report id="Humidity/2025/652" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -2244,7 +2244,7 @@
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/652" enteredBy="Chris Young">
+					<report id="Humidity/2025/652" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -2310,7 +2310,7 @@
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/653" enteredBy="Chris Young">
+					<report id="Humidity/2025/653" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -2338,7 +2338,7 @@
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/653" enteredBy="Chris Young">
+					<report id="Humidity/2025/653" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -2387,7 +2387,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Hygrometer" enteredBy="Chris Young">
+	<equipment keywords="Hygrometer" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 		<id>MSLE.L.100</id>
 		<manufacturer>Omega, USA</manufacturer>
 		<model>Omega Microserver iTHX-W3 with iTHP-W-6 Probe</model>
@@ -2404,7 +2404,7 @@
 		<calibrations>
 			<measurand quantity="Humidity" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/654" enteredBy="Chris Young">
+					<report id="Humidity/2025/654" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -2432,7 +2432,7 @@
 			</measurand>
 			<measurand quantity="Temperature" calibrationInterval="3">
 				<component name="hygrometer">
-					<report id="Humidity/2025/654" enteredBy="Chris Young">
+					<report id="Humidity/2025/654" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-29">
 						<reportIssueDate>2025-04-10</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-04-03</measurementStartDate>
 						<measurementStopDate>2025-04-07</measurementStopDate>
@@ -3497,7 +3497,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/089" enteredBy="Chris Young">
+					<report id="Temperature/2022/089" enteredBy="Chris Young" checkedBy="Charlotte Hayton" checkedDate ="2026-04-23">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3558,7 +3558,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/090" enteredBy="Chris Young">
+					<report id="Temperature/2022/090" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-23">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3619,7 +3619,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/091" enteredBy="Chris Young">
+					<report id="Temperature/2022/091" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-23">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3680,7 +3680,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/092" enteredBy="Chris Young">
+					<report id="Temperature/2022/092" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3741,7 +3741,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/093" enteredBy="Chris Young">
+					<report id="Temperature/2022/093" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3802,7 +3802,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/094" enteredBy="Chris Young">
+					<report id="Temperature/2022/094" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3863,7 +3863,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/095" enteredBy="Chris Young">
+					<report id="Temperature/2022/095" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3924,7 +3924,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/096" enteredBy="Chris Young">
+					<report id="Temperature/2022/096" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -3985,7 +3985,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/097" enteredBy="Chris Young">
+					<report id="Temperature/2022/097" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -4046,7 +4046,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/098" enteredBy="Chris Young">
+					<report id="Temperature/2022/098" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-24">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -4107,7 +4107,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/099" enteredBy="Chris Young">
+					<report id="Temperature/2022/099" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -4168,7 +4168,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/100" enteredBy="Chris Young">
+					<report id="Temperature/2022/100" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -4229,7 +4229,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/101" enteredBy="Chris Young">
+					<report id="Temperature/2022/101" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -4290,7 +4290,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/102" enteredBy="Chris Young">
+					<report id="Temperature/2022/102" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -4351,7 +4351,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/103" enteredBy="Chris Young">
+					<report id="Temperature/2022/103" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-27</measurementStartDate>
 						<measurementStopDate>2022-05-28</measurementStopDate>
@@ -4412,7 +4412,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/104" enteredBy="Chris Young">
+					<report id="Temperature/2022/104" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4473,7 +4473,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/105" enteredBy="Chris Young">
+					<report id="Temperature/2022/105" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4535,7 +4535,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/106" enteredBy="Chris Young">
+					<report id="Temperature/2022/106" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4596,7 +4596,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/107" enteredBy="Chris Young">
+					<report id="Temperature/2022/107" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4657,7 +4657,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/108" enteredBy="Chris Young">
+					<report id="Temperature/2022/108" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4718,7 +4718,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/109" enteredBy="Chris Young">
+					<report id="Temperature/2022/109" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4779,7 +4779,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/110" enteredBy="Chris Young">
+					<report id="Temperature/2022/110" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4840,7 +4840,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/111" enteredBy="Chris Young">
+					<report id="Temperature/2022/111" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4901,7 +4901,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/112" enteredBy="Chris Young">
+					<report id="Temperature/2022/112" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -4962,7 +4962,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/113" enteredBy="Chris Young">
+					<report id="Temperature/2022/113" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -5023,7 +5023,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/114" enteredBy="Chris Young">
+					<report id="Temperature/2022/114" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -5084,7 +5084,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/115" enteredBy="Chris Young">
+					<report id="Temperature/2022/115" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -5145,7 +5145,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/116" enteredBy="Chris Young">
+					<report id="Temperature/2022/116" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -5206,7 +5206,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/117" enteredBy="Chris Young">
+					<report id="Temperature/2022/117" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -5267,7 +5267,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2022/118" enteredBy="Chris Young">
+					<report id="Temperature/2022/118" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2022-05-27</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-05-26</measurementStartDate>
 						<measurementStopDate>2022-05-27</measurementStopDate>
@@ -5328,7 +5328,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/248" enteredBy="Chris Young">
+					<report id="Temperature/2023/248" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-15</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5386,7 +5386,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/249" enteredBy="Chris Young">
+					<report id="Temperature/2023/249" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-15</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5444,7 +5444,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/250" enteredBy="Chris Young">
+					<report id="Temperature/2023/250" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-15</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5502,7 +5502,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/251" enteredBy="Chris Young">
+					<report id="Temperature/2023/251" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-15</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5560,7 +5560,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/261" enteredBy="Chris Young">
+					<report id="Temperature/2023/261" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5618,7 +5618,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/262" enteredBy="Chris Young">
+					<report id="Temperature/2023/262" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5676,7 +5676,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/257" enteredBy="Chris Young">
+					<report id="Temperature/2023/257" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5734,7 +5734,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/258" enteredBy="Chris Young">
+					<report id="Temperature/2023/258" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5792,7 +5792,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/259" enteredBy="Chris Young">
+					<report id="Temperature/2023/259" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5850,7 +5850,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/263" enteredBy="Chris Young">
+					<report id="Temperature/2023/263" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-28">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5908,7 +5908,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/264" enteredBy="Chris Young">
+					<report id="Temperature/2023/264" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 						<reportIssueDate>2023-09-15</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -5966,7 +5966,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/251" enteredBy="Chris Young">
+					<report id="Temperature/2023/251" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -6024,7 +6024,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/252" enteredBy="Chris Young">
+					<report id="Temperature/2023/252" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 						<reportIssueDate>2023-09-15</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -6088,7 +6088,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/253" enteredBy="Chris Young">
+					<report id="Temperature/2023/253" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -6138,7 +6138,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT055</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6152,7 +6152,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/235" enteredBy="Chris Young">
+					<report id="Temperature/2023/235" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6176,7 +6176,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/533" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/533" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6188,7 +6188,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1162*(1+3.91111E-3*t - 5.929-7*pow(t,2))</value>
+							<value variables="t">100.1162*(1+3.91111E-3*t - 5.929E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00215</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -6226,7 +6226,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 		<id>MSLE.L.PRT056</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6240,7 +6240,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/236" enteredBy="Chris Young">
+					<report id="Temperature/2023/236" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-29">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6264,7 +6264,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/534" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/534" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6276,7 +6276,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1662*(1+3.91126E-3*t - 5.921-7*pow(t,2))</value>
+							<value variables="t">100.1662*(1+3.91126E-3*t - 5.921E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0027</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -6328,7 +6328,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/254" enteredBy="Chris Young">
+					<report id="Temperature/2023/254" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -6378,7 +6378,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT058</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6392,7 +6392,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/237" enteredBy="Chris Young">
+					<report id="Temperature/2023/237" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6416,7 +6416,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/535" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/535" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6428,7 +6428,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1322*(1+3.91144E-3*t - 5.916-7*pow(t,2))</value>
+							<value variables="t">100.1322*(1+3.91144E-3*t - 5.916E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0022</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -6466,7 +6466,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT059</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6480,7 +6480,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/255" enteredBy="Chris Young">
+					<report id="Temperature/2023/255" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -6530,7 +6530,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT060</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6544,7 +6544,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/256" enteredBy="Chris Young">
+					<report id="Temperature/2023/256" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30"> 
 						<reportIssueDate>2023-09-25</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-09-13</measurementStartDate>
 						<measurementStopDate>2023-09-14</measurementStopDate>
@@ -6594,7 +6594,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT061</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6608,7 +6608,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/238" enteredBy="Chris Young">
+					<report id="Temperature/2023/238" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6632,7 +6632,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/536" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/536" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6644,7 +6644,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1292*(1+3.91257E-3*t - 5.935-7*pow(t,2))</value>
+							<value variables="t">100.1292*(1+3.91257E-3*t - 5.935E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0025</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -6682,7 +6682,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT062</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6696,7 +6696,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/239" enteredBy="Chris Young">
+					<report id="Temperature/2023/239" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6720,7 +6720,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/537" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/537" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6732,7 +6732,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.113*(1+3.91191E-3*t - 5.939-7*pow(t,2))</value>
+							<value variables="t">100.1113*(1+3.91191E-3*t - 5.939E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -6770,7 +6770,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 		<id>MSLE.L.PRT063</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6784,7 +6784,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/240" enteredBy="Chris Young">
+					<report id="Temperature/2023/240" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-04-30">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6808,7 +6808,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/538" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/538" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6820,7 +6820,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1205*(1+3.91287E-3*t - 6.011-7*pow(t,2))</value>
+							<value variables="t">100.1205*(1+3.91287E-3*t - 6.011E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0028</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -6858,7 +6858,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT064</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6872,7 +6872,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/241" enteredBy="Chris Young">
+					<report id="Temperature/2023/241" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6896,7 +6896,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/539" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/539" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6908,7 +6908,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1088*(1+3.91319E-3*t - 6.013-7*pow(t,2))</value>
+							<value variables="t">100.1088*(1+3.91319E-3*t - 6.013E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00175</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -6946,7 +6946,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT065</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -6960,7 +6960,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/242" enteredBy="Chris Young">
+					<report id="Temperature/2023/242" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -6984,7 +6984,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/540" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/540" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -6996,7 +6996,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0903*(1+3.91275E-3*t - 5.9-775*pow(t,2))</value>
+							<value variables="t">100.0903*(1+3.91275E-3*t - 5.975E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0046</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7034,7 +7034,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT066</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7048,7 +7048,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/243" enteredBy="Chris Young">
+					<report id="Temperature/2023/243" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -7072,7 +7072,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/541" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/541" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7084,7 +7084,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1156*(1+3.91244E-3*t - 5.874-7*pow(t,2))</value>
+							<value variables="t">100.1156*(1+3.91244E-3*t - 5.874E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00245</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7122,7 +7122,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT067</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7136,7 +7136,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2023/244" enteredBy="Chris Young">
+					<report id="Temperature/2023/244" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2023-08-11</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2023-08-08</measurementStartDate>
 						<measurementStopDate>2023-08-09</measurementStopDate>
@@ -7160,7 +7160,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/542" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7172,7 +7172,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1054*(1+3.91285E-3*t - 5.934-7*pow(t,2))</value>
+							<value variables="t">100.1054*(1+3.91285E-3*t - 5.934E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00255</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7210,7 +7210,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT068</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7224,7 +7224,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/361" enteredBy="Chris Young">
+					<report id="Temperature/2025/361" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7248,7 +7248,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/543" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/543" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7260,7 +7260,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0874*(1+3.92228E-3*t - 6.5110-7*pow(t,2))</value>
+							<value variables="t">100.0874*(1+3.92228E-3*t - 6.5110E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0018</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7292,7 +7292,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT069</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7306,7 +7306,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/362" enteredBy="Chris Young">
+					<report id="Temperature/2025/362" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7330,7 +7330,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/544" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/544" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7342,7 +7342,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0832*(1+3.92259E-3*t - 6.5330-7*pow(t,2))</value>
+							<value variables="t">100.0832*(1+3.92259E-3*t - 6.5330E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00175</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7374,7 +7374,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT070</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7388,7 +7388,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/363" enteredBy="Chris Young">
+					<report id="Temperature/2025/363" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7412,7 +7412,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/545" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/545" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7424,7 +7424,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0953*(1+3.92176E-3*t - 6.5600-7*pow(t,2))</value>
+							<value variables="t">100.0953*(1+3.92176E-3*t - 6.5600E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00205</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7456,7 +7456,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT071</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7470,7 +7470,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/364" enteredBy="Chris Young">
+					<report id="Temperature/2025/364" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7494,7 +7494,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/546" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7506,7 +7506,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1015*(1+3.92132E-3*t - 6.6020-7*pow(t,2))</value>
+							<value variables="t">100.1015*(1+3.92132E-3*t - 6.6020E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0019</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7538,7 +7538,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT072</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7552,7 +7552,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/365" enteredBy="Chris Young">
+					<report id="Temperature/2025/365" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7576,7 +7576,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/547" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/547" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7588,7 +7588,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0941*(1+3.92166E-3*t - 6.4840-7*pow(t,2))</value>
+							<value variables="t">100.0941*(1+3.92166E-3*t - 6.4840E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00205</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7620,7 +7620,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT073</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7634,7 +7634,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/366" enteredBy="Chris Young">
+					<report id="Temperature/2025/366" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7658,7 +7658,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/548" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/548" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7670,7 +7670,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0892*(1+3.92222E-3*t - 6.5060-7*pow(t,2))</value>
+							<value variables="t">100.0892*(1+3.92222E-3*t - 6.5060E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00175</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7702,7 +7702,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT074</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7716,7 +7716,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/367" enteredBy="Chris Young">
+					<report id="Temperature/2025/367" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7740,7 +7740,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/549" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/549" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7752,7 +7752,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0785*(1+3.92209E-3*t - 6.5860-7*pow(t,2))</value>
+							<value variables="t">100.0785*(1+3.92209E-3*t - 6.5860E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00175</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7784,7 +7784,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT075</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7798,7 +7798,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/368" enteredBy="Chris Young">
+					<report id="Temperature/2025/368" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7822,7 +7822,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/550" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/550" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7834,7 +7834,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1196*(1+3.92176E-3*t - 6.5200-7*pow(t,2))</value>
+							<value variables="t">100.1196*(1+3.92176E-3*t - 6.5200E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0017</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7866,7 +7866,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT076</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7880,7 +7880,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/369" enteredBy="Chris Young">
+					<report id="Temperature/2025/369" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7904,7 +7904,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/551" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/551" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7916,7 +7916,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.0855*(1+3.92296E-3*t - 6.5680-7*pow(t,2))</value>
+							<value variables="t">100.0855*(1+3.92296E-3*t - 6.5680E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00175</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -7948,7 +7948,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="" checkedDate ="">
+	<equipment keywords="PRT" enteredBy ="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 		<id>MSLE.L.PRT077</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -7962,7 +7962,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2025/370" enteredBy="Chris Young">
+					<report id="Temperature/2025/370" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-05-01">
 						<reportIssueDate>2025-01-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2025-01-24</measurementStartDate>
 						<measurementStopDate>2025-01-24</measurementStopDate>
@@ -7986,7 +7986,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/552" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/552" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-08-20</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-08-18</measurementStartDate>
 						<measurementStopDate>2026-08-16</measurementStopDate>
@@ -7998,8 +7998,8 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">100.1002*(1+3.92241E-3*t - 6.5730-7*pow(t,2))</value>
-							<uncertainty variables="">0.00</uncertainty>
+							<value variables="t">100.1002*(1+3.92241E-3*t - 6.5730E-7*pow(t,2))</value>
+							<uncertainty variables="">0.0018</uncertainty>
 							<unit>C</unit>
 							<ranges>
 								<range variable="t">
@@ -8030,7 +8030,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Charlotte Hayton">
+	<equipment keywords="PRT" enteredBy ="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 		<id>MSLE.L.PRT078</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -8044,19 +8044,19 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2026/517" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/517" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-05-21</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
 						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="200 mm"></immersion>
-							<current unit ="1 mA"></current>
+							<immersion unit ="mm">200</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">99.9821*(1+3.92608E-3*t - 6.954*pow(t,2))</value>
+							<value variables="t">99.9821*(1+3.92608E-3*t - 6.954E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0026</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -8087,7 +8087,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Charlotte Hayton">
+	<equipment keywords="PRT" enteredBy ="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 		<id>MSLE.L.PRT079</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -8101,19 +8101,19 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2026/518" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/518" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-06-03</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
 						<measurementStopDate>2026-05-20</measurementStopDate>
 						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
 						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
 						<conditions>
-							<immersion unit ="200 mm"></immersion>
-							<current unit ="1 mA"></current>
+							<immersion unit ="mm">200</immersion>
+							<current unit ="mA">1</current>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">99.9855*(1+3.92443E-3*t - 6.643*pow(t,2))</value>
+							<value variables="t">99.9855*(1+3.92443E-3*t - 6.643E-7*pow(t,2))</value>
 							<uncertainty variables="">0.00235</uncertainty>
 							<unit>C</unit>
 							<ranges>
@@ -8144,7 +8144,7 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="PRT" enteredBy ="Charlotte Hayton">
+	<equipment keywords="PRT" enteredBy ="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 		<id>MSLE.L.PRT080</id>
 		<manufacturer>ServoTech Limited</manufacturer>
 		<model>PT100</model>
@@ -8158,7 +8158,7 @@
 		<calibrations>
 			<measurand quantity="Resistance DC" calibrationInterval="2">
 				<component name="prt">
-					<report id="Temperature/2026/519" enteredBy="Charlotte Hayton">
+					<report id="Temperature/2026/519" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2026-06-03</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-05-20</measurementStartDate>
 						<measurementStopDate>2026-05-20</measurementStopDate>
@@ -8170,7 +8170,7 @@
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
 						<equation>
-							<value variables="t">99.9724*(1+3.92428E-3*t - 6.671*pow(t,2))</value>
+							<value variables="t">99.9724*(1+3.92428E-3*t - 6.671E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0024</uncertainty>
 							<unit>C</unit>
 							<ranges></ranges>
@@ -11294,7 +11294,7 @@
 			</technicalProcedures>
 		</qualityManual>	
 	</equipment>
-	<equipment keywords="Roundness Standard" enteredBy ="Charlotte Hayton">
+	<equipment keywords="Roundness" enteredBy ="Charlotte Hayton" checkedBy ="Chris Young" checkedDate ="2026-09-09">
 		<id>MSLE.L.030</id>
 		<manufacturer>National Measurement Institute</manufacturer>
 		<model>RN061092</model>
@@ -11307,9 +11307,9 @@
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
-			<measurand quantity="Average Difference in Diameter" calibrationInterval="5">
-				<component name="Roundness Flick Standard">
-					<report id="Length/2013/936" enteredBy="Charlotte Hayton">
+			<measurand quantity="Length" calibrationInterval="5">
+				<component name="Depth of Flick">
+					<report id="Length/2013/936" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate ="2026-09-09">
 						<reportIssueDate>2013-03-21</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2013-03-21</measurementStartDate>
 						<measurementStopDate>2013-03-21</measurementStopDate>
@@ -11336,10 +11336,8 @@
 						</equation>
 					</report>
 				</component>
-			</measurand>
-			<measurand quantity="Elastic Compression" calibrationInterval="5">
-				<component name="Roundness Flick Standard">
-					<report id="Length/2013/936" enteredBy="Charlotte Hayton">
+				<component name="Elastic Compression">
+					<report id="Length/2013/936" enteredBy="Charlotte Hayton" checkedBy ="Chris Young" checkedDate ="2026-09-09">
 						<reportIssueDate>2013-03-21</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2013-03-21</measurementStartDate>
 						<measurementStopDate>2013-03-21</measurementStopDate>
@@ -11377,31 +11375,31 @@
 			<accessories></accessories>
 			<documentation></documentation>
 			<financial>
-				<purchaseYear></purchaseYear>
+				<purchaseYear>2000</purchaseYear>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
 			<technicalProcedures>
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Rule" enteredBy ="Charlotte Hayton">
+	<equipment keywords="Rule" enteredBy ="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 		<id>MSLE.L.032</id>
 		<manufacturer>Toledo Steel International</manufacturer>
 		<model>1500 mm</model>
-		<serial></serial>
+		<serial>length 1500mm Toledo</serial>
 		<description>1500 mm steel rule, with upper and lower scales graduated in 1 mm division except for the first 100 mm of the upper scale which is in 0.5 mm division. Rule is engraved with "Length/99/487" and "Length/2000/506".</description>
 		<specifications>
 			<length unit ="mm">1500</length>
 			<metric>true</metric>
 		</specifications>
-		<location>Long room</location>
+		<location>Long Room</location>
 		<status>Dormant</status>
 		<loggable>false</loggable>
 		<traceable>true</traceable>
 		<calibrations>
-			<measurand quantity="Upper Scale Deivation" calibrationInterval="5">
-				<component name="Steel Rule">
-					<report id="Length/2000/506" enteredBy="Charlotte Hayton">
+			<measurand quantity="Deviation in Length" calibrationInterval="5">
+				<component name="Upper Scale">
+					<report id="Length/2000/506" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09"> 
 						<reportIssueDate>2000-11-09</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2000-11-09</measurementStartDate>
 						<measurementStopDate>2000-11-09</measurementStopDate>
@@ -11422,15 +11420,13 @@
 							<unit>  mm, mm, mm, mm, mm, dimensionless  </unit>
 							<header>Maximal Deviation, Maximal Deviation Location, Minimum Deviation, Minimal Deviation Location, Standard Uncertainty, DOF </header>
 							<data>
-								0.06			,5							 ,0.03				,667						,0.015					,50
+								0.06			,5							 ,0.002				,667						,0.015					,50
 							</data>
 						</table>
 					</report>
 				</component>
-			</measurand>
-			<measurand quantity="Lower Scale Deviation" calibrationInterval="5">
-				<component name="Steel Rule">
-					<report id="Length/2017/1076" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-05-06">
+				<component name="Lower Scale">
+					<report id="Length/2017/1076" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2017-08-30</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2017-08-23</measurementStartDate>
 						<measurementStopDate>2017-08-29</measurementStopDate>
@@ -11458,9 +11454,9 @@
 					</report>
 				</component>
 			</measurand>
-			<measurand quantity="End Squareness" calibrationInterval="5">
-				<component name="Sqaureness">
-					<report id="Length/2000/506" enteredBy="Charlotte Hayton">
+			<measurand quantity="Perpendicularity" calibrationInterval="5">
+				<component name="Upper Scale to End Face ">
+					<report id="Length/2000/506" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2000-11-09</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2000-11-09</measurementStartDate>
 						<measurementStopDate>2000-11-09</measurementStopDate>
@@ -11476,14 +11472,39 @@
 							</measurementConditions>
 						</conditions>
 						<acceptanceCriteria></acceptanceCriteria>
-						<table>
-							<type>  double, double, double, int</type>
-							<unit>  deg, deg, mm, dimensionless  </unit>
-							<header>Upper Scale Squareness, Lower Scale Squareness, Uncertainty per 10 mm, DOF </header>
-							<data>
-								90				  ,90							,0.0025			 	  ,50
-							</data>
-						</table>
+						<equation>
+							<value variables="">0.10</value>
+							<uncertainty variables="">0.020</uncertainty>
+							<unit>mm</unit>
+							<ranges>
+							</ranges>
+						</equation>
+					</report>
+				</component>
+				<component name="Lower Scale to End Face">
+					<report id="Length/2000/506" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
+						<reportIssueDate>2000-11-09</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2000-11-09</measurementStartDate>
+						<measurementStopDate>2000-11-09</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure></technicalProcedure>
+						<conditions>
+							<measurementConditions>
+								<temperature unit ="C">
+									<minimum>19.5</minimum>
+									<maximum>20.5</maximum>
+								</temperature>
+								<expansionCoefficent unit ="\C">11.5E-6</expansionCoefficent>
+							</measurementConditions>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="">0.10</value>
+							<uncertainty variables="">0.020</uncertainty>
+							<unit>mm</unit>
+							<ranges>
+							</ranges>
+						</equation>
 					</report>
 				</component>
 			</measurand>
@@ -11497,14 +11518,14 @@
 			<accessories></accessories>
 			<documentation></documentation>
 			<financial>
-				<purchaseYear></purchaseYear>
+				<purchaseYear>2000</purchaseYear>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
 			<technicalProcedures>
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Barometer" enteredBy ="Charlotte Hayton">
+	<equipment keywords="Barometer" enteredBy ="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 		<id>MSLE.L.033</id>
 		<manufacturer>Vaisala</manufacturer>
 		<model>PTB220 Class A Digital Barometer (Portable)</model>
@@ -11512,14 +11533,14 @@
 		<description>PTB220A barometric pressure transmitter, incl. PTB200RS serial interface model (RS485/422, PTB220DU display keyboard, PTB220TS case and battery</description>
 		<specifications>
 		</specifications>
-		<location>Tunnel</location>
+		<location>Underground Tape Tunnel</location>
 		<status>Dormant</status>
 		<loggable>true</loggable>
 		<traceable>true</traceable>
 		<calibrations>
 			<measurand quantity="Pressure" calibrationInterval="3">
 				<component name="barometer">
-					<report id="Pressure/2022/650" enteredBy="Charlotte Hayton">
+					<report id="Pressure/2022/650" enteredBy="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 						<reportIssueDate>2022-06-08</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2022-06-08</measurementStartDate>
 						<measurementStopDate>2022-06-08</measurementStopDate>
@@ -11571,67 +11592,32 @@
 			<accessories></accessories>
 			<documentation></documentation>
 			<financial>
-				<purchaseYear></purchaseYear>
+				<purchaseYear>2000</purchaseYear>
 			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
 			<technicalProcedures>
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
-	<equipment keywords="Power" enteredBy ="Charlotte Hayton">
+	<equipment keywords="Power" enteredBy ="Charlotte Hayton" checkedBy="Chris Young" checkedDate="2026-09-09">
 		<id>MSLE.L.035</id>
 		<manufacturer>Newport</manufacturer>
-		<model>
-			Meter: 840-C
-			Head: 818-SL
-			Attenutator: 883-SL
-		</model>
-		<serial>
-			DSIR Number: 003414 and 003415
-			Meter: N/A
-			Head: 4212
-			Attenuator: 4212
-		</serial>
+		<model>Meter: 840-C Head: 818-SL Attenutator: 883-SL</model>
+		<serial>DSIR Number: 003414 and 003415 Meter: N/A Head: 4212 Attenuator: 4212</serial>
 		<description>Newport Handheld Optical Power Meter with silicon detector head with range 400-1100 nm.</description>
 		<specifications>
-			Detector range of 400-1100 nm
+			<wavelength unit ="nm">
+				<range>
+					<minimum>400</minimum>
+					<maximum>1100</maximum>
+				</range>
+			</wavelength>
 		</specifications>
 		<location>Laser Lab</location>
 		<status>Active</status>
 		<loggable>false</loggable>
 		<traceable>false</traceable>
-		<calibrations>
-			<measurand quantity="" calibrationInterval="">
-				<component name="">
-					<report id="" enteredBy="">
-						<reportIssueDate></reportIssueDate>
-						<measurementStartDate recalibrateReference="true"></measurementStartDate>
-						<measurementStopDate></measurementStopDate>
-						<issuingLaboratory></issuingLaboratory>
-						<technicalProcedure></technicalProcedure>
-						<conditions>
-							<measurementConditions>
-								<temperature unit ="">
-									<minimum></minimum>
-									<maximum></maximum>
-								</temperature>
-								<expansionCoefficient unit =""></expansionCoefficient>
-							</measurementConditions>
-						</conditions>
-						<acceptanceCriteria>
-							<documentaryStandardsISO></documentaryStandardsISO>
-						</acceptanceCriteria>
-						<equation>
-							<value variables=""></value>
-							<uncertainty variables=""></uncertainty>
-							<unit></unit>
-							<ranges></ranges>
-							<degreeFreedom></degreeFreedom>
-						</equation>
-					</report>
-				</component>
-			</measurand>
-		</calibrations>
+		<calibrations></calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
 		<firmware></firmware>
