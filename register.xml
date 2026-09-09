@@ -8173,7 +8173,12 @@
 							<value variables="t">99.9724*(1+3.92428E-3*t - 6.671E-7*pow(t,2))</value>
 							<uncertainty variables="">0.0024</uncertainty>
 							<unit>C</unit>
-							<ranges></ranges>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
@@ -11328,8 +11333,8 @@
 							<documentaryStandardsISO></documentaryStandardsISO>
 						</acceptanceCriteria>
 						<equation>
-							<value variables="d">2.46</value>
-							<uncertainty variables="um">0.02</uncertainty>
+							<value variables="">2.46</value>
+							<uncertainty variables="">0.02</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
@@ -11356,8 +11361,8 @@
 							<documentaryStandardsISO></documentaryStandardsISO>
 						</acceptanceCriteria>
 						<equation>
-							<value variables="Compression">0.04</value>
-							<uncertainty variables="um">0.02</uncertainty>
+							<value variables="">0.04</value>
+							<uncertainty variables="">0.02</uncertainty>
 							<unit>um</unit>
 							<ranges></ranges>
 							<degreeFreedom>50</degreeFreedom>
