@@ -12511,4 +12511,48 @@
 			</technicalProcedures>
 		</qualityManual>
 	</equipment>
+	<equipment keywords="Resistance Bridge DAQ" enteredBy ="Charlotte Hayton">
+		<id>MSLE.L.162</id>
+		<manufacturer>Keysight Technologies Limited</manufacturer>
+		<model>34970A</model>
+		<serial>US36999871</serial>
+		<description>Data Aquisition/Switch Unit. IRL no. 008838.</description>
+		<specifications>
+			<internalResistor unit ="ohms"></internalResistor>
+			<addr type = "gpib">488</addr>
+		</specifications>
+		<location>Laser Lab</location>
+		<status>Dormant</status>
+		<loggable>false</loggable>
+		<traceable>false</traceable>
+		<calibrations>
+			<measurand quantity="" calibrationInterval="">
+			</measurand>
+		</calibrations>
+		<maintenance></maintenance>
+		<alterations></alterations>
+		<firmware>
+			<version date="2002-11-01">Rev 11-01-02 (factory)</version>
+		</firmware>
+		<specifiedRequirements></specifiedRequirements>
+		<referenceMaterials></referenceMaterials>
+		<qualityManual>
+			<accessories></accessories>
+			<documentation></documentation>
+			<financial>
+				<purchaseYear></purchaseYear>
+				<warrantyExpirationDate></warrantyExpirationDate>
+				<capitalExpenditure>
+					<assetNumber></assetNumber>
+					<depreciationStartDate></depreciationStartDate>
+					<price currency="NZD"></price>
+					<usefulLife></usefulLife>
+				</capitalExpenditure>
+			</financial>
+			<personnelRestrictions>Length Team Members</personnelRestrictions>
+			<technicalProcedures>
+
+			</technicalProcedures>
+		</qualityManual>
+	</equipment>
 </register>
