@@ -3432,7 +3432,7 @@
 		<serial>MY50400009</serial>
 		<description>A Network Gateway</description>
 		<specifications>
-			<siclInterfaceID>GPIB4::</siclInterfaceID>
+			<visaInterface>GPIB0</visaInterface>
 			<addr type ="ip">10.12.102.31</addr>
 		</specifications>
 		<location>Long Room</location>
@@ -3471,7 +3471,7 @@
 		<serial>MY50400012</serial>
 		<description>A Network Gateway</description>
 		<specifications>
-			<siclInterfaceID>GPIB1::</siclInterfaceID>
+			<visaInterface>GPIB1</visaInterface>
 			<addr type ="ip">10.12.102.36</addr>
 		</specifications>
 		<location>CMM Lab</location>
@@ -3509,7 +3509,7 @@
 		<serial>MY48181070</serial>
 		<description>A Network Gateway</description>
 		<specifications>
-			<siclInterfaceID>GPIB3::</siclInterfaceID>
+			<visaInterface>GPIB3</visaInterface>
 			<addr type ="ip">10.12.102.4</addr>
 		</specifications>
 		<location>Underground Tape Tunnel</location>
@@ -3550,8 +3550,8 @@
 		<serial>MY61110081</serial>
 		<description>A Network Gateway -GPIB | LAN | RS-232 GATEWAY 1.2Mbs Keysight E5810B</description>
 		<specifications>
-			<siclInterfaceID>GPIB2::</siclInterfaceID>
-			<addr type ="ip">10.12.102.2</addr>
+			<visaInterface>GPIB2</visaInterface>
+			<addr type="ip">10.12.102.2</addr>
 		</specifications>
 		<location>Hilger Lab</location>
 		<status>Active</status>
@@ -9380,7 +9380,7 @@
 			<internalResistor unit ="ohms"></internalResistor>
 		    <addr type = "gpib">9</addr>
 			<addr type ="ip">10.12.102.15</addr>
-			<sicl>GPIB0::</sicl>
+			<visaInterface>gpib0</visaInterface>
 		</specifications>
 		<location>Laser Lab</location>
 		<status>Active</status>
