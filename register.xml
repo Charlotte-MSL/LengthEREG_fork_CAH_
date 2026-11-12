@@ -6197,7 +6197,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/602" enteredBy="Chris Young">
+					<report id="Temperature/2026/602" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -6279,7 +6279,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/603" enteredBy="Chris Young">
+					<report id="Temperature/2026/603" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -6361,7 +6361,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/604" enteredBy="Chris Young">
+					<report id="Temperature/2026/604" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -6443,7 +6443,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/605" enteredBy="Chris Young">
+					<report id="Temperature/2026/605" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -6525,7 +6525,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/614" enteredBy="Chris Young">
+					<report id="Temperature/2026/614" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-11-02</measurementStartDate>
 						<measurementStopDate>2026-11-02</measurementStopDate>
@@ -6665,7 +6665,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/610" enteredBy="Chris Young">
+					<report id="Temperature/2026/610" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-11-02</measurementStartDate>
 						<measurementStopDate>2026-11-02</measurementStopDate>
@@ -6747,7 +6747,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/611" enteredBy="Chris Young">
+					<report id="Temperature/2026/611" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-11-02</measurementStartDate>
 						<measurementStopDate>2026-11-02</measurementStopDate>
@@ -6829,7 +6829,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/612" enteredBy="Chris Young">
+					<report id="Temperature/2026/612" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-11-02</measurementStartDate>
 						<measurementStopDate>2026-11-02</measurementStopDate>
@@ -6911,7 +6911,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/616" enteredBy="Chris Young">
+					<report id="Temperature/2026/616" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -6993,7 +6993,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/617" enteredBy="Chris Young">
+					<report id="Temperature/2026/617" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -7075,7 +7075,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/613" enteredBy="Chris Young">
+					<report id="Temperature/2026/613" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -7157,7 +7157,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/606" enteredBy="Chris Young">
+					<report id="Temperature/2026/606" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -7245,7 +7245,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/618" enteredBy="Chris Young">
+					<report id="Temperature/2026/618" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -7509,7 +7509,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/607" enteredBy="Chris Young">
+					<report id="Temperature/2026/607" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -7685,7 +7685,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/608" enteredBy="Chris Young">
+					<report id="Temperature/2026/608" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
@@ -7773,7 +7773,7 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
-					<report id="Temperature/2026/609" enteredBy="Chris Young">
+					<report id="Temperature/2026/609" enteredBy="Chris Young" checkedBy ="Charlotte Hayton" checkedDate ="2026-11-13">
 						<reportIssueDate>2026-10-29</reportIssueDate>
 						<measurementStartDate recalibrateReference="true">2026-10-27</measurementStartDate>
 						<measurementStopDate>2026-10-28</measurementStopDate>
