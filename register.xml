@@ -12909,10 +12909,6 @@
 		<status>Dormant</status>
 		<loggable>false</loggable>
 		<traceable>false</traceable>
-		<calibrations>
-			<measurand quantity="" calibrationInterval="">
-			</measurand>
-		</calibrations>
 		<maintenance></maintenance>
 		<alterations></alterations>
 		<firmware>
@@ -12923,20 +12919,8 @@
 		<qualityManual>
 			<accessories></accessories>
 			<documentation></documentation>
-			<financial>
-				<purchaseYear></purchaseYear>
-				<warrantyExpirationDate></warrantyExpirationDate>
-				<capitalExpenditure>
-					<assetNumber></assetNumber>
-					<depreciationStartDate></depreciationStartDate>
-					<price currency="NZD"></price>
-					<usefulLife></usefulLife>
-				</capitalExpenditure>
-			</financial>
 			<personnelRestrictions>Length Team Members</personnelRestrictions>
-			<technicalProcedures>
-
-			</technicalProcedures>
+			<technicalProcedures></technicalProcedures>
 		</qualityManual>
 	</equipment>
 </register>
