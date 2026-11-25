@@ -12933,7 +12933,6 @@
 		<status>Dormant</status>
 		<loggable>false</loggable>
 		<traceable>false</traceable>
-		<maintenance></maintenance>
 		<alterations></alterations>
 		<firmware>
 			<version date="2002-11-01">Rev 11-01-02 (factory)</version>
