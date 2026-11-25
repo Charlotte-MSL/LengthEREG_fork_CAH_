@@ -6607,6 +6607,30 @@
 							<degreeFreedom>50</degreeFreedom>
 						</equation>
 					</report>
+					<report id="Temperature/2026/615" enteredBy="Charlotte Hayton">
+						<reportIssueDate>2026-11-12</reportIssueDate>
+						<measurementStartDate recalibrateReference="true">2026-11-06</measurementStartDate>
+						<measurementStopDate>2026-11-06</measurementStopDate>
+						<issuingLaboratory>Measurement Standards Laboratory of New Zealand</issuingLaboratory>
+						<technicalProcedure>MSLT.T.016.014</technicalProcedure>
+						<conditions>
+							<immersion unit ="mm">230</immersion>
+							<current unit ="mA">1</current>
+						</conditions>
+						<acceptanceCriteria></acceptanceCriteria>
+						<equation>
+							<value variables="t">100.0560*(1+3.90757E-3*t - 6.142E-7*pow(t,2))</value>
+							<uncertainty variables="">0.00145</uncertainty>
+							<unit>C</unit>
+							<ranges>
+								<range variable="t">
+									<minimum>0</minimum>
+									<maximum>40</maximum>
+								</range>
+							</ranges>
+							<degreeFreedom>50</degreeFreedom>
+						</equation>
+					</report>
 				</component>
 			</measurand>
 		</calibrations>
